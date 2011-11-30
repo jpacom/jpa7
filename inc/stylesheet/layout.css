@@ -1,0 +1,163 @@
+/*  banner				----------------------------------------------------*/
+#banner-wrapper{
+	position:absolute;
+	height:199px;
+	width:100%;
+        
+	z-index:4;
+}
+.banner{
+	height:199px;
+	width:700px;
+	margin:0 auto;
+        background-position:center -35px !important;
+        margin-top: -30px;
+       
+}
+
+.banner-hover:hover
+{
+    margin-top: 0px;
+}
+
+/*  main				----------------------------------------------------*/
+#main-wrapper{
+	padding:145px 0 0 0;
+}
+.text-box-wrapper{
+	margin:0 136px;
+}
+.text-box-top-left{
+	width:11px;
+	height:12px;
+}
+.text-box-top-right{
+	width:11px;
+	height:12px;
+	margin:0 2px 0 0;
+}
+.text-box-top-center{
+	margin:0 13px 0 11px;
+	height:12px;
+}
+.text-box-middle-center{
+	margin:0 11px;
+	padding:17px 28px;
+}
+.text-box-top-bottom{
+	height:14px;
+}
+
+/*  menu				----------------------------------------------------*/
+#menu-wrapper{
+	height:235px;
+	position:fixed;
+	top:70px;
+	right:0;
+	overflow:hidden;
+    z-index: 5;
+}
+.menu-hover
+{
+   margin-right: -70px;  
+}
+.menu-hover:hover
+{
+    margin-right: 0;
+}
+
+.menu-hover-text:hover .menu-items-text-hover
+{
+	display: block;
+}
+#home{
+	height:39px !important;
+}
+.menu-items{
+	width:115px;
+	height:36px;
+	text-align:center;
+	padding:10px 0 0 10px;
+	margin:0;
+}
+.menu-items-links{
+	width:0px;
+	height:36px;
+	margin:0 0 0 42px;
+}
+
+/*  sample-works		----------------------------------------------------*/
+#sample-works-wrapper{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:450px;
+	height:400px;
+	margin:0;
+	padding:0;
+}
+#sample-work-1{
+	position:absolute;
+	width:162px;
+	height:127px;
+	bottom:265px;
+	left:-64px;
+}
+#sample-work-2{
+	position:absolute;
+	width:152px;
+	height:131px;
+	bottom:135px;
+	left:-41px;
+}
+#sample-work-3{
+	position:absolute;
+	width:128px;
+	height:150px;
+	bottom:80px;
+	left:101px;
+}
+#sample-work-4{
+	position:absolute;
+	width:129px;
+	height:133px;
+	bottom:5px;
+	left:9px;
+}
+#sample-work-5{
+	position:absolute;
+	width:145px;
+	height:135px;
+	bottom:-3px;
+	left:164px;
+}
+#sample-work-6{
+	position:absolute;
+	width:150px;
+	height:157px;
+	bottom:-23px;
+	left:288px;
+}
+#sample-work-1:hover{
+	background-position:-145px -310px;
+}
+#sample-work-2:hover{
+	background-position:-310px -310px;
+}
+#sample-work-3:hover{
+	background-position:-462px -310px;
+}
+#sample-work-4:hover{
+	background-position:-169px -455px;
+}
+#sample-work-5:hover{
+	background-position:-303px -455px;
+}
+#sample-work-6:hover{
+	background-position:-452px -462px;
+}
+
+/*  copyright-wrappe		----------------------------------------------------*/
+#copyright-wrapper{
+	padding-bottom:25px;
+}
