@@ -1,0 +1,131 @@
+.body-bg{
+	background-image:url(../../images/tile.png);
+	background-repeat:repeat;
+}
+.banner-bg{
+	background-image:url(../../banner/1.png);
+	background-repeat:no-repeat;
+	background-position:center -65px;
+}
+.text-box-1-top-left-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:0 -529px;
+}
+.text-box-2-top-left-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:-22px -529px;
+}
+.text-box-1-top-right-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:-11px -529px;
+}
+.text-box-2-top-right-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:-33px -529px;
+}
+.text-box-1-top-middle-bg{
+	background-image:url(../../images/ver.png);
+	background-repeat:repeat-x;
+	background-position:0 0;
+}
+.text-box-2-top-middle-bg{
+	background-image:url(../../images/ver.png);
+	background-repeat:repeat-x;
+	background-position:0 -27px;
+}
+.text-box-1-middle-left-bg{
+	background-image:url(../../images/horbox1left.png);
+	background-repeat:repeat-y;
+	background-position:left 0;
+}
+.text-box-2-middle-left-bg{
+	background-image:url(../../images/horbox2left.png);
+	background-repeat:repeat-y;
+	background-position:left 0;
+}
+.text-box-1-middle-right-bg{
+	background-image:url(../../images/horbox1right.png);
+	background-repeat:repeat-y;
+	background-position:right 0;
+}
+.text-box-2-middle-right-bg{
+	background-image:url(../../images/horbox2right.png);
+	background-repeat:repeat-y;
+	background-position:right 0;
+}
+.text-box-1-middle-center-bg{
+	background-color:#00c5ff;
+}
+.text-box-2-middle-center-bg{
+	background-color:#008ab2;
+}
+.text-box-1-bottom-left-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:0 -542px;
+}
+.text-box-2-bottom-left-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:-22px -542px;
+}
+.text-box-1-bottom-right-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:-11px -542px;
+}
+.text-box-2-bottom-right-bg{
+	background-image:url(../../images/Sprite.png);
+	background-repeat:no-repeat;
+	background-position:-33px -542px;
+}
+.text-box-1-bottom-middle-bg{
+	background-image:url(../../images/ver.png);
+	background-repeat:repeat-x;
+	background-position:0 -13px;
+}
+.text-box-2-bottom-middle-bg{
+	background-image:url(../../images/ver.png);
+	background-repeat:repeat-x;
+	background-position:0 -40px;
+}
+.sample-work-1-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:-145px 0;
+}
+.sample-work-2-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:-310px 0;
+}
+.sample-work-3-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:-462px 0;
+}
+.sample-work-4-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:-169px -145px;
+}
+.sample-work-5-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:-303px -145px;
+}
+.sample-work-6-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:-452px -152px;
+}
+.menu-top-item-light-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -263px;
+}
+.menu-middle-items-light-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -322px;
+}
+.menu-bottom-item-light-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -475px;
+}
