@@ -1,58 +1,111 @@
 
+var puzzle_effect = null;
+var menu_items_effect = null;
+var drag_effect = null;
+document.observe('dom:loaded', function() {
 
-window.addEvent('domready', function() {
-
-
-$$('#banner').removeClass('banner-hover');
-    var banner_effect = new Fx.Morph('banner', {duration: 500, transition: Fx.Transitions.Sine.easeOut});
-    $$('#banner').addEvent('mouseover', function(){
-        banner_effect.stop();   
-        banner_effect.start({
-        'margin-top':0
-    });
+$('banner').removeClassName('banner-hover');
+    var banner_effect_down = new Effect.Morph('banner', {style:'margin-top:0;',duration: 500});
+    var banner_effect_up = new Effect.Morph('banner', {style:'margin-top:-30;',duration: 500});
+    
+    $('banner').observe('mouseover', function(){
+    	banner_effect_up.cancel();
+    	banner_effect_down.start();
     });
     
-       $$('#banner').addEvent('mouseout', function(){
-        banner_effect.stop();   
-        banner_effect.start({
-        'margin-top':-30
-    });
-    });
-       var menu_items_text = $$(".menu-items-text");
-       menu_items_text.removeClass("menu-items-text-hover");
-       menu_items_text.setStyle('display','block');
-       menu_items_text.fade("out");
-    $$("#menu-wrapper").removeClass("menu-hover");
-    $$("#menu-wrapper").setStyle('margin-right','-70px');
-    var menu_effect = new Fx.Morph('menu-wrapper', {duration: 500, transition: Fx.Transitions.Sine.easeOut});
 
-   // var menu_text_effect =	Fx.Morph(menu_items_text,{duration: 500, transition: Fx.Transitions.Sine.easeOut});
-        $$('#menu-wrapper').addEvent('mouseover', function(){
+    $('banner').observe('mouseout', function(){
+    	banner_effect_down.cancel();
+    	banner_effect_up.start();
+    });
+       
+       $$(".menu-items-text").each(function(menu_items_text){
+	       menu_items_text.removeClassName("menu-items-text-hover");
+	       menu_items_text.removeClassName("display-none");
+	       menu_items_text.addClassName("display-block");
+	       menu_items_text.fade();
+       });
+       
+    $("menu-wrapper").removeClassName("menu-hover");
+    $("menu-wrapper").setStyle('margin-right:-70px');
+    
+    var menu_effect_left = new Effect.Morph('menu-wrapper', {style:'margin-right:0;',duration: 500});
+    var menu_effect_right = new Effect.Morph('menu-wrapper', {style:'margin-right:-70px;',duration: 500});
+
+        $('menu-wrapper').observe('mouseover', function(){
   
-        menu_effect.stop();   
-        menu_effect.start({
-        'margin-right':0
-        });
-        //menu_text_effect.stop();
-        menu_items_text.fade("in");
-        
-    });
+			        menu_effect_right.cancel();   
+			        menu_effect_left.start();
+			       
+			        $$(".menu-items-text").each(function(menu_items_text){  
+			 	       menu_items_text.appear();
+			        });
+        	});
     
-       $$('#menu-wrapper').addEvent('mouseout', function(){
-        menu_effect.stop();   
-        menu_effect.start({
-        'margin-right':-70
-    });
+       $('menu-wrapper').observe('mouseout', function(){
+           menu_effect_left.cancel();   
+           menu_effect_right.start();
 
-       // menu_text_effect.stop();
-        menu_items_text.fade("out");
+        $$(".menu-items-text").each(function(menu_items_text){
+  	       menu_items_text.fade();
+         });
     });
        
 
+  $("puzzle-block").removeClassName('puzzle-hide');
+  
+  $("puzzle-block").hide();
+  $("sample-work-4").observe('mouseover',function(){
+	  if (puzzle_effect)
+		  puzzle_effect.cancel();
+	  puzzle_effect = new Effect.Appear($("puzzle-block"));
+	  if ( drag_effect)
+		  drag_effect.cancel();
+	  drag_effect = new Effect.Appear($('drag-here'));
+  });
+  
+  $("sample-work-4").observe('mouseout',function(){
+	  if (puzzle_effect)
+		  puzzle_effect.cancel();
+	  puzzle_effect = new Effect.Fade($("puzzle-block"));
+	  if ( drag_effect)
+		  drag_effect.cancel();
+	  drag_effect = new Effect.Fade($('drag-here'));
+  });
+  
+  $("drag-here").observe('mouseover',function(){
+	  if ( drag_effect)
+		  drag_effect.cancel();
+	  drag_effect = new Effect.Appear($('drag-here'));
+  });
+  
+  $("drag-here").observe('mouseout',function(){
+	  if ( drag_effect)
+		  drag_effect.cancel();
+	  drag_effect = new Effect.Fade($('drag-here'));
+  });
        
        
+  $('drag-here').removeClassName('display-none');
+  $('drag-here').hide();
+  $$(".sample-work-child").each(function(e){
+	  
+  new Draggable(e, { 
+	    revert: true 
+	  });
+  });
        
-       
+  
+  Droppables.add('drag-here', { 
+	    accept: 'drag-here',
+	    hoverclass: 'hover',
+	    onDrop: function() {
+	  		$('drag-here').highlight();
+	    	alert("ok");
+  		}
+	  });      
        
        
 });
+
+
