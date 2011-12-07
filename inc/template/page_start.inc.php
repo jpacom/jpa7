@@ -10,10 +10,12 @@
 		<title>Jahaan Pardazesh Alborz :: <?php echo $this->page['title']; ?></title>
 		
 		<style type="text/css" media="screen">
+		<![CDATA[
 			@import "/inc/stylesheet/font.css";
 			@import "/inc/stylesheet/general.css";
 			@import "/inc/stylesheet/background.css";
 			@import "/inc/stylesheet/layout.css";
+		]]>
 		</style>
 		
 		<script type="text/javascript" src="inc/scripts/lib/prototype.js"></script>
