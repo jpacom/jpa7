@@ -92,7 +92,7 @@
 			// [TODO] update $this->... variables.
 			if($this->result->num_rows)
 			  {
-				$this->result_row	= $this->result->fetch_array();
+				$this->result_now	= $this->result->fetch_array();
 				$this->current_item =	$this->result_now['id'];
 				$this->description =	$this->result_now['description'];
 				$this->price =	$this->result_now['price'];
@@ -115,7 +115,7 @@
 			$this->query =	"SELECT * FROM items where id='".$this->current_item."'";
 			$this->result	= $this->db->query(implode('', $this->query));
 			// [TODO] update $this->... variables.
-						if($this->result->num_rows)
+			if($this->result->num_rows)
 			  {
 				$this->result_row	= $this->result->fetch_array();
 				$this->description =	$this->result_now['description'];
