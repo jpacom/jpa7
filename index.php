@@ -1,5 +1,5 @@
 <?php
 		echo "Comming soon...";
-		// Testing repository. local5
+		// Testing repository. local
 		// Testing repository. online
 ?>
