@@ -1,4 +1,5 @@
-<?PHP
+<html></html>
+<?php
 	
 	$home = true;
 	
