@@ -4,7 +4,7 @@
 	height:199px;
 	width:100%;
         
-	z-index:4;
+	z-index:3;
 }
 .banner{
 	height:199px;
@@ -55,7 +55,7 @@
 	top:70px;
 	right:0;
 	overflow:hidden;
-    z-index: 5;
+    z-index: 4;
 }
 .menu-hover
 {
@@ -66,9 +66,9 @@
     margin-right: 0;
 }
 
-.menu-hover-text:hover .menu-items-text-hover
+.menu-hover-text:hover > li > a > .display-none
 {
-	display: block;
+	display: block !important;
 }
 #home{
 	height:39px !important;
@@ -141,14 +141,23 @@
 #sample-work-1:hover{
 	background-position:-145px -310px;
 }
+
+.sample-work-hover:hover .puzzle-hide
+{
+	display: block;
+}
+
+
 #sample-work-2:hover{
 	background-position:-310px -310px;
 }
 #sample-work-3:hover{
 	background-position:-462px -310px;
+	
 }
 #sample-work-4:hover{
 	background-position:-169px -455px;
+	z-index: 5;
 }
 #sample-work-5:hover{
 	background-position:-303px -455px;

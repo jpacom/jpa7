@@ -96,3 +96,39 @@ a:active{
 .clear-both{
   clear: both;
 }
+
+
+ 
+ .display-none
+ {
+ 	display: none;
+ }
+ 
+ .puzzle-hide
+ {
+
+ display: none;
+ }
+ 
+ #drag-here
+ {
+ 	width: 400px;
+ 	height: 500px;
+ 	
+ 	z-index: 4;
+ 	position: fixed;
+ 	top: 100px;
+ 	left:400px;
+ 	
+ 	background: #fff;
+    border: 5px solid #ccc;
+    text-align: center;
+    line-height: 100px;
+ }
+ 
+ div#drag-here:hover {
+    border: 5px dashed #aaa;
+    background:#efefef;
+     }
+ 
+ 
