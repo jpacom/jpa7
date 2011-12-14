@@ -98,22 +98,28 @@ var Banner	= Class.create(
 	  {
 		for(this.i = 0; this.i < this.slides.length; this.i++)
 		  {
-		  	if(this.current != this.i)
+		  	if(this.current != this.i){
 				this.slides[this.i].setStyle({zIndex: '0'});
+				this.slides[this.i].hide();
+		  	}
 		  }
-	  	this.slides[this.current].setStyle({zIndex: '1'});
+		
+	  	this.slides[this.current].setStyle({zIndex: '2'});
+	  	
+	  	this.previous = this.current;
 	  	this.current++;
 	  	this.current = this.current % this.slides.length;
-		this.slides[this.current].blindUp({duration: this.duration, scaleX: true, scaleY: false, scaleFrom: 0, scaleTo:100});
-		this.slides[this.current].hide();
-		this.slides[this.current].appear({duration: this.duration});
+	  	
+		this.slides[this.current].show();
+	  	this.slides[this.current].setStyle({zIndex: '1'});
+		this.slides[this.previous].fade({duration: this.duration});
+		this.slides[this.previous].blindUp({duration: this.duration});
 		
-		
-		this.pExec			= new PeriodicalExecuter(function ()
-		  {
-			this.slide.setStyle({zIndex: '2'});
-			this.stop();
-		  }, 0.05);
-		this.pExec.slide	= this.slides[this.current];
+//		this.pExec			= new PeriodicalExecuter(function ()
+//		  {
+//			this.slide.setStyle({zIndex: '1'});
+//			this.stop();
+//		  }, 0.05);
+//		this.pExec.slide	= this.slides[this.current];
 	  }
   });

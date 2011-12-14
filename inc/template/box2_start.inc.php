@@ -7,4 +7,10 @@
 				<div class="text-box-middle-left text-box-2-middle-left-bg clear-both">
 					<div class="text-box-middle-right text-box-2-middle-right-bg">
 						<div class="text-box-middle-center text-box-2-middle-center-bg">
+							<?php if ($self.title)
+									{
+										echo '<h2 class="H2-black-font">';
+										echo $self->title; 
+									}
+							?></h1>
 
