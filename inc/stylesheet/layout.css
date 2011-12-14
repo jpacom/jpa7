@@ -3,21 +3,27 @@
 	position:absolute;
 	height:199px;
 	width:100%;
-        
+    top:-30px;
+    left:auto;
 	z-index:3;
 }
-.banner{
+#banner-wrapper2{
 	height:199px;
 	width:700px;
 	margin:0 auto;
-        background-position:center -35px !important;
-        margin-top: -30px;
-       
+}
+.banner{
+	position:absolute;
+	top:0;
+	left:auto;
+	height:199px;
+	width:700px;
+    background-position:center -35px !important;
 }
 
 .banner-hover:hover
 {
-    margin-top: 0px;
+    top: 0px !important;
 }
 
 /*  main				----------------------------------------------------*/
