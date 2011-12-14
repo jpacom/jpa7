@@ -4,6 +4,8 @@ var menu_items_effect = null;
 var drag_effect = null;
 document.observe('dom:loaded', function() {
 
+	banner = new Banner('banner-wrapper2', 4, 0.5);
+	
 	$('banner-wrapper').removeClassName('banner-hover');
     var banner_effect = null;
     
@@ -32,8 +34,8 @@ document.observe('dom:loaded', function() {
     $("menu-wrapper").removeClassName("menu-hover");
     $("menu-wrapper").setStyle('margin-right:-70px');
     
-    var menu_effect_left = new Effect.Morph('menu-wrapper', {style:'margin-right:0;',duration: 500});
-    var menu_effect_right = new Effect.Morph('menu-wrapper', {style:'margin-right:-70px;',duration: 500});
+    var menu_effect_left = new Effect.Morph('menu-wrapper', {style:'margin-right:0;',duration: 0.5});
+    var menu_effect_right = new Effect.Morph('menu-wrapper', {style:'margin-right:-70px;',duration: 0.5});
 
         $('menu-wrapper').observe('mouseover', function(){
   
