@@ -4,19 +4,22 @@ var menu_items_effect = null;
 var drag_effect = null;
 document.observe('dom:loaded', function() {
 
-$('banner').removeClassName('banner-hover');
-    var banner_effect_down = new Effect.Morph('banner', {style:'margin-top:0;',duration: 500});
-    var banner_effect_up = new Effect.Morph('banner', {style:'margin-top:-30;',duration: 500});
+	$('banner-wrapper').removeClassName('banner-hover');
+    var banner_effect = null;
     
-    $('banner').observe('mouseover', function(){
-    	banner_effect_up.cancel();
-    	banner_effect_down.start();
+    $('banner-wrapper2').observe('mouseover', function(){
+    	if (banner_effect)
+    		banner_effect.cancel();
+    	
+    	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '0px'}, duration: 0.5});
     });
     
 
-    $('banner').observe('mouseout', function(){
-    	banner_effect_down.cancel();
-    	banner_effect_up.start();
+    $('banner-wrapper2').observe('mouseout', function(){
+    	if (banner_effect)
+    		banner_effect.cancel();
+    	
+    	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '-30px'}, duration: 0.5});
     });
        
        $$(".menu-items-text").each(function(menu_items_text){
