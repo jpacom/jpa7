@@ -1,13 +1,15 @@
 
 var puzzle_effect = null;
-var menu_items_effect = null;
+var menu_items = null;
 var drag_effect = null;
+
 document.observe('dom:loaded', function() {
 
-	banner = new Banner('banner-wrapper2', 4, 0.5);
+	//banner = new Banner('banner-wrapper2', 4, 0.5);
 	
 	$('banner-wrapper').removeClassName('banner-hover');
     var banner_effect = null;
+    var menu_effect = null;
     
     $('banner-wrapper2').observe('mouseover', function(){
     	if (banner_effect)
@@ -16,13 +18,38 @@ document.observe('dom:loaded', function() {
     	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '0px'}, duration: 0.5});
     });
     
-
     $('banner-wrapper2').observe('mouseout', function(){
     	if (banner_effect)
     		banner_effect.cancel();
     	
     	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '-30px'}, duration: 0.5});
     });
+    
+    
+    $("menu-wrapper").removeClassName("menu-hover");
+    $("menu-wrapper").setStyle({right: '-70px'});
+    
+
+        $('menu-wrapper').observe('mouseenter', function(){
+        			if(menu_effect)
+        				menu_effect.cancel();   
+			        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '0px'}, duration: 0.5});
+			       
+			        $$(".menu-items-text").each(function(menu_items_text){  
+			 	       menu_items_text.appear();
+			        });
+        	});
+    
+       $('menu-wrapper').observe('mouseleave', function(){
+    	   if(menu_effect)
+				menu_effect.cancel();   
+	        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '-70px'},duration: 0.5});
+
+        $$(".menu-items-text").each(function(menu_items_text){
+  	       menu_items_text.fade();
+         });
+        
+        
        
        $$(".menu-items-text").each(function(menu_items_text){
 	       menu_items_text.removeClassName("menu-items-text-hover");
@@ -31,29 +58,7 @@ document.observe('dom:loaded', function() {
 	       menu_items_text.fade();
        });
        
-    $("menu-wrapper").removeClassName("menu-hover");
-    $("menu-wrapper").setStyle('margin-right:-70px');
-    
-    var menu_effect_left = new Effect.Morph('menu-wrapper', {style:'margin-right:0;',duration: 0.5});
-    var menu_effect_right = new Effect.Morph('menu-wrapper', {style:'margin-right:-70px;',duration: 0.5});
 
-        $('menu-wrapper').observe('mouseover', function(){
-  
-			        menu_effect_right.cancel();   
-			        menu_effect_left.start();
-			       
-			        $$(".menu-items-text").each(function(menu_items_text){  
-			 	       menu_items_text.appear();
-			        });
-        	});
-    
-       $('menu-wrapper').observe('mouseout', function(){
-           menu_effect_left.cancel();   
-           menu_effect_right.start();
-
-        $$(".menu-items-text").each(function(menu_items_text){
-  	       menu_items_text.fade();
-         });
     });
        
 
@@ -64,11 +69,10 @@ document.observe('dom:loaded', function() {
 	  if (puzzle_effect)
 		  puzzle_effect.cancel();
 	  puzzle_effect = new Effect.Appear($("puzzle-block"));
-	  if ( drag_effect)
-		  drag_effect.cancel();
-	  drag_effect = new Effect.Appear($('drag-here'));
+
   });
   
+  //sign
   $("sample-work-4").observe('mouseout',function(){
 	  if (puzzle_effect)
 		  puzzle_effect.cancel();
@@ -97,9 +101,17 @@ document.observe('dom:loaded', function() {
 	  e.setStyle({'z-index': 5});
 	  new Draggable(e, { 
 		  revert: true 
+		  ,onDrag : function()
+		  	{
+		  		//appear drag box
+				  if ( drag_effect)
+					  drag_effect.cancel();
+				  drag_effect = new Effect.Appear($('drag-here'),{duration:0.2});
+		  	}
 	  });
   });
        
+
   
   Droppables.add('drag-here', { 
 	    accept: 'drag-here',
@@ -113,4 +125,10 @@ document.observe('dom:loaded', function() {
        
 });
 
+
+$$(".sample-work-child").each(function(e){
+	e.observe('ondrag', function(){
+		alert('ok');
+	});
+});
 
