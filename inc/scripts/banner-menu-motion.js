@@ -94,9 +94,9 @@ document.observe('dom:loaded', function() {
   $('drag-here').removeClassName('display-none');
   $('drag-here').hide();
   $$(".sample-work-child").each(function(e){
-	  
-  new Draggable(e, { 
-	    revert: true 
+	  e.setStyle({'z-index': 5});
+	  new Draggable(e, { 
+		  revert: true 
 	  });
   });
        

@@ -106,22 +106,22 @@
 	position:absolute;
 	width:162px;
 	height:127px;
-	bottom:265px;
+	top:-165px;
 	left:-64px;
 }
 #sample-work-2{
 	position:absolute;
 	width:152px;
 	height:131px;
-	bottom:135px;
+	top:-50px;
 	left:-41px;
 }
 #sample-work-3{
 	position:absolute;
 	width:128px;
 	height:150px;
-	bottom:80px;
-	left:101px;
+	top:-20px;
+	left:85px;
 }
 #sample-work-4{
 	position:absolute;
@@ -134,14 +134,14 @@
 	position:absolute;
 	width:145px;
 	height:135px;
-	bottom:-3px;
-	left:164px;
+	top:95px;
+	left:150px;
 }
 #sample-work-6{
 	position:absolute;
 	width:150px;
 	height:157px;
-	bottom:-23px;
+	top:123px;
 	left:288px;
 }
 #sample-work-1:hover{
@@ -170,6 +170,13 @@
 }
 #sample-work-6:hover{
 	background-position:-452px -462px;
+}
+#puzzle-block{
+    bottom: 0;
+    height: 209px;
+    left: 0;
+    position: absolute;
+    width: 273px;
 }
 
 /*  copyright-wrappe		----------------------------------------------------*/
