@@ -27,27 +27,10 @@ document.observe('dom:loaded', function() {
     
     
     $("menu-wrapper").removeClassName("menu-hover");
-    $("menu-wrapper").setStyle({right: '-70px'});
+    $("menu-wrapper").setStyle({right: '-75px'});
     
 
-        $('menu-wrapper').observe('mouseenter', function(){
-        			if(menu_effect)
-        				menu_effect.cancel();   
-			        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '0px'}, duration: 0.5});
-			       
-			        $$(".menu-items-text").each(function(menu_items_text){  
-			 	       menu_items_text.appear();
-			        });
-        	});
-    
-       $('menu-wrapper').observe('mouseleave', function(){
-    	   if(menu_effect)
-				menu_effect.cancel();   
-	        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '-70px'},duration: 0.5});
 
-        $$(".menu-items-text").each(function(menu_items_text){
-  	       menu_items_text.fade();
-         });
         
         
        
@@ -57,7 +40,26 @@ document.observe('dom:loaded', function() {
 	       menu_items_text.addClassName("display-block");
 	       menu_items_text.fade();
        });
+
        
+       $('menu-wrapper').observe('mouseenter', function(){
+			if(menu_effect)
+				menu_effect.cancel();   
+	        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '0px'}, duration: 0.5});
+	       
+	        $$(".menu-items-text").each(function(menu_items_text){  
+	 	       menu_items_text.appear();
+	        });
+       });
+
+		$('menu-wrapper').observe('mouseleave', function(){
+		  if(menu_effect)
+				menu_effect.cancel();   
+		   menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '-75px'},duration: 0.5});
+		
+		$$(".menu-items-text").each(function(menu_items_text){
+		    menu_items_text.fade();
+		});
 
     });
        
