@@ -27,6 +27,9 @@ CREATE TABLE IF NOT EXISTS `portfolio` (
   `departmentId` int(11) NOT NULL,
   `packId` int(11) NOT NULL,
   `price` int(11) NOT NULL,
+  `puzzle_id` text NOT NULL,
+  `site_url` text NOT NULL,
+  `description` text,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 

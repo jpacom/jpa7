@@ -121,7 +121,7 @@ document.observe('dom:loaded', function() {
 	    accept: 'sample-work-child',
 	    hoverclass: 'hover',
 	    onDrop: function(draged) {
-	  		alert(draged);
+	  		load_sample(draged.id);
   		}
 	  });      
        
