@@ -16,19 +16,19 @@
 <div id="drag-here" class="display-none">
 	<div>
 		<div>
-			<div>Picture</div>
+			<div id='portfolio_pic'>Picture</div>
 			<div>
-				<div>
-					<a>URL</a>
+				<div id='portfolio_url'>
+					URL
 				</div>
-				<div>service name</div>
-				<div>Project End</div>
+				<div id='portfolio_name'>service name</div>
+				<div id='portfolio_end'>Project End</div>
 			</div>
 		</div>
-		<div>Description</div>
+		<div id='portfolio_des'>Description</div>
 		<div>
-			<div>detail</div>
-			<div>Price</div>
+			<div>Price:</div>
+			<div id='portfolio_price'>Price</div>
 		</div>
 	</div>
 </div>
