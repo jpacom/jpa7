@@ -5,6 +5,7 @@ var drag_effect = null;
 
 document.observe('dom:loaded', function() {
 
+	var banner = new Banner('banner-wrapper2', 4, 0.5);
 	
 	$('banner-wrapper').removeClassName('banner-hover');
     var banner_effect = null;
