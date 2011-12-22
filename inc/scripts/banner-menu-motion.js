@@ -5,7 +5,6 @@ var drag_effect = null;
 
 document.observe('dom:loaded', function() {
 
-	//banner = new Banner('banner-wrapper2', 4, 0.5);
 	
 	$('banner-wrapper').removeClassName('banner-hover');
     var banner_effect = null;
@@ -29,12 +28,9 @@ document.observe('dom:loaded', function() {
     $("menu-wrapper").removeClassName("menu-hover");
     $("menu-wrapper").setStyle({right: '-75px'});
     
-
-
-        
-        
-       
+  
        $$(".menu-items-text").each(function(menu_items_text){
+  
 	       menu_items_text.removeClassName("menu-items-text-hover");
 	       menu_items_text.removeClassName("display-none");
 	       menu_items_text.addClassName("display-block");
@@ -47,8 +43,10 @@ document.observe('dom:loaded', function() {
 				menu_effect.cancel();   
 	        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '0px'}, duration: 0.5});
 	       
-	        $$(".menu-items-text").each(function(menu_items_text){  
-	 	       menu_items_text.appear();
+	        $$(".menu-items-text").each(function(menu_items_text){
+				if(menu_items_text.effect)
+					menu_items_text.effect.cancel();
+				menu_items_text.effect = new Effect.Appear(menu_items_text);
 	        });
        });
 
@@ -58,7 +56,9 @@ document.observe('dom:loaded', function() {
 		   menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '-75px'},duration: 0.5});
 		
 		$$(".menu-items-text").each(function(menu_items_text){
-		    menu_items_text.fade();
+			if(menu_items_text.effect)
+				menu_items_text.effect.cancel();
+			menu_items_text.effect = new Effect.Fade(menu_items_text);
 		});
 
     });
@@ -101,6 +101,7 @@ document.observe('dom:loaded', function() {
   $('drag-here').hide();
   $$(".sample-work-child").each(function(e){
 	  e.setStyle({'z-index': 5});
+	  
 	  new Draggable(e, { 
 		  revert: true 
 		  ,onDrag : function()
@@ -116,11 +117,10 @@ document.observe('dom:loaded', function() {
 
   
   Droppables.add('drag-here', { 
-	    accept: 'drag-here',
+	    accept: 'sample-work-child',
 	    hoverclass: 'hover',
-	    onDrop: function() {
-	  		$('drag-here').highlight();
-	    	alert("ok");
+	    onDrop: function(draged) {
+	  		alert(draged);
   		}
 	  });      
        
