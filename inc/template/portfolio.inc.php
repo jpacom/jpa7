@@ -13,4 +13,22 @@
 		</div>
 
 
-<div id="drag-here" class="display-none"></div>
+<div id="drag-here" class="display-none">
+	<div>
+		<div>
+			<div>Picture</div>
+			<div>
+				<div>
+					<a>URL</a>
+				</div>
+				<div>service name</div>
+				<div>Project End</div>
+			</div>
+		</div>
+		<div>Description</div>
+		<div>
+			<div>detail</div>
+			<div>Price</div>
+		</div>
+	</div>
+</div>
