@@ -14,7 +14,7 @@
 
 
 <div id="drag-here" class="display-none">
-	<div>
+	<div id="drop-box-content" style="display: none;">
 		<div>
 			<div id='portfolio_pic'>Picture</div>
 			<div>
@@ -31,4 +31,6 @@
 			<div id='portfolio_price'>Price</div>
 		</div>
 	</div>
+	<div id="drop-box-loading" style="display: none;">Loading ...</div>
+	<div id="drop-box-message">Drop Here!</div>
 </div>
