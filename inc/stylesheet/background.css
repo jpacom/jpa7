@@ -129,3 +129,15 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -475px;
 }
+.drop-here-top-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -620px;
+	}
+.drop-here-middle-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -624px;
+	}
+.drop-here-bottom-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -677px;
+	}
