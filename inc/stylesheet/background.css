@@ -136,8 +136,12 @@
 .drop-here-middle-bg{
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -624px;
-	}
+}
 .drop-here-bottom-bg{
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -677px;
-	}
+}
+.page-fade-black-bg{
+	background-image: url("../../images/black-tile.png");
+	background-repeat: repeat;
+}

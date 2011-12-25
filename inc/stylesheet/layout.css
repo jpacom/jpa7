@@ -192,26 +192,44 @@
 }
 
 /*  copyright-wrappe		----------------------------------------------------*/
-.puzzle-hide
- {
-
+.puzzle-hide{
  display: none;
- }
-#drag-here
- {
- 	width: 600px;
- 	height: auto; 	
+}
+#drop-here-wrapper{
+	width: 640px;
+	height: 480px;
+	margin: 100px auto;
+}
+#drag-here{
  	z-index: 4;
  	position: absolute;
- 	top: 100px;
- 	left:400px; 
-    text-align: center;
-    line-height: 100px;
- }
- 
-#drag-here:hover {
-     }
+ 	top: 0;
+ 	left:0;
+}
 #drop-here-top, #drop-here-bottom{
 	width: 640px;
 	height: 4px;
-	}
+}
+#drop-here-middle{
+	width: 640px;
+	height: 471px;
+}
+#drop-here-bottom{
+	width: 640px;
+	height: 5px;
+}
+#page-fade-black{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+#drop-box-message-top, #drop-box-message-bottom{
+	height: 209px;
+	background-color: #00c6ff;
+}
+#drop-box-message-middle{
+	height: 53px;
+}
+#drop-box-content{
+	background-color: #00c6ff;
+}
