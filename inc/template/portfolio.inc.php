@@ -13,24 +13,34 @@
 		</div>
 
 
-<div id="drag-here" class="display-none">
-	<div id="drop-here-top" class="border-none drop-here-top-bg">&nbsp;</div>
-	<div id="drop-box-content" style="display: none;">
-		<div>
-			<div id='portfolio_pic'>Picture</div>
-			<div>
-				<div id='portfolio_url'>URL</div>
-				<div id='portfolio_name'>service name</div>
-				<div id='portfolio_end'>Project End</div>
+<div id="drag-here" class="drag-here-font display-none">
+	<div id="page-fade-black" class="page-fade-black-bg">
+		<div id="drop-here-wrapper">
+			<div id="drop-here-top" class="drop-here-top-bg">&nbsp;</div>
+			<div id="drop-here-middle">
+				<div id="drop-box-content" style="display: none;">
+					<div>
+						<div id="portfolio_pic">Picture</div>
+						<div>
+							<div id="portfolio_url">URL</div>
+							<div id="portfolio_name">service name</div>
+							<div id="portfolio_end">Project End</div>
+						</div>
+					</div>
+					<div id="portfolio_des">Description</div>
+					<div>
+						<div>Price:</div>
+						<div id="portfolio_price">Price</div>
+					</div>
+				</div>
+				<div id="drop-box-loading" style="display: none;">Loading ...</div>
+				<div id="drop-box-message">
+					<div id="drop-box-message-top">&nbsp;</div>
+					<div id="drop-box-message-middle" class="drop-here-middle-bg">&nbsp;</div>
+					<div id="drop-box-message-bottom">&nbsp;</div>
+				</div>
 			</div>
-		</div>
-		<div id='portfolio_des'>Description</div>
-		<div>
-			<div>Price:</div>
-			<div id='portfolio_price'>Price</div>
+			<div id="drop-here-bottom" class="drop-here-bottom-bg">&nbsp;</div>
 		</div>
 	</div>
-	<div id="drop-box-loading" style="display: none;">Loading ...</div>
-	<div id="drop-box-message">Drop Here!</div>
-	<div id="drop-here-bottom" class="border-none drop-here-bottom-bg">&nbsp;</div>
 </div>

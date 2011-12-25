@@ -102,13 +102,9 @@ a:active{
 .clear-both{
   clear: both;
 }
-
-
- 
- .display-none
- {
+.display-none{
  	display: none;
- }
+}
  
  
  
