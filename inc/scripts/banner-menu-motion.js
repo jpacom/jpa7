@@ -117,7 +117,7 @@ document.observe('dom:loaded', function() {
        
 
   
-  Droppables.add('drag-here', { 
+  Droppables.add('drop-box-message', { 
 	    accept: 'sample-work-child',
 	    hoverclass: 'hover',
 	    onDrop: function(draged) {

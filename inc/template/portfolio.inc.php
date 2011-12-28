@@ -20,17 +20,19 @@
 			<div id="drop-here-middle">
 				<div id="drop-box-content" style="display: none;">
 					<div>
-						<div id="portfolio_pic">Picture</div>
-						<div>
+						<div id="portfolio_pic" class="float-left">Picture</div>
+						<div class="float-left">
 							<div id="portfolio_url">URL</div>
 							<div id="portfolio_name">service name</div>
 							<div id="portfolio_end">Project End</div>
 						</div>
+						<br class="clear-both" />
 					</div>
 					<div id="portfolio_des">Description</div>
 					<div>
-						<div>Price:</div>
-						<div id="portfolio_price">Price</div>
+						<div class="float-left">Price:</div>
+						<div id="portfolio_price" class="float-right">Price</div>
+						<br class="clear-both" />
 					</div>
 				</div>
 				<div id="drop-box-loading" style="display: none;">Loading ...</div>
