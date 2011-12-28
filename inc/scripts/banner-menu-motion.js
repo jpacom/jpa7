@@ -90,11 +90,19 @@ document.observe('dom:loaded', function() {
 		  drag_effect.cancel();
 	  drag_effect = new Effect.Appear($('drag-here'));
   });
-  
+ /* 
   $("drag-here").observe('mouseout',function(){
 	  if ( drag_effect)
 		  drag_effect.cancel();
 	  drag_effect = new Effect.Fade($('drag-here'));
+  });
+  */
+  
+  $('page-fade-black').observe('click',function(){
+	  if ( drag_effect)
+		  drag_effect.cancel();
+	  drag_effect = new Effect.Fade($('drag-here'));
+	  
   });
        
        
@@ -111,17 +119,20 @@ document.observe('dom:loaded', function() {
 				  if ( drag_effect)
 					  drag_effect.cancel();
 				  drag_effect = new Effect.Appear($('drag-here'),{duration:0.2});
+
 		  	}
 	  });
   });
        
 
   
-  Droppables.add('drop-box-message', { 
+  Droppables.add('drop-here-wrapper', { 
 	    accept: 'sample-work-child',
 	    hoverclass: 'hover',
-	    onDrop: function(draged) {
-	  		load_sample(draged.id);
+		    onDrop: function(draged) {
+			  $('page-fade-black').setStyle({zIndex:6});
+			  $('drag-here').setStyle({zIndex:6});
+			  load_sample(draged.id);
   		}
 	  });      
        
