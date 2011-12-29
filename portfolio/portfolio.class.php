@@ -30,13 +30,15 @@
 	  		//[TODO] make info array
 	  	
 	  		$this->result_row	=	$this->result->fetch_array();
-	  		$info	=	array();
+	  		$info		=	array();
 	  		$info[]		=	'/portfolio/images/'.$puzzle_id.'.jpg';
 	  		$info[]		=	$this->result_row['site_url'];
 	  		$info[]		=	$this->result_row['name'];
 	  		$info[]		=	Date('y/m/d',$this->result_row['end']);
 	  		$info[]		=	$this->result_row['description'];
 	  		$info[]		=	$this->result_row['price'];
+	  		$info[]		=	$this->result_row['department'];
+	  		$info[]		=	$this->result_row['pack'];
 	  		//[TODO] return array 
 	  		return $info;
 	  	}

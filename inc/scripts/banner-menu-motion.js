@@ -3,6 +3,7 @@ var puzzle_effect = null;
 var menu_items = null;
 var drag_effect = null;
 var portfolio_info_effect = null;
+var successful_drag = false;
 document.observe('dom:loaded', function() {
 
 	var banner = new Banner('banner-wrapper2', 5, 1);
@@ -74,20 +75,20 @@ document.observe('dom:loaded', function() {
   });
   
   //sign
-  $("sample-work-4").observe('mouseout',function(){
-	  if (puzzle_effect)
-		  puzzle_effect.cancel();
-	  puzzle_effect = new Effect.Fade($("puzzle-block"));
-	  if ( drag_effect)
-		  drag_effect.cancel();
-	  drag_effect = new Effect.Fade($('drag-here'));
-  });
+//  $("sample-work-4").observe('mouseout',function(){
+//	  if (puzzle_effect)
+//		  puzzle_effect.cancel();
+//	  puzzle_effect = new Effect.Fade($("puzzle-block"));
+//	  if ( drag_effect)
+//		  drag_effect.cancel();
+//	  drag_effect = new Effect.Fade($('drag-here'));
+//  });
   
-  $("drag-here").observe('mouseover',function(){
-	  if ( drag_effect)
-		  drag_effect.cancel();
-	  drag_effect = new Effect.Appear($('drag-here'));
-  });
+//  $("drag-here").observe('mouseover',function(){
+//	  if ( drag_effect)
+//		  drag_effect.cancel();
+//	  drag_effect = new Effect.Appear($('drag-here'));
+//  });
  /* 
   $("drag-here").observe('mouseout',function(){
 	  if ( drag_effect)
@@ -105,6 +106,7 @@ document.observe('dom:loaded', function() {
 	  if(portfolio_info_effect)
 		  portfolio_info_effect.cancel();
 	  portfolio_info_effect	=	new Effect.Fade($('drop-box-content'));
+	  $('drop-box-loading').hide();
   });
        
        
@@ -118,10 +120,19 @@ document.observe('dom:loaded', function() {
 		  ,onDrag : function()
 		  	{
 		  		//appear drag box
-				  if ( drag_effect)
+		  		  successful_drag = false;
+				  if (drag_effect)
 					  drag_effect.cancel();
 				  drag_effect = new Effect.Appear($('drag-here'),{duration:0.2});
-
+		  	},
+		  	onEnd: function ()
+		  	{
+		  		if(!successful_drag)
+		  		{
+					  if (drag_effect)
+						  drag_effect.cancel();
+					  drag_effect = new Effect.Fade($('drag-here'),{duration:0.2});
+		  		}
 		  	}
 	  });
   });
@@ -132,6 +143,7 @@ document.observe('dom:loaded', function() {
 	    accept: 'sample-work-child',
 	    hoverclass: 'hover',
 		    onDrop: function(draged) {
+	  		  successful_drag = true;
 			  $('page-fade-black').setStyle({zIndex:6});
 			  $('drag-here').setStyle({zIndex:6});
 			  load_sample(draged.id);
@@ -139,15 +151,8 @@ document.observe('dom:loaded', function() {
 				  portfolio_info_effect.cancel();
 			  portfolio_info_effect	=	new Effect.Appear($('drop-box-content'));
   		}
-	  });      
+	  });
        
        
-});
-
-
-$$(".sample-work-child").each(function(e){
-	e.observe('ondrag', function(){
-		alert('ok');
-	});
 });
 
