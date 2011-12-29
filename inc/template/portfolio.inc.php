@@ -31,8 +31,8 @@
 					</div>
 					<div id="portfolio_des">Description</div>
 					<div>
-						<div class="float-left">Price:</div>
 						<div id="portfolio_price" class="float-right">Price</div>
+						<div class="float-right">Price:</div>
 						<br class="clear-both" />
 					</div>
 				</div>

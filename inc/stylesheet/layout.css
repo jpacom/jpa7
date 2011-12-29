@@ -275,3 +275,10 @@
 	text-align: center;
 	display: block;
 }
+#portfolio_price{
+	padding: 0 0 0 10px;
+}
+#portfolio_des{
+	height: 220px;
+	overflow: hidden;
+}
