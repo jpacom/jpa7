@@ -7,6 +7,7 @@
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color: #e3e3e3;
+	text-align: left;
 }
 .H1-black-font{
 	font-family:Arial, Helvetica, sans-serif;
@@ -67,4 +68,7 @@
 .drag-here-font{	 
     text-align: center;
     line-height: 30px;
+}
+.portfolio-des-font{
+	text-align: justify;
 }

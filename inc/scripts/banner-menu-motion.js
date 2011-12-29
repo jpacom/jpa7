@@ -144,9 +144,6 @@ document.observe('dom:loaded', function() {
 			  $('page-fade-black').setStyle({zIndex:6});
 			  $('drag-here').setStyle({zIndex:6});
 			  load_sample(draged.id);
-			  if(portfolio_info_effect)
-				  portfolio_info_effect.cancel();
-			  portfolio_info_effect	=	new Effect.Appear($('drop-box-content'));
   		}
 	  });
        
