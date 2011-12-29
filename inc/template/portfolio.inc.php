@@ -21,7 +21,7 @@
 				<div id="drop-box-content" style="display: none;">
 					<div id="portfolio_info">
 						<div id="portfolio_pic" class="float-left">Picture</div>
-						<div class="float-left">
+						<div class="portfolio-name-wrapper float-left">
 							<div id="portfolio_name">service name</div>
 							<div id="portfolio_end">Project End</div>
 							<div id="portfolio_department">Department</div>
@@ -29,14 +29,14 @@
 						</div>
 						<br class="clear-both" />
 					</div>
-					<div id="portfolio_des">Description</div>
+					<div id="portfolio_des" class="portfolio-des-font">Description</div>
 					<div>
 						<div id="portfolio_price" class="float-right">Price</div>
 						<div class="float-right">Price:</div>
 						<br class="clear-both" />
 					</div>
 				</div>
-				<div id="drop-box-loading" style="display: none;">Loading ...</div>
+				<div id="drop-box-loading" style="display: none;">&nbsp;</div>
 				<div id="drop-box-message">
 					<div id="drop-box-message-top">&nbsp;</div>
 					<div id="drop-box-message-middle" class="drop-here-middle-bg">&nbsp;</div>

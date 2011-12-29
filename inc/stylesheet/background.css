@@ -153,3 +153,9 @@
 	background-image: url("../../images/black-tile.png");
 	background-repeat: repeat;
 }
+#drop-box-loading{
+	background-image: url("../../images/loading.gif");
+	background-color: #00C5FF;
+	background-repeat: no-repeat;
+	background-position: center center;
+}

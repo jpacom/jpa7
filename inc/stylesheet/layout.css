@@ -59,18 +59,14 @@
 	height:252spx;
 	position:fixed;
 	top:70px;
-	right:0;
+	right:-70px;
 	overflow:hidden;
     z-index: 4;
 }
-.menu-hover{
-   margin-right: -70px;  
+#menu-wrapper:hover{
+	right: 0;
 }
-.menu-hover:hover{
-    margin-right: 0;
-}
-
-.menu-hover-text:hover > li > a > .display-none{
+.menu-hover-text:hover > li > a > span{
 	display: block !important;
 }
 #home{
@@ -269,12 +265,12 @@
 	padding: 0 10px 0 0;
 }
 #portfolio_name > a{
-	width: 240px;
+	width: 280px;
 	text-align: center;
 	display: block;
 }
 #portfolio_end > a{
-	width: 240px;
+	width: 280px;
 	text-align: center;
 	display: block;
 }
@@ -282,6 +278,12 @@
 	padding: 0 0 0 10px;
 }
 #portfolio_des{
-	height: 220px;
+	height: 190px;
 	overflow: hidden;
+	padding-top: 10px;
+}
+.portfolio-name-wrapper{
+	margin: 30px 0 0 0;
+	height: 117px;
+	width: 280px;
 }
