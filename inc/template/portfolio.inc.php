@@ -22,7 +22,6 @@
 					<div>
 						<div id="portfolio_pic" class="float-left">Picture</div>
 						<div class="float-left">
-							<div id="portfolio_url">URL</div>
 							<div id="portfolio_name">service name</div>
 							<div id="portfolio_end">Project End</div>
 						</div>

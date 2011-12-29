@@ -9,7 +9,6 @@ function load_sample(id)
 	      var response = transport.responseText;
 	      var info	=	response.split('|');
 	      $('portfolio_pic').innerHTML 		= '<a href ="'+info[1]+'"><img src ="'+info[0]+'" /></a>';
-	      $('portfolio_url').innerHTML 		= '<a href ="'+info[1]+'">'+info[1]+'</a>';
 	      $('portfolio_name').innerHTML 	= '<a href ="'+info[1]+'">'+info[2]+'</a>';
 	      $('portfolio_end').innerHTML 		= info[3];
 	      $('portfolio_des').innerHTML 		= info[4];
