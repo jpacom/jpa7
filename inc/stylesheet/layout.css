@@ -72,7 +72,7 @@
 	height:47px !important;
 }
 #contact{
-	height:50px !important;
+	height:64px !important;
 }
 .menu-items{
 	width:115px;
@@ -83,19 +83,25 @@
 }
 .menu-items-links{
 	width:0px;
-	margin:0 0 0 42px;
+	margin:0 0 0 32px;
 }
 .menu-items-home-links{
-	height:35px;
-	padding: 22px 0 0 0;
+	height:21px;
+	padding: 26px 0 0 32px;
 }
 .menu-items-middle-links{
-	height:29px;
-	padding: 20px 0 0 0;
+	height:22px;
+	padding: 17px 0 0 30px;
+}
+#services > a{
+	padding-left: 25px !important;
+}
+#online-order > a{
+	padding-left: 28px !important;
 }
 .menu-items-contact-links{
-	height:30px;
-	padding: 20px 0 0 0;
+	height:28px;
+	padding: 22px 0 0 27px;
 }
 
 /*  sample-works		----------------------------------------------------*/
