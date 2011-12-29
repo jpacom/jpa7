@@ -2,7 +2,7 @@
 var puzzle_effect = null;
 var menu_items = null;
 var drag_effect = null;
-
+var portfolio_info_effect = null;
 document.observe('dom:loaded', function() {
 
 	var banner = new Banner('banner-wrapper2', 5, 1);
@@ -90,11 +90,23 @@ document.observe('dom:loaded', function() {
 		  drag_effect.cancel();
 	  drag_effect = new Effect.Appear($('drag-here'));
   });
-  
+ /* 
   $("drag-here").observe('mouseout',function(){
 	  if ( drag_effect)
 		  drag_effect.cancel();
 	  drag_effect = new Effect.Fade($('drag-here'));
+  });
+  */
+  
+  $('page-fade-black').observe('click',function(){
+	  $('page-fade-black').setStyle({zIndex:4});
+	  $('drag-here').setStyle({zIndex:4});
+	  if ( drag_effect)
+		  drag_effect.cancel();
+	  drag_effect = new Effect.Fade($('drag-here'));
+	  if(portfolio_info_effect)
+		  portfolio_info_effect.cancel();
+	  portfolio_info_effect	=	new Effect.Fade($('drop-box-content'));
   });
        
        
@@ -111,17 +123,23 @@ document.observe('dom:loaded', function() {
 				  if ( drag_effect)
 					  drag_effect.cancel();
 				  drag_effect = new Effect.Appear($('drag-here'),{duration:0.2});
+
 		  	}
 	  });
   });
        
 
   
-  Droppables.add('drop-box-message', { 
+  Droppables.add('drop-here-wrapper', { 
 	    accept: 'sample-work-child',
 	    hoverclass: 'hover',
-	    onDrop: function(draged) {
-	  		load_sample(draged.id);
+		    onDrop: function(draged) {
+			  $('page-fade-black').setStyle({zIndex:6});
+			  $('drag-here').setStyle({zIndex:6});
+			  load_sample(draged.id);
+			  if(portfolio_info_effect)
+				  portfolio_info_effect.cancel();
+			  portfolio_info_effect	=	new Effect.Appear($('drop-box-content'));
   		}
 	  });      
        
