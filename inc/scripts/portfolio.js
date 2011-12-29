@@ -15,8 +15,8 @@ function load_sample(id)
 	      $('portfolio_end').innerHTML 		= info[3];
 	      $('portfolio_des').innerHTML 		= info[4];
 	      $('portfolio_price').innerHTML 	= info[5];
-	      $('department').innerHTML 	= info[6];
-	      $('pack').innerHTML 	= info[7];
+	      $('portfolio_department').innerHTML 	= info[6];
+	      $('portfolio_pack').innerHTML 	= info[7];
 	      if(drop_box_content_effect)
 	    	  drop_box_content_effect.cancel();
 	      drop_box_content_effect = new Effect.appear($('drop-box-content'));
