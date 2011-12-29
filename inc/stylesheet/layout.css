@@ -56,7 +56,7 @@
 
 /*  menu				----------------------------------------------------*/
 #menu-wrapper{
-	height:235px;
+	height:252spx;
 	position:fixed;
 	top:70px;
 	right:0;
@@ -77,11 +77,11 @@
 	display: block !important;
 }
 #home{
-	height:39px !important;
+	height:57px !important;
 }
 .menu-items{
 	width:115px;
-	height:36px;
+	height:49px;
 	text-align:center;
 	padding:10px 0 0 10px;
 	margin:0;

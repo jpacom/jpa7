@@ -117,17 +117,25 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:-452px -152px;
 }
-.menu-top-item-light-bg{
+.menu-home-item-light-bg{
 	background-image:url(../../images/Sprite.png);
-	background-position:0 -263px;
+	background-position:0 0;
 }
-.menu-middle-items-light-bg{
+.menu-services-items-light-bg{
 	background-image:url(../../images/Sprite.png);
-	background-position:0 -322px;
+	background-position:0 -57px;
 }
-.menu-bottom-item-light-bg{
+.menu-online-order-items-light-bg{
 	background-image:url(../../images/Sprite.png);
-	background-position:0 -475px;
+	background-position:0 -106px;
+}
+.menu-about-items-light-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -155px;
+}
+.menu-contact-item-light-bg{
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -204px;
 }
 .drop-here-top-bg{
 	background-image:url(../../images/Sprite.png);
