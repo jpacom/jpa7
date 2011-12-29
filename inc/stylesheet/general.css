@@ -102,8 +102,15 @@ a:active{
 .clear-both{
   clear: both;
 }
+
+/*  display-none						----------------------------------------------------*/
 .display-none{
  	display: none;
+}
+
+/*  text-align						----------------------------------------------------*/
+.text-align{
+	text-align: center;
 }
  
  

@@ -35,7 +35,7 @@ document.observe('dom:loaded', function() {
 	       menu_items_text.removeClassName("menu-items-text-hover");
 	       menu_items_text.removeClassName("display-none");
 	       menu_items_text.addClassName("display-block");
-	       menu_items_text.fade();
+	       menu_items_text.hide();
        });
 
        
