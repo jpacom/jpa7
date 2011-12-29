@@ -1,3 +1,5 @@
+var drop_box_loading_effect =   null;
+var drop_box_content_effect	=	null;
 function load_sample(id)
 {
 
@@ -13,10 +15,13 @@ function load_sample(id)
 	      $('portfolio_end').innerHTML 		= info[3];
 	      $('portfolio_des').innerHTML 		= info[4];
 	      $('portfolio_price').innerHTML 	= info[5];
-	      
-	      $('drop-box-content').blindDown();
+	      if(drop_box_content_effect)
+	    	  drop_box_content_effect.cancel();
+	      drop_box_content_effect = new Effect.BlindDown($('drop-box-content'));
 	    },
 	    onFailure: function(){ alert('We are really sorry about this. Something went wrong...'); }
 	  });
-	$('drop-box-loading').appear();
+	if(drop_box_loading_effect)
+		drop_box_loading_effect.cancel();
+	drop_box_loading_effect	=	new Effect.Appear($('drop-box-loading'));
 }
