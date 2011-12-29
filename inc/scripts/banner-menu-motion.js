@@ -2,7 +2,7 @@
 var puzzle_effect = null;
 var menu_items = null;
 var drag_effect = null;
-
+var portfolio_info_effect = null;
 document.observe('dom:loaded', function() {
 
 	var banner = new Banner('banner-wrapper2', 5, 1);
@@ -99,10 +99,14 @@ document.observe('dom:loaded', function() {
   */
   
   $('page-fade-black').observe('click',function(){
+	  $('page-fade-black').setStyle({zIndex:4});
+	  $('drag-here').setStyle({zIndex:4});
 	  if ( drag_effect)
 		  drag_effect.cancel();
 	  drag_effect = new Effect.Fade($('drag-here'));
-	  
+	  if(portfolio_info_effect)
+		  portfolio_info_effect.cancel();
+	  portfolio_info_effect	=	new Effect.Fade($('drop-box-content'));
   });
        
        
@@ -133,6 +137,9 @@ document.observe('dom:loaded', function() {
 			  $('page-fade-black').setStyle({zIndex:6});
 			  $('drag-here').setStyle({zIndex:6});
 			  load_sample(draged.id);
+			  if(portfolio_info_effect)
+				  portfolio_info_effect.cancel();
+			  portfolio_info_effect	=	new Effect.Appear($('drop-box-content'));
   		}
 	  });      
        
