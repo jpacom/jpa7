@@ -33,8 +33,6 @@ document.observe('dom:loaded', function() {
        $$(".menu-items-text").each(function(menu_items_text){
   
 	       menu_items_text.removeClassName("menu-items-text-hover");
-	       menu_items_text.removeClassName("display-none");
-	       menu_items_text.addClassName("display-block");
 	       menu_items_text.hide();
        });
 

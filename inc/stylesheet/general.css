@@ -52,13 +52,15 @@ a:active{
 .display-none{
   display: none !important;
 }
-.menu-items-text
-{
-	display: none;
+.display-none-not-important{
+  display: none;
 }
 /*  Display block				----------------------------------------------------*/
 .display-block{
   display: block !important;
+}
+.display-block-not-important{
+  display: block;
 }
 
 /*  In-line						----------------------------------------------------*/
