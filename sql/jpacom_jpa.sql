@@ -18,14 +18,14 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 --
 -- Table structure for table `portfolio`
 --
-
+DROP table IF EXISTS `portfolio`; 
 CREATE TABLE IF NOT EXISTS `portfolio` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` text NOT NULL,
   `start` int(11) NOT NULL COMMENT 'timestamp',
   `end` int(11) NOT NULL COMMENT 'timestamp',
-  `departmentId` int(11) NOT NULL,
-  `packId` int(11) NOT NULL,
+  `department` text NOT NULL,
+  `pack` text NOT NULL,
   `price` int(11) NOT NULL,
   `puzzle_id` text NOT NULL,
   `site_url` text NOT NULL,
@@ -37,8 +37,8 @@ CREATE TABLE IF NOT EXISTS `portfolio` (
 -- Dumping data for table `portfolio`
 --
 
-INSERT INTO `portfolio` (`id`, `name`, `start`, `end`, `departmentId`, `packId`, `price`, `puzzle_id`, `site_url`, `description`) VALUES
-(1, 'JayKish', 0, 1325153792, 1, 1, 25000000, 'sample-work-1', 'http://jk-petro-oil.com/', 'The official website of the biggest company in oil and photochemistry industry. This website includes graphic level 2, Tracking system, 22 static pages and follows W3C XHTML Strict, the most strict and the best standard in the world.');
+INSERT INTO `portfolio` (`id`, `name`, `start`, `end`, `department`, `pack`, `price`, `puzzle_id`, `site_url`, `description`) VALUES
+(1, 'JayKish', 0, 1325153792, 'Web Design Team', 'Small Business', 25000000, 'sample-work-1', 'http://jk-petro-oil.com/', 'The official website of the biggest company in oil and photochemistry industry. This website includes graphic level 2, Tracking system, 22 static pages and follows W3C XHTML Strict, the most strict and the best standard in the world.');
 
 -- --------------------------------------------------------
 
