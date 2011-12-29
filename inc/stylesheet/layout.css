@@ -3,7 +3,7 @@
 	position:absolute;
 	height:199px;
 	width:100%;
-    top:-30px;
+    top:-40px;
     left:auto;
 	z-index:3;
 }
@@ -18,7 +18,6 @@
 	left:auto;
 	height:199px;
 	width:700px;
-    background-position:center -35px !important;
 }
 
 .banner-hover:hover
@@ -28,7 +27,7 @@
 
 /*  main				----------------------------------------------------*/
 #main-wrapper{
-	padding:145px 0 0 0;
+	padding:160px 0 0 0;
 }
 .text-box-wrapper{
 	margin:0 136px;

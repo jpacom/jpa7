@@ -23,7 +23,7 @@ document.observe('dom:loaded', function() {
     	if (banner_effect)
     		banner_effect.cancel();
     	
-    	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '-30px'}, duration: 0.5});
+    	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '-40px'}, duration: 0.5});
     });
     
     
