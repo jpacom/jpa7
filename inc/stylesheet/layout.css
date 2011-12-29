@@ -74,11 +74,14 @@
 	display: block !important;
 }
 #home{
-	height:37px !important;
+	height:47px !important;
+}
+#contact{
+	height:50px !important;
 }
 .menu-items{
 	width:115px;
-	height:29px;
+	height:39px;
 	text-align:center;
 	padding:10px 0 0 10px;
 	margin:0;
