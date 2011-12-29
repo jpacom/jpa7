@@ -24,6 +24,8 @@
 						<div class="float-left">
 							<div id="portfolio_name">service name</div>
 							<div id="portfolio_end">Project End</div>
+							<div id="portfolio_department">Department</div>
+							<div id="portfolio_pack">Pack</div>
 						</div>
 						<br class="clear-both" />
 					</div>

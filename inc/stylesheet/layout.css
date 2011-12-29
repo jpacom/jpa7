@@ -63,33 +63,41 @@
 	overflow:hidden;
     z-index: 4;
 }
-.menu-hover
-{
+.menu-hover{
    margin-right: -70px;  
 }
-.menu-hover:hover
-{
+.menu-hover:hover{
     margin-right: 0;
 }
 
-.menu-hover-text:hover > li > a > .display-none
-{
+.menu-hover-text:hover > li > a > .display-none{
 	display: block !important;
 }
 #home{
-	height:57px !important;
+	height:37px !important;
 }
 .menu-items{
 	width:115px;
-	height:49px;
+	height:29px;
 	text-align:center;
 	padding:10px 0 0 10px;
 	margin:0;
 }
 .menu-items-links{
 	width:0px;
-	height:36px;
 	margin:0 0 0 42px;
+}
+.menu-items-home-links{
+	height:35px;
+	padding: 22px 0 0 0;
+}
+.menu-items-middle-links{
+	height:29px;
+	padding: 20px 0 0 0;
+}
+.menu-items-contact-links{
+	height:30px;
+	padding: 20px 0 0 0;
 }
 
 /*  sample-works		----------------------------------------------------*/
