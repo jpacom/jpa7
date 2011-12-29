@@ -16,11 +16,11 @@
 			@import "/inc/stylesheet/layout.css";
 		</style>
 		
-		<script type="text/javascript" src="inc/scripts/lib/prototype.js"></script>
-		<script type="text/javascript" src="inc/scripts/src/scriptaculous.js"></script>
-		<script type="text/javascript" src="inc/scripts/portfolio.js"></script>
-	 	<script type="text/javascript" src="inc/scripts/banner-menu-motion.js"></script>
-	 	<script type="text/javascript" src="inc/scripts/classes.js"></script>
+		<script type="text/javascript" src="/inc/scripts/lib/prototype.js"></script>
+		<script type="text/javascript" src="/inc/scripts/src/scriptaculous.js"></script>
+		<script type="text/javascript" src="/inc/scripts/portfolio.js"></script>
+	 	<script type="text/javascript" src="/inc/scripts/banner-menu-motion.js"></script>
+	 	<script type="text/javascript" src="/inc/scripts/classes.js"></script>
 	 	 
 	</head>
 
