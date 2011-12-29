@@ -17,7 +17,7 @@ function load_sample(id)
 	      $('portfolio_price').innerHTML 	= info[5];
 	      if(drop_box_content_effect)
 	    	  drop_box_content_effect.cancel();
-	      drop_box_content_effect = new Effect.BlindDown($('drop-box-content'));
+	      drop_box_content_effect = new Effect.appear($('drop-box-content'));
 	    },
 	    onFailure: function(){ alert('We are really sorry about this. Something went wrong...'); }
 	  });
