@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 29, 2011 at 10:09 AM
+-- Generation Time: Dec 29, 2011 at 10:34 AM
 -- Server version: 5.1.44
 -- PHP Version: 5.3.1
 
@@ -31,12 +31,14 @@ CREATE TABLE IF NOT EXISTS `portfolio` (
   `site_url` text NOT NULL,
   `description` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `portfolio`
 --
 
+INSERT INTO `portfolio` (`id`, `name`, `start`, `end`, `departmentId`, `packId`, `price`, `puzzle_id`, `site_url`, `description`) VALUES
+(1, 'JayKish', 0, 1325153792, 1, 1, 25000000, 'sample-work-1', 'http://jk-petro-oil.com/', 'The official website of the biggest company in oil and photochemistry industry. This website includes graphic level 2, Tracking system, 22 static pages and follows W3C XHTML Strict, the most strict and the best standard in the world.');
 
 -- --------------------------------------------------------
 
