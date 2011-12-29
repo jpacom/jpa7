@@ -19,7 +19,7 @@
 			<div id="drop-here-top" class="drop-here-top-bg">&nbsp;</div>
 			<div id="drop-here-middle">
 				<div id="drop-box-content" style="display: none;">
-					<div>
+					<div id="portfolio_info">
 						<div id="portfolio_pic" class="float-left">Picture</div>
 						<div class="float-left">
 							<div id="portfolio_name">service name</div>
