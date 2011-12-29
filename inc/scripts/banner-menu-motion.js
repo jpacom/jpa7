@@ -75,14 +75,11 @@ document.observe('dom:loaded', function() {
   });
   
   //sign
-//  $("sample-work-4").observe('mouseout',function(){
-//	  if (puzzle_effect)
-//		  puzzle_effect.cancel();
-//	  puzzle_effect = new Effect.Fade($("puzzle-block"));
-//	  if ( drag_effect)
-//		  drag_effect.cancel();
-//	  drag_effect = new Effect.Fade($('drag-here'));
-//  });
+  $("sample-work-4").observe('mouseout',function(){
+	  if (puzzle_effect)
+		  puzzle_effect.cancel();
+	  puzzle_effect = new Effect.Fade($("puzzle-block"));
+  });
   
 //  $("drag-here").observe('mouseover',function(){
 //	  if ( drag_effect)
