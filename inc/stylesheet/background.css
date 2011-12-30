@@ -121,7 +121,7 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:0 0;
 }
-.menu-home-item-light-bg:hover{
+.menu-home-item-light-bg:hover, .menu-home-item-light-bg-active{
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -264px;
 }
@@ -129,7 +129,7 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -57px;
 }
-.menu-services-items-light-bg:hover{
+.menu-services-items-light-bg:hover, .menu-services-items-light-bg-active{
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -321px;
 }
@@ -137,7 +137,7 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -103px;
 }
-.menu-online-order-items-light-bg:hover{
+.menu-online-order-items-light-bg:hover, .menu-online-order-items-light-bg-active{
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -367px;
 }
@@ -145,7 +145,7 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -147px;
 }
-.menu-about-items-light-bg:hover{
+.menu-about-items-light-bg:hover, .menu-about-items-light-bg-active{
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -411px;
 }
@@ -153,7 +153,7 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -190px;
 }
-.menu-contact-item-light-bg:hover{
+.menu-contact-item-light-bg:hover, .menu-contact-item-light-bg-active{
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -454px;
 }
