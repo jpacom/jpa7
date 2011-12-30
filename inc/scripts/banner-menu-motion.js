@@ -29,7 +29,7 @@ document.observe('dom:loaded', function() {
 
     $("menu-wrapper").removeClassName("menu-hover");
     $("menu-wrapper").removeClassName("menu-hover-text");
-    $("menu-wrapper").setStyle({right: '-75px'});
+    $("menu-wrapper").setStyle({right: '-70px'});
     
   
        $$(".menu-items-text").each(function(menu_items_text){
@@ -54,7 +54,7 @@ document.observe('dom:loaded', function() {
 		$('menu-wrapper').observe('mouseleave', function(){
 		  if(menu_effect)
 				menu_effect.cancel();   
-		   menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '-75px'},duration: 0.5});
+		   menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '-70px'},duration: 0.5});
 		
 		$$(".menu-items-text").each(function(menu_items_text){
 			if(menu_items_text.effect)
