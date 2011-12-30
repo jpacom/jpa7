@@ -81,20 +81,7 @@ document.observe('dom:loaded', function() {
 		  puzzle_effect.cancel();
 	  puzzle_effect = new Effect.Fade($("puzzle-block"));
   });
-  
-//  $("drag-here").observe('mouseover',function(){
-//	  if ( drag_effect)
-//		  drag_effect.cancel();
-//	  drag_effect = new Effect.Appear($('drag-here'));
-//  });
- /* 
-  $("drag-here").observe('mouseout',function(){
-	  if ( drag_effect)
-		  drag_effect.cancel();
-	  drag_effect = new Effect.Fade($('drag-here'));
-  });
-  */
-  
+    
   $('page-fade-black').observe('click',function(){
 	  $('page-fade-black').setStyle({zIndex:4});
 	  $('drag-here').setStyle({zIndex:4});
