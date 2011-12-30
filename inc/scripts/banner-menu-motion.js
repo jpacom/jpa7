@@ -26,8 +26,9 @@ document.observe('dom:loaded', function() {
     	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '-40px'}, duration: 0.5});
     });
     
-    
+
     $("menu-wrapper").removeClassName("menu-hover");
+    $("menu-wrapper").removeClassName("menu-hover-text");
     $("menu-wrapper").setStyle({right: '-75px'});
     
   

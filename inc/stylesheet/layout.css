@@ -103,6 +103,9 @@
 	height:28px;
 	padding: 22px 0 0 27px;
 }
+.menu-items-text{
+	display: block;
+}
 
 /*  sample-works		----------------------------------------------------*/
 #sample-works-wrapper{
