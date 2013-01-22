@@ -15,11 +15,7 @@
 	//	Box1
 	$page->pageBody();
 	
-	//	Initialize 2nd page.
-	$page	= new StaticPage(2, false, false, 'en', false, 2);
-	
-	//	Box2
-	$page->pageBody();
+	require_once $include_path . 'template/box2.inc.php';
 	
 	//	Footer
 	$page->pageFooter();

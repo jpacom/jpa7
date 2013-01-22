@@ -1,23 +1,41 @@
 /*  banner				----------------------------------------------------*/
-#banner-wrapper{
+#banner-wrapper, #banner2-wrapper{
 	position:absolute;
-	height:199px;
 	width:100%;
-    top:-40px;
     left:auto;
 	z-index:3;
 }
+#banner-wrapper{
+	height:166px;
+    top:-23px;
+}
+#banner2-wrapper{
+	top:143px;
+	height:331px;
+	margin: 33px 0 0 0;
+}
 #banner-wrapper2{
-	height:199px;
-	width:700px;
+	height:166px;
+	width:600px;
 	margin:0 auto;
+}
+#banner2-wrapper2{
+	height:331px;
+	margin:0 220px 0 212px;
 }
 .banner{
 	position:absolute;
 	top:0;
 	left:auto;
-	height:199px;
-	width:700px;
+	height:166px;
+	width:600px;
+}
+.banner2{
+	position:absolute;
+	top:0;
+	left:auto;
+	height:331px;
+	width: 993px;
 }
 
 .banner-hover:hover
@@ -27,10 +45,17 @@
 
 /*  main				----------------------------------------------------*/
 #main-wrapper{
-	padding:160px 0 0 0;
+	padding:540px 0 0 0;
 }
 .text-box-wrapper{
-	margin:0 136px;
+	margin:0 212px;
+}
+.text-box-4-wrapper{
+	width: 242px;
+	margin: 0 0 0 11px;
+}
+.text-box-4-1{
+	margin: 0;
 }
 .text-box-top-left{
 	width:11px;
@@ -58,7 +83,7 @@
 	height:252spx;
 	position:fixed;
 	top:70px;
-	right:-70px;
+	right:0;
 	overflow:hidden;
     z-index: 4;
 }
@@ -87,11 +112,11 @@
 }
 .menu-items-home-links{
 	height:21px;
-	padding: 26px 0 0 32px;
+	padding: 22px 0 0 32px;
 }
 .menu-items-middle-links{
 	height:22px;
-	padding: 17px 0 0 30px;
+	padding: 13px 0 0 30px;
 }
 #services > a{
 	padding-left: 25px !important;
@@ -101,7 +126,7 @@
 }
 .menu-items-contact-links{
 	height:28px;
-	padding: 22px 0 0 27px;
+	padding: 19px 0 0 27px;
 }
 .menu-items-text{
 	display: block;
