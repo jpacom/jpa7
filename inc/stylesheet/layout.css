@@ -10,9 +10,10 @@
     top:-23px;
 }
 #banner2-wrapper{
+	position: static;
 	top:143px;
 	height:331px;
-	margin: 33px 0 0 0;
+	margin:0 0 33px 0;
 }
 #banner-wrapper2{
 	height:166px;
@@ -22,6 +23,7 @@
 #banner2-wrapper2{
 	height:331px;
 	margin:0 220px 0 212px;
+	border-radius:5px;
 }
 .banner{
 	position:absolute;
@@ -35,7 +37,7 @@
 	top:0;
 	left:auto;
 	height:331px;
-	width: 993px;
+	width: 100%;
 }
 
 .banner-hover:hover
@@ -45,7 +47,7 @@
 
 /*  main				----------------------------------------------------*/
 #main-wrapper{
-	padding:540px 0 0 0;
+	padding:175px 0 0 0;
 }
 .text-box-wrapper{
 	margin:0 212px;
