@@ -7,6 +7,8 @@ var successful_drag = false;
 document.observe('dom:loaded', function() {
 
 	var banner = new Banner('banner-wrapper2', 5, 1);
+
+	var banner2 = new Banner('banner2-wrapper2', 5, 1);
 	
 	$('banner-wrapper').removeClassName('banner-hover');
     var banner_effect = null;
@@ -23,46 +25,46 @@ document.observe('dom:loaded', function() {
     	if (banner_effect)
     		banner_effect.cancel();
     	
-    	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '-40px'}, duration: 0.5});
+    	banner_effect = new Effect.Morph('banner-wrapper', {style:{top: '-23px'}, duration: 0.5});
     });
     
 
-    $("menu-wrapper").removeClassName("menu-hover");
-    $("menu-wrapper").removeClassName("menu-hover-text");
-    $("menu-wrapper").setStyle({right: '-70px'});
-    
-  
-       $$(".menu-items-text").each(function(menu_items_text){
-  
-	       menu_items_text.removeClassName("menu-items-text-hover");
-	       menu_items_text.hide();
-       });
-
-       
-       $('menu-wrapper').observe('mouseenter', function(){
-			if(menu_effect)
-				menu_effect.cancel();   
-	        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '0px'}, duration: 0.5});
-	       
-	        $$(".menu-items-text").each(function(menu_items_text){
-				if(menu_items_text.effect)
-					menu_items_text.effect.cancel();
-				menu_items_text.effect = new Effect.Appear(menu_items_text);
-	        });
-       });
-
-		$('menu-wrapper').observe('mouseleave', function(){
-		  if(menu_effect)
-				menu_effect.cancel();   
-		   menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '-70px'},duration: 0.5});
-		
-		$$(".menu-items-text").each(function(menu_items_text){
-			if(menu_items_text.effect)
-				menu_items_text.effect.cancel();
-			menu_items_text.effect = new Effect.Fade(menu_items_text);
-		});
-
-    });
+//    $("menu-wrapper").removeClassName("menu-hover");
+//    $("menu-wrapper").removeClassName("menu-hover-text");
+//    $("menu-wrapper").setStyle({right: '0'});
+//    
+//  
+//       $$(".menu-items-text").each(function(menu_items_text){
+//  
+//	       menu_items_text.removeClassName("menu-items-text-hover");
+//	       menu_items_text.hide();
+//       });
+//
+//       
+//       $('menu-wrapper').observe('mouseenter', function(){
+//			if(menu_effect)
+//				menu_effect.cancel();   
+//	        menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '0px'}, duration: 0});
+//	       
+//	        $$(".menu-items-text").each(function(menu_items_text){
+//				if(menu_items_text.effect)
+//					menu_items_text.effect.cancel();
+//				menu_items_text.effect = new Effect.Appear(menu_items_text);
+//	        });
+//       });
+//
+//		$('menu-wrapper').observe('mouseleave', function(){
+//		  if(menu_effect)
+//				menu_effect.cancel();   
+//		   menu_effect = new Effect.Morph('menu-wrapper', {style:{right: '0'},duration: 0.5});
+//		
+//		$$(".menu-items-text").each(function(menu_items_text){
+//			if(menu_items_text.effect)
+//				menu_items_text.effect.cancel();
+//			menu_items_text.effect = new Effect.Fade(menu_items_text);
+//		});
+//
+//    });
        
 
   $("puzzle-block").removeClassName('puzzle-hide');

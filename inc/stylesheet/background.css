@@ -1,10 +1,15 @@
 .body-bg{
-	background-image:url(../../images/tile.png);
+	background-image:url(../../images/tiletilepalang123.png);
 	background-repeat:repeat;
 }
 .banner-bg{
 	background-image:url(../../banner/1.png);
 	background-repeat:no-repeat;
+	background-position:center 0;
+}
+.banner2-bg{
+	background-image:url(../../banner/2/1.jpg);
+	background-repeat:repeat;
 	background-position:center 0;
 }
 .text-box-1-top-left-bg{
