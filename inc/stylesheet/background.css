@@ -5,7 +5,7 @@
 .banner-bg{
 	background-image:url(../../banner/1.png);
 	background-repeat:no-repeat;
-	background-position:center 0;
+	background-position:center center;
 }
 .banner2-bg{
 	background-image:url(../../banner/2/1.jpg);

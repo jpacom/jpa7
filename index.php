@@ -12,6 +12,8 @@
 	//	Header
 	$page->pageHeader();
 	
+	require_once $include_path . 'template/banner2.inc.php';
+	
 	//	Box1
 	$page->pageBody();
 	
