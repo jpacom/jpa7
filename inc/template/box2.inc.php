@@ -9,7 +9,7 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg">
 								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<h3 class="H3-white-font">Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.[1] Web designers utilize markup language, most notably HTML for structure and CSS for presentation to develop pages that can be read by web browsers.As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose. The site itself can be divided into its main page, also known as the home page, which cites the main objective as well as highlights of the site's daily updates; which also contains hyperlinks that functions to direct viewers to a designated page within the site's domain.</h3>
+								<h3 class="H3-white-font">Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.</h3>
 							</div>
 						</div>
 					</div>
@@ -30,7 +30,7 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg">
 								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<h3 class="H3-white-font">Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.[1] Web designers utilize markup language, most notably HTML for structure and CSS for presentation to develop pages that can be read by web browsers.As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose. The site itself can be divided into its main page, also known as the home page, which cites the main objective as well as highlights of the site's daily updates; which also contains hyperlinks that functions to direct viewers to a designated page within the site's domain.</h3>
+								<h3 class="H3-white-font">As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose. The site itself can be divided into its main page, also known as the home page, which cites the main objective as well as highlights of the site's daily updates; which also contains hyperlinks that functions to direct viewers to a designated page within the site's domain.</h3>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg">
 								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<h3 class="H3-white-font">Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.[1] Web designers utilize markup language, most notably HTML for structure and CSS for presentation to develop pages that can be read by web browsers.As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose. The site itself can be divided into its main page, also known as the home page, which cites the main objective as well as highlights of the site's daily updates; which also contains hyperlinks that functions to direct viewers to a designated page within the site's domain.</h3>
+								<h3 class="H3-white-font">Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.</h3>
 							</div>
 						</div>
 					</div>
@@ -72,7 +72,7 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg">
 								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<h3 class="H3-white-font">Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.[1] Web designers utilize markup language, most notably HTML for structure and CSS for presentation to develop pages that can be read by web browsers.As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose. The site itself can be divided into its main page, also known as the home page, which cites the main objective as well as highlights of the site's daily updates; which also contains hyperlinks that functions to direct viewers to a designated page within the site's domain.</h3>
+								<h3 class="H3-white-font">Web designers utilize markup language, most notably HTML for structure and CSS for presentation to develop pages that can be read by web browsers.As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose.</h3>
 							</div>
 						</div>
 					</div>
