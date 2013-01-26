@@ -1,5 +1,5 @@
-#banner-wrapper2, #banner2-wrapper2, .text-box-wrapper{
-	min-width: 573px;
+#banner2-wrapper2, .text-box-wrapper{
+	min-width: 997px;
 }
 /*  banner				----------------------------------------------------*/
 #banner-wrapper, #banner2-wrapper{
@@ -89,6 +89,26 @@
 
 /*  menu				----------------------------------------------------*/
 #menu-wrapper{
+	width: 128px;
+	position:fixed;
+	top:70px;
+	right:0;
+	overflow:hidden;
+    z-index: 4;
+}
+#menu-wrapper > li {
+	height: 37px;
+	padding: 8px 0 0 17px;
+}
+#menu-wrapper >li:first-child {
+	height: 28px;
+	padding: 32px 0 0 43px;
+}
+#menu-wrapper >li:last-child {
+	height: 46px;
+	padding: 13px 0 0 17px;
+}
+/*#menu-wrapper{
 	height:252spx;
 	position:fixed;
 	top:70px;
@@ -102,15 +122,15 @@
 .menu-hover-text:hover > li > a > span{
 	display: block !important;
 }
-#home{
+#menu-wrapper > li:first-child{
 	height:47px !important;
 }
-#contact{
+#menu-wrapper > li:last-child{
 	height:64px !important;
 }
 .menu-items{
 	width:115px;
-	height:39px;
+	height:49px;
 	text-align:center;
 	padding:10px 0 0 10px;
 	margin:0;
@@ -118,14 +138,12 @@
 .menu-items-links{
 	width:0px;
 	margin:0 0 0 32px;
-}
-.menu-items-home-links{
-	height:21px;
-	padding: 22px 0 0 32px;
-}
-.menu-items-middle-links{
 	height:22px;
 	padding: 13px 0 0 30px;
+}
+#menu-wrapper > li:first-child .menu-items-links{
+	height:43px;
+	padding: 22px 0 0 32px;
 }
 #services > a{
 	padding-left: 25px !important;
@@ -133,16 +151,16 @@
 #online-order > a{
 	padding-left: 28px !important;
 }
-.menu-items-contact-links{
-	height:28px;
-	padding: 19px 0 0 27px;
+#menu-wrapper > li:last-child .menu-items-links{
+	height:47px;
+	/*padding: 19px 0 0 27px;
 }
-.menu-items-text{
+/*.menu-items-text{
 	display: block;
 }
 
-/*  sample-works		----------------------------------------------------*/
-#sample-works-wrapper{
+  sample-works		----------------------------------------------------
+*/#sample-works-wrapper{
 	position:fixed;
 	left:0;
 	bottom:0;

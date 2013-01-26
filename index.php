@@ -1,6 +1,7 @@
 <?php
 	
 	$home = true;
+	$language_id = 1;
 	
 	$include_path	= $_SERVER['DOCUMENT_ROOT'] . '/inc/';
 	
