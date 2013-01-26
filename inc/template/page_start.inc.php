@@ -10,6 +10,7 @@
 		<title>Jahaan Pardazesh Alborz :: <?php echo $this->page['title']; ?></title>
 		
 		<style type="text/css" media="screen">
+			@import url(http://fonts.googleapis.com/css?family=Kite+One|Croissant+One);
 			@import "/inc/stylesheet/font.css";
 			@import "/inc/stylesheet/general.css";
 			@import "/inc/stylesheet/background.css";

@@ -122,45 +122,29 @@
 	background-image:url(../../images/Sprite.png);
 	background-position:-452px -152px;
 }
-.menu-home-item-light-bg{
-	background-image:url(../../images/Sprite.png);
-	background-position:0 0;
-}
-.menu-home-item-light-bg:hover, .menu-home-item-light-bg-active{
-	background-image:url(../../images/Sprite.png);
-	background-position:0 -264px;
-}
-.menu-services-items-light-bg{
+.menu-item-light-bg {
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -57px;
 }
-.menu-services-items-light-bg:hover, .menu-services-items-light-bg-active{
+.menu-item-light-bg:first-child {
+	background-image:url(../../images/Sprite.png);
+	background-position:0 0;
+}
+.menu-item-light-bg:last-child {
+	background-image:url(../../images/Sprite.png);
+	background-position:0 -205px;
+}
+.menu-item-light-bg:hover, .menu-item-light-bg-active {
 	background-image:url(../../images/Sprite.png);
 	background-position:0 -321px;
 }
-.menu-online-order-items-light-bg{
+.menu-item-light-bg:first-child:hover, .menu-item-light-bg-active:first-child {
 	background-image:url(../../images/Sprite.png);
-	background-position:0 -103px;
+	background-position:0 -264px;
 }
-.menu-online-order-items-light-bg:hover, .menu-online-order-items-light-bg-active{
+.menu-item-light-bg:last-child:hover, .menu-item-light-bg-active:last-child {
 	background-image:url(../../images/Sprite.png);
-	background-position:0 -367px;
-}
-.menu-about-items-light-bg{
-	background-image:url(../../images/Sprite.png);
-	background-position:0 -147px;
-}
-.menu-about-items-light-bg:hover, .menu-about-items-light-bg-active{
-	background-image:url(../../images/Sprite.png);
-	background-position:0 -411px;
-}
-.menu-contact-item-light-bg{
-	background-image:url(../../images/Sprite.png);
-	background-position:0 -190px;
-}
-.menu-contact-item-light-bg:hover, .menu-contact-item-light-bg-active{
-	background-image:url(../../images/Sprite.png);
-	background-position:0 -454px;
+	background-position:0 -469px;
 }
 .drop-here-top-bg{
 	background-image:url(../../images/Sprite.png);
