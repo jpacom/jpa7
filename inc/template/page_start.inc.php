@@ -34,7 +34,7 @@
 			@import "/inc/stylesheet/font.css";
 			@import "/inc/stylesheet/general.css";
 			@import "/inc/stylesheet/background.css";
-			@import "/inc/stylesheet/layout.css";
+			@import "/inc/stylesheet/layout.css";<?php echo ($direction == 'rtl')?('@import "/inc/stylesheet/layout-ltr.css";'):(''); ?>
 		</style>
 		
 		<script type="text/javascript" src="/inc/scripts/lib/prototype.js"></script>
