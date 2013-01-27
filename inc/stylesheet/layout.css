@@ -1,5 +1,5 @@
 #banner2-wrapper2, .text-box-wrapper{
-	min-width: 997px;
+	min-width: 833px;
 }
 /*  banner				----------------------------------------------------*/
 #banner-wrapper, #banner2-wrapper{
@@ -25,7 +25,7 @@
 }
 #banner2-wrapper2{
 	height:331px;
-	margin:0 220px 0 212px;
+	margin:0 14% 0 13%;
 	border-radius:5px;
 }
 .banner{
@@ -53,7 +53,7 @@
 	padding:175px 0 0 0;
 }
 .text-box-wrapper{
-	margin:0 212px;
+	margin:0 13%;
 }
 .text-box-4-wrapper{
 	width: 33%;

@@ -19,6 +19,13 @@ body {
 .menu-items:first-child span:first-letter {
 	font-size: 1em !important;
 }
+.text-box-4-wrapper{
+	color: #fff;
+}
+.text-box-middle-center p{
+	font-family: 'Kite One', sans-serif;
+	font-size:16px;
+}
 .H1-black-font{
 	font-family: 'Croissant One', cursive;
 	font-size:22px;
