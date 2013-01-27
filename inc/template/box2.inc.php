@@ -7,9 +7,13 @@
 					</div>
 					<div class="text-box-middle-left text-box-2-middle-left-bg clear-both">
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
-							<div class="text-box-middle-center text-box-2-middle-center-bg">
-								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<p>Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.</p>
+							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
+								$page	= new StaticPage(2, false, false, $language_name, false, 1);
+								$page->page['title'];
+								$page->page['body'];
+							?>
+								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
+								<p><?php echo $page->page['body']; ?></p>
 							</div>
 						</div>
 					</div>
@@ -28,9 +32,13 @@
 					</div>
 					<div class="text-box-middle-left text-box-2-middle-left-bg clear-both">
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
-							<div class="text-box-middle-center text-box-2-middle-center-bg">
-								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<p>As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose. The site itself can be divided into its main page, also known as the home page, which cites the main objective as well as highlights of the site's daily updates; which also contains hyperlinks that functions to direct viewers to a designated page within the site's domain.</p>
+							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
+								$page	= new StaticPage(3, false, false, $language_name, false, 1);
+								$page->page['title'];
+								$page->page['body'];
+							?>
+								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
+								<p><?php echo $page->page['body']; ?></p>
 							</div>
 						</div>
 					</div>
@@ -49,9 +57,13 @@
 					</div>
 					<div class="text-box-middle-left text-box-2-middle-left-bg clear-both">
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
-							<div class="text-box-middle-center text-box-2-middle-center-bg">
-								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<p>Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.</p>
+							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
+								$page	= new StaticPage(4, false, false, $language_name, false, 1);
+								$page->page['title'];
+								$page->page['body'];
+							?>
+								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
+								<p><?php echo $page->page['body']; ?></p>
 							</div>
 						</div>
 					</div>
@@ -73,9 +85,13 @@
 					</div>
 					<div class="text-box-middle-left text-box-2-middle-left-bg clear-both">
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
-							<div class="text-box-middle-center text-box-2-middle-center-bg">
-								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<p>Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.</p>
+							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
+								$page	= new StaticPage(5, false, false, $language_name, false, 1);
+								$page->page['title'];
+								$page->page['body'];
+							?>
+								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
+								<p><?php echo $page->page['body']; ?></p>
 							</div>
 						</div>
 					</div>
@@ -94,9 +110,13 @@
 					</div>
 					<div class="text-box-middle-left text-box-2-middle-left-bg clear-both">
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
-							<div class="text-box-middle-center text-box-2-middle-center-bg">
-								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<p>As a whole, the process of web design includes conceptualization, planning, post-production, research, advertising as well as media control that is applied to the pages within the site by the designer or group of designers with a specific purpose. The site itself can be divided into its main page, also known as the home page, which cites the main objective as well as highlights of the site's daily updates; which also contains hyperlinks that functions to direct viewers to a designated page within the site's domain.</p>
+							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
+								$page	= new StaticPage(6, false, false, $language_name, false, 1);
+								$page->page['title'];
+								$page->page['body'];
+							?>
+								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
+								<p><?php echo $page->page['body']; ?></p>
 							</div>
 						</div>
 					</div>
@@ -115,9 +135,13 @@
 					</div>
 					<div class="text-box-middle-left text-box-2-middle-left-bg clear-both">
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
-							<div class="text-box-middle-center text-box-2-middle-center-bg">
-								<h1 class="H1-white-font"><span class="font-title-big-white-font">W</span>elcome to Jahan Pardazesh Alborz official website!</h1>
-								<p>Web design is the process of planning and creating a website. Text, images, digital media and interactive elements are shaped by the web designer to produce the page seen on the web browser.</p>
+							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
+								$page	= new StaticPage(7, false, false, $language_name, false, 1);
+								$page->page['title'];
+								$page->page['body'];
+							?>
+								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
+								<p><?php echo $page->page['body']; ?></p>
 							</div>
 						</div>
 					</div>
