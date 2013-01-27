@@ -14,7 +14,7 @@ body {
 	text-align: left;
 	letter-spacing: 0.8px;
 }
-.menu-items-font:first-letter {
+.menu-items-first-letter:first-letter {
 	font-size: 1.4em !important;
 }
 .menu-items:first-child span:first-letter {
