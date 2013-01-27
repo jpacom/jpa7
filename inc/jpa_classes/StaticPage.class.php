@@ -14,7 +14,7 @@
 	  		Builds and returns a standard static page from database. */
 		function __construct($page_id = false, $page_name = false, $body_only = false, $language = 'en', $auto = true, $box_type = 1)
 		  {
-			// Making some variables usable for other methods in this class.
+		  	// Making some variables usable for other methods in this class.
 			$this->page['id']	= $page_id;
 			$this->page['name']	= $page_name;
 			$this->language		= $language;
@@ -45,7 +45,8 @@
 			Builds and returns a standard static page pageHeader. */
 		function pageHeader()
 		  {
-			require_once	$_SERVER["DOCUMENT_ROOT"] . '/inc/template/page_start.inc.php';
+			global $language_id;
+		  	require_once	$_SERVER["DOCUMENT_ROOT"] . '/inc/template/page_start.inc.php';
 			require_once	$_SERVER["DOCUMENT_ROOT"] . '/inc/template/menu.inc.php';
 			require_once	$_SERVER["DOCUMENT_ROOT"] . '/inc/template/banner.inc.php';
             require_once	$_SERVER["DOCUMENT_ROOT"] . '/inc/template/body_start.inc.php';           
@@ -80,6 +81,7 @@
 		function getPage()
 		  {
 			$this->database	= new mysqli(self::db_host, self::db_user, self::db_pass, self::static_pages_db);
+			$this->database->set_charset('utf8');
 			
 			
 			$this->query[]		= 'SELECT * FROM `statics_';

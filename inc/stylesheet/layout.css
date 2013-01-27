@@ -56,8 +56,8 @@
 	margin:0 212px;
 }
 .text-box-4-wrapper{
-	width: 24%;
-	margin: 0 0 0 1.3%;
+	width: 33%;
+	margin: 0 0 0 0.5%;
 }
 .text-box-4-1{
 	margin: 0;
@@ -108,56 +108,6 @@
 	height: 46px;
 	padding: 13px 0 0 17px;
 }
-/*#menu-wrapper{
-	height:252spx;
-	position:fixed;
-	top:70px;
-	right:0;
-	overflow:hidden;
-    z-index: 4;
-}
-#menu-wrapper:hover{
-	right: 0;
-}
-.menu-hover-text:hover > li > a > span{
-	display: block !important;
-}
-#menu-wrapper > li:first-child{
-	height:47px !important;
-}
-#menu-wrapper > li:last-child{
-	height:64px !important;
-}
-.menu-items{
-	width:115px;
-	height:49px;
-	text-align:center;
-	padding:10px 0 0 10px;
-	margin:0;
-}
-.menu-items-links{
-	width:0px;
-	margin:0 0 0 32px;
-	height:22px;
-	padding: 13px 0 0 30px;
-}
-#menu-wrapper > li:first-child .menu-items-links{
-	height:43px;
-	padding: 22px 0 0 32px;
-}
-#services > a{
-	padding-left: 25px !important;
-}
-#online-order > a{
-	padding-left: 28px !important;
-}
-#menu-wrapper > li:last-child .menu-items-links{
-	height:47px;
-	/*padding: 19px 0 0 27px;
-}
-/*.menu-items-text{
-	display: block;
-}
 
   sample-works		----------------------------------------------------
 */#sample-works-wrapper{
@@ -171,31 +121,31 @@
 	z-index: 5;
 }
 #sample-work-1{
-	position:absolute;
+	position:fixed;
 	width:162px;
 	height:127px;
-	top:-165px;
-	left:-64px;
+	bottom:260px;
+	left:-46px;
 	z-index: 5;
 }
 #sample-work-2{
-	position:absolute;
+	position:fixed;
 	width:152px;
 	height:131px;
-	top:-50px;
-	left:-41px;
+	bottom:138px;
+	left:-22px;
 	z-index: 5;
 }
 #sample-work-3{
-	position:absolute;
+	position:fixed;
 	width:128px;
 	height:150px;
-	top:-20px;
-	left:85px;
+	bottom:76px;
+	left:111px;
 	z-index: 5;
 }
 #sample-work-4{
-	position:absolute;
+	position:fixed;
 	width:129px;
 	height:133px;
 	bottom:5px;
@@ -203,19 +153,19 @@
 	z-index: 5;
 }
 #sample-work-5{
-	position:absolute;
+	position:fixed;
 	width:145px;
 	height:135px;
-	top:95px;
-	left:150px;
+	bottom:-5px;
+	left:181px;
 	z-index: 5;
 }
 #sample-work-6{
-	position:absolute;
+	position:fixed;
 	width:150px;
 	height:157px;
-	top:123px;
-	left:288px;
+	bottom:-16px;
+	left:321px;
 	z-index: 5;
 }
 #sample-work-1:hover{
@@ -249,7 +199,7 @@
     bottom: 0;
     height: 209px;
     left: 0;
-    position: absolute;
+    position: fixed;
     width: 273px;
 }
 

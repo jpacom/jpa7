@@ -1,21 +1,29 @@
 		<ul id="menu-wrapper" class="menu-hover menu-hover-text"><?php 
 			$link = mysqli_connect(ConstsImp::db_host, ConstsImp::db_user, ConstsImp::db_pass);
+			mysqli_set_charset($link, 'utf8');
 			mysqli_select_db($link, ConstsImp::menu_items_db);
-			$query = "SELECT `abbr` FROM `languages` WHERE `id`=" . ($language_id or 1);
+			if(! $language_id)
+				$language_id = 1;
+			$query = "SELECT `abbr`, `first_letter` FROM `languages` WHERE `id`=" . $language_id;
 			$result = mysqli_query($link, $query) or die(mysqli_error($link));
-			$lang_abbr = mysqli_fetch_array($result);
-			$lang_abbr = $lang_abbr['abbr'];
-			$query = "SELECT * FROM `menu_items` WHERE `language_id`=" . ($language_id or 1);
+			$lang = mysqli_fetch_array($result);
+			$lang_abbr = $lang['abbr'];
+			$first_letter = $lang['first_letter'];
+			$lang = Null;
+			mysqli_free_result($result);
+			$query = "SELECT * FROM `menu_items` WHERE `language_id`=" . $language_id;
 			$result = mysqli_query($link, $query);
 			while($line = mysqli_fetch_array($result))
 			{
 				?>
 			<li class="menu-items menu-item-light-bg cursor-pointer <?php //echo ((@ $this->page['name'] == 'Welcome')?('menu-home-item-light-bg-active'):('')); ?>">
-				<a href="<?php echo $line['link']; ?>" class="menu-items-links display-block-not-important">
-					<span class="menu-items-text menu-items-text-hover menu-items-font"><?php echo $line['title'] ?></span>
+				<a href="<?php echo $language_id != 1 ? '/' . $lang_abbr : ''; echo $line['link']; ?>" class="menu-items-links display-block-not-important">
+					<span class="menu-items-text menu-items-text-hover menu-items-font <?php if($first_letter) echo 'menu-items-first-letter'; ?>"><?php echo $line['title'] ?></span>
 				</a>
 			</li><?php
 			}
+			mysqli_free_result($result);
+			mysqli_close($link);
 		?>
 <!--			<li id="home" class="menu-items menu-home-item-light-bg cursor-pointer <?php echo ((@ $this->page['name'] == 'Welcome')?('menu-home-item-light-bg-active'):('')); ?>">-->
 <!--				<a href="/" class="menu-items-links display-block-not-important">-->
