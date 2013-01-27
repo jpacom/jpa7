@@ -25,6 +25,7 @@ body {
 .text-box-middle-center p{
 	font-family: 'Kite One', sans-serif;
 	font-size:16px;
+	text-align: justify;
 }
 .H1-black-font{
 	font-family: 'Croissant One', cursive;
