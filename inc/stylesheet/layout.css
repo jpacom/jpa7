@@ -86,6 +86,10 @@
 	height:11px;
 	margin: 0 0 30px 0;
 }
+.text-box-4-wrapper .text-box-middle-center{
+	height: 350px;
+	overflow: hidden;
+}
 
 /*  menu				----------------------------------------------------*/
 #menu-wrapper{
