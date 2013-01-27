@@ -90,6 +90,11 @@
 	height: 350px;
 	overflow: hidden;
 }
+.box-icon-wrapper{
+	height: 65px;
+	width: 65px;
+	margin: 0 10px 0 0;
+}
 
 /*  menu				----------------------------------------------------*/
 #menu-wrapper{

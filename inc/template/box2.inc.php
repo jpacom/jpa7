@@ -9,11 +9,13 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
 								$page	= new StaticPage(2, false, false, $language_name, false, 1);
+								$page->page['name'];
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
-								<p><?php echo $page->page['body']; ?></p>
+								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<?php echo $page->page['body']; ?>
+								<br class="clear-both" />
 							</div>
 						</div>
 					</div>
@@ -34,11 +36,13 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
 								$page	= new StaticPage(3, false, false, $language_name, false, 1);
+								$page->page['name'];
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
-								<p><?php echo $page->page['body']; ?></p>
+								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<?php echo $page->page['body']; ?>
+								<br class="clear-both" />
 							</div>
 						</div>
 					</div>
@@ -59,11 +63,13 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
 								$page	= new StaticPage(4, false, false, $language_name, false, 1);
+								$page->page['name'];
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
-								<p><?php echo $page->page['body']; ?></p>
+								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<?php echo $page->page['body']; ?>
+								<br class="clear-both" />
 							</div>
 						</div>
 					</div>
@@ -87,11 +93,13 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
 								$page	= new StaticPage(5, false, false, $language_name, false, 1);
+								$page->page['name'];
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
-								<p><?php echo $page->page['body']; ?></p>
+								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<?php echo $page->page['body']; ?>
+								<br class="clear-both" />
 							</div>
 						</div>
 					</div>
@@ -112,11 +120,13 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
 								$page	= new StaticPage(6, false, false, $language_name, false, 1);
+								$page->page['name'];
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
-								<p><?php echo $page->page['body']; ?></p>
+								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<?php echo $page->page['body']; ?>
+								<br class="clear-both" />
 							</div>
 						</div>
 					</div>
@@ -137,11 +147,13 @@
 						<div class="text-box-middle-right text-box-2-middle-right-bg">
 							<div class="text-box-middle-center text-box-2-middle-center-bg"><?php 
 								$page	= new StaticPage(7, false, false, $language_name, false, 1);
+								$page->page['name'];
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h1 class="H1-white-font"><?php echo $page->page['title']; ?></h1>
-								<p><?php echo $page->page['body']; ?></p>
+								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<?php echo $page->page['body']; ?>
+								<br class="clear-both" />
 							</div>
 						</div>
 					</div>
