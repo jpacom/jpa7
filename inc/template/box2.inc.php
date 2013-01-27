@@ -13,7 +13,7 @@
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<h2 class="H2-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
 								<?php echo $page->page['body']; ?>
 								<br class="clear-both" />
 							</div>
@@ -40,7 +40,7 @@
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<h2 class="H2-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
 								<?php echo $page->page['body']; ?>
 								<br class="clear-both" />
 							</div>
@@ -67,7 +67,7 @@
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<h2 class="H2-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
 								<?php echo $page->page['body']; ?>
 								<br class="clear-both" />
 							</div>
@@ -97,7 +97,7 @@
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<h2 class="H2-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
 								<?php echo $page->page['body']; ?>
 								<br class="clear-both" />
 							</div>
@@ -124,7 +124,7 @@
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<h2 class="H2-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
 								<?php echo $page->page['body']; ?>
 								<br class="clear-both" />
 							</div>
@@ -151,7 +151,7 @@
 								$page->page['title'];
 								$page->page['body'];
 							?>
-								<h2 class="H1-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
+								<h2 class="H2-white-font"><?php echo $page->page['title']; ?></h2><div id="<?php echo $page->page['name']; ?>" class="box-icon-wrapper <?php echo ($direction == 'ltr')?('float-left'):('float-right');?>">&nbsp;</div>
 								<?php echo $page->page['body']; ?>
 								<br class="clear-both" />
 							</div>
