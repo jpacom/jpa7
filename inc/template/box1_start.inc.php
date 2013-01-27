@@ -7,10 +7,11 @@
 				<div class="text-box-middle-left text-box-1-middle-left-bg clear-both">
 					<div class="text-box-middle-right text-box-1-middle-right-bg">
 						<div class="text-box-middle-center text-box-1-middle-center-bg">
-							<?php if ($self.title)
+							<?php if ($this->page['title'])
 									{
 										echo '<h2 class="H2-black-font">';
-										echo $self->title; 
+										echo $this->page['title'];
+										echo '</h2>'; 
 									}
-							?></h1>
+							?>
 
