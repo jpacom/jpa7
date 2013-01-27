@@ -45,6 +45,6 @@
 	 	 
 	</head>
 
-	<body class="body-bg">
+	<body class="body-bg <?php echo $direction; ?>">
 
 
