@@ -377,7 +377,7 @@ a:active{
 	background-image:url(../../images/separators/jag-u.png);
 	background-repeat:repeat-x;
 }
-#who-are-our-customers > div, #our-latest-projects .header{
+#who-are-our-customers > div{
 	width:933px;
 	height:250px;
 	padding-top:49px;
@@ -453,15 +453,23 @@ a:active{
 /*  our-latest-projects							----------------------------------------------------*/
 #our-latest-projects{
 	width:100%;
-	height:417px;
 	background-color:#F1F1F1;
+	background-image:url(../../images/separators/line-sp-ovw.png);
+	background-repeat:no-repeat;
+	background-position:center 435px;
+}
+#our-latest-projects .header{
+	width:960px;
+	padding-top:49px;
+	margin:0 auto;
 }
 #our-latest-projects .title{
+	padding-left:27px;
 	padding-bottom:50px !important;
 	width:600px;
 }
 #our-latest-projects .menu{
-	width:300px;
+	width:214px;
 	padding-top:45px;
 }
 #our-latest-projects .menu > div{
@@ -475,16 +483,45 @@ a:active{
 #our-latest-projects .menu .deactive{
 	color:#B3B3B3;
 }
+#our-latest-projects .box{
+	padding-left:10px;
+	}
 #our-latest-projects .box > div{
 	width:222px;
 	margin-left:17px;
 	height:180px;
 	background-color:#0F3;
 }
-#our-latest-projects-box:first-child{
+#our-latest-projects-box .no-margin{
 	margin-left:0 !important;
 }
-
+#our-latest-projects-slider{
+	width:100%;
+	height:5px;
+	margin-top:45px;
+	margin-bottom:60px;
+	background-image:url(../../images/slider/slider-bg.png);
+	background-repeat:repeat-x;
+	background-position:2px;
+}
+#our-latest-projects-slider .left{
+	width:4px;
+	height:5px;
+	background-image:url(../../images/slider/slider-l.png);
+	background-repeat:no-repeat;
+}
+#our-latest-projects-slider .middle{
+	width:214px;
+	height:5px;
+	background-image:url(../../images/slider/slider-m.png);
+	background-repeat:repeat-x;
+}
+#our-latest-projects-slider .right{
+	width:4px;
+	height:5px;
+	background-image:url(../../images/slider/slider-r.png);
+	background-repeat:no-repeat;
+}
 
 /*  what-can-you-do						----------------------------------------------------*/
 #what-can-you-do{
