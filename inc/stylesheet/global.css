@@ -532,6 +532,65 @@ a:active{
 	background-repeat:repeat-x;
 	background-position:bottom;
 }
+#what-can-you-do .header{
+	padding-left:27px;
+	padding-right:42px;
+	padding-top:39px;
+	width:891px;
+	height:340px;
+	overflow:hidden;
+	margin:0 auto;
+}
+#what-can-you-do .right{
+	width:500px;
+}
+#what-can-you-do .social{
+	width:328px;
+}
+#what-can-you-do .social > div{
+	border-bottom:solid 1px black;
+	height:25px;
+	padding-bottom:8px;
+	padding-top:7px;
+}
+#what-can-you-do .social .title{
+	font-size:20px;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+#what-can-you-do .social .icon{
+	width:25px;
+	height:25px;
+}
+#what-can-you-do .social .text{
+	width:295px;
+	height:20px;
+	padding-left:8px;
+	font-family:Arial;
+	font-size:15px;
+	color:#808080;
+	padding-top:5px;
+}
+#facebook{
+	background-image:url(../../images/social/fb.png);
+	background-repeat:no-repeat;
+}
+#googleplus{
+	background-image:url(../../images/social/gp.png);
+	background-repeat:no-repeat;
+}
+#rss{
+	background-image:url(../../images/social/rss.png);
+	background-repeat:no-repeat;
+}
+#twitter{
+	background-image:url(../../images/social/tw.png);
+	background-repeat:no-repeat;
+}
+#youtube{
+	background-image:url(../../images/social/yt.png);
+	background-repeat:no-repeat;
+}
 
 /*  footer							----------------------------------------------------*/
 #footer{
