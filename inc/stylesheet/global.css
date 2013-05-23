@@ -31,9 +31,10 @@ a:active{
 
 /*  Language bar							----------------------------------------------------*/
 #language-bar{
-	height:25px;
+	height:23px;
 	width:100%;
 	background-color:#333333;
+	padding-top:2px;
 }
 #language-bar > div{
 	margin:0 auto;
@@ -85,7 +86,7 @@ a:active{
 }
 #header-call-us{
 	margin-left:0 !important;
-	padding-top:5px;
+	padding-top:8px;
 }
 .header-button-l{
 	width:8px;
@@ -95,8 +96,8 @@ a:active{
 }
 .header-button-m{
 	width:120px;
-	height:20px;
-	padding-top:6px;
+	height:21px;
+	padding-top:5px;
 	background-image:url(../../images/buttons/header-button-m.png);
 	background-repeat:repeat;
 }
@@ -118,13 +119,18 @@ a:active{
 	font-family:Arial;
 	font-size:14px;
 }
+.header-button-m  > a{
+	text-align:center;
+	width:120px;
+    display: block;
+}
 
 /*  Banner							----------------------------------------------------*/
 #banner{
 	width:100%;
 	height:460px;
 	background-color:#FFFFFF;
-	border-bottom:#F00 1px solid;
+	border-bottom:#C9030B 1px solid;
 }
 #banner > div{
 	width:100%;
@@ -162,8 +168,6 @@ a:active{
 	color:#808080;
 }
 .banner-text > a{
-	display:block;
-	width:960px;
 }
 .banner-button-l{
 	width:8px;
@@ -173,8 +177,8 @@ a:active{
 }
 .banner-button-m{
 	width:160px;
-	height:31px;
-	padding-top:6px;
+	height:30px;
+	padding-top:7px;
 	background-image:url(../../images/buttons/white-button-m.png);
 	background-repeat:repeat;
 	font-family:Arial;
@@ -198,9 +202,9 @@ a:active{
 	
 }
 .banner-nav-deactive{
-	border:#C9030B 1px solid;
-	width:16px;
-	height:16px;
+	border:#C9030B 2px solid;
+	width:12px;
+	height:12px;
 	margin:7px 5px;
 }
 .banner-nav-active{
@@ -342,10 +346,10 @@ a:active{
 .products-learn-more-m{
 	background-image:url(../../images/buttons/black-button-m.png);
 	background-repeat:repeat;
-	height:24px;
+	height:21px;
 	width:100px;
 	text-align:center;
-	padding-top:5px;
+	padding-top:8px;
 	font-family:Arial;
 	font-size:12px;
 	color:#999999;
@@ -395,12 +399,14 @@ a:active{
 	font-family:Arial;
 	font-size:15px;
 	color:#808080;
+	text-align:justify;
 }
 #who-are-our-customers .title{
 }
 #who-are-our-customers .description{
 }
 #who-are-our-customers .box{
+	background-color: #FFFFFF;
 	height:80px;
 	width:887px;
 	margin:0 auto;
