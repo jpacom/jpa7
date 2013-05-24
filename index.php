@@ -218,6 +218,10 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
             <br class="clear-both" />
     	</div>
     </div>
-    <div id="footer">&nbsp;</div>
+    <div id="footer">
+    	<div>
+			<div>&nbsp;</div>
+		</div>
+    </div>
 </body>
 </html>
