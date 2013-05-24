@@ -601,6 +601,19 @@ a:active{
 /*  footer							----------------------------------------------------*/
 #footer{
 	width:100%;
-	height:350px;
+	height:325px;
+	padding-top:25px;
 	background-color:#171514;
+	background-image:url(../../images/separators/line-sp-ovb.png);
+	background-repeat:no-repeat;
+	background-position:center 20px;
+}
+#footer > div{
+	width:960px;
+	margin:0 auto;
+}
+#footer > div > div{
+	width:780px;
+	height:277px;
+	border:#4D4D4D solid 1px;
 }
