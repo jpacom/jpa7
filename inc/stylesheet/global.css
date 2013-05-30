@@ -2,6 +2,15 @@ body{
 	margin:0;
 	padding:0;
 }
+ul{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
 .float-right{
 	float:right;
 }
@@ -17,6 +26,7 @@ body{
 .cursor-pointer{
 	cursor:pointer;
 }
+
 
 /*  a							----------------------------------------------------*/
 a{
@@ -123,6 +133,21 @@ a:active{
 	text-align:center;
 	width:120px;
     display: block;
+}
+.menu-items-font{
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+}
+.menu-items{
+	padding-right:15px;
+	margin-right:30px;
+	background-image:url(../../images/icons/drop-arrow.png);
+	background-repeat:no-repeat;
+	background-position:right 6px;
+}
+.menu-items-first{
+	margin-right:0;
 }
 
 /*  Banner							----------------------------------------------------*/
