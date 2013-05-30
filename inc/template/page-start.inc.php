@@ -6,6 +6,9 @@
 	<style type="text/css" media="screen">
 		@import "inc/stylesheet/global.css";
 	</style>
+    <script type="text/javascript" src="inc/javascript/mootools.js"></script>
+    <script type="text/javascript" src="inc/javascript/banner.class.js"></script>
+    <script type="text/javascript" src="inc/javascript/main.js"></script>
 </head>
 
 <body>
