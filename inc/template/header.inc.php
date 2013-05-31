@@ -1,5 +1,6 @@
     <div id="header">
     	<div>
+		<h1 id="title">Jahan Pardazesh Alborz</h1>
         	<div class="float-right">
             	<div>
                 	<div class="float-right">

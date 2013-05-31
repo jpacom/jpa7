@@ -76,9 +76,6 @@ a:active{
 #header > div{
 	margin:0 auto;
 	width:960px;
-	background-image:url(../../images/logo/logo.png);
-	background-repeat:no-repeat;
-	background-position:left top;
 }
 #header > div > div{
 	width:480px;
@@ -147,6 +144,18 @@ a:active{
 }
 .menu-items-first{
 	margin-right:0;
+}
+#title {
+	float: left;
+	width: 195px;
+	height: 55px;
+	margin: 15px 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: normal;
 }
 
 /*  Banner							----------------------------------------------------*/
