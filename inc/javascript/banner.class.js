@@ -1,11 +1,12 @@
 var Banner = new Class({
-    initialize: function (wrapper, interval, zIndexLow, zIndexMid, zIndexHigh, transition) {
+    initialize: function (wrapper, interval, zIndexLow, zIndexMid, zIndexHigh, transition, onChange) {
         this.wrapper    = wrapper;
         this.banners    = wrapper.getChildren();
         this.zIndexLow  = zIndexLow;
         this.zIndexMid  = zIndexMid;
         this.zIndexHigh = zIndexHigh;
         this.transition = transition;
+        this.onChange   = onChange;
         this.interval   = interval;
         this.intervalId = null;
         this.currentBanner = 0;
@@ -28,6 +29,10 @@ var Banner = new Class({
         }
         this.transition(this.banners[this.currentBanner]);
         this.currentBanner = id;
+        
+        try{
+            this.onChange(this);
+        } catch(e) {}
     },
 
     next: function () {
