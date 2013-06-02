@@ -656,7 +656,7 @@ a:active{
 #footer{
 	width:100%;
 	height:325px;
-	padding-top:25px;
+	padding-top:30px;
 	background-color:#171514;
 	background-image:url(../../images/separators/line-sp-ovb.png);
 	background-repeat:no-repeat;
@@ -669,7 +669,6 @@ a:active{
 #footer > div > div{
 	width:780px;
 	height:277px;
-	border:#4D4D4D solid 1px;
 }
 .footer-menu-items-font-title{
 	font-family:Arial;
@@ -691,10 +690,23 @@ a:active{
 }
 .footer-menu-items{
 	display:block;
-	margin:3px 9px 7px 9px;
+	margin:0 9px 7px 9px;
 	width:138px;
-	height:18px;
+	height:21px;
 }
 #footer-menu-services{
 	width: 624px;
+}
+.footer-menu-items-sub-title-border-top{
+	border-top: 2px dotted #4D4D4D;
+    margin-top: -9px;
+    padding-top: 10px;
+}
+.footer-menu-items-margin-bottom-none{
+	margin-bottom:0 !important;
+}
+.footer-menu-items-exception{
+	margin-top:1px !important;
+	height:24px;
+	line-height:11px;
 }

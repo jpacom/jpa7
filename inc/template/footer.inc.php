@@ -25,7 +25,7 @@
 					</li>
 					<li class="float-left">
 						<ul class="footer-menu">
-							<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom">Security</span>
+							<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom footer-menu-items-sub-title-border-top">Security</span>
 							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">VPN</li>
 							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">DMZ, firewall</li>
 							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">IPS, IDS</li>
@@ -36,15 +36,15 @@
 					</li>
 					<li class="float-left">
 						<ul class="footer-menu">
-							<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom">Software</span>
+							<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom footer-menu-items-sub-title-border-top">Software</span>
 							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">Automation</li>
-							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">IDSS</li>
-							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">Desktop, Mobile & integrated applications</li>
+							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom footer-menu-items-margin-bottom-none">IDSS</li>
+							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom footer-menu-items-exception">Desktop, Mobile & integrated applications</li>
 						</ul>
 					</li>
 					<li class="float-left">
 						<ul class="footer-menu">
-							<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom">Web Hosting</span>
+							<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom footer-menu-items-sub-title-border-top">Web Hosting</span>
 							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">Linux</li>
 							<li class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">Windows</li>
 						</ul>
