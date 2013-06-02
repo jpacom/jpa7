@@ -642,3 +642,30 @@ a:active{
 	height:277px;
 	border:#4D4D4D solid 1px;
 }
+.footer-menu-items-font-title{
+	font-family:Arial;
+	font-size:14px;
+	color:#C9030B;
+}
+.footer-font-bold{
+	font-weight:bold;
+}
+.footer-menu-items-font-sub-title{
+	font-family:Arial;
+	font-size:11px;
+	color:#808080;
+}
+.footer-menu-items-border-bottom{
+	border-bottom: 2px dotted #4D4D4D;
+}
+.footer-menu{
+}
+.footer-menu-items{
+	display:block;
+	margin:3px 9px 7px 9px;
+	width:138px;
+	height:18px;
+}
+#footer-menu-services{
+	width: 624px;
+}
