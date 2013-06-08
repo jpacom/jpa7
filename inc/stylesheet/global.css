@@ -2,6 +2,15 @@ body{
 	margin:0;
 	padding:0;
 }
+ul{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
 .float-right{
 	float:right;
 }
@@ -67,9 +76,6 @@ a:active{
 #header > div{
 	margin:0 auto;
 	width:960px;
-	background-image:url(../../images/logo/logo.png);
-	background-repeat:no-repeat;
-	background-position:left top;
 }
 #header > div > div{
 	width:480px;
@@ -123,6 +129,33 @@ a:active{
 	text-align:center;
 	width:120px;
     display: block;
+}
+.menu-items-font{
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+}
+.menu-items{
+	padding-right:15px;
+	margin-right:30px;
+	background-image:url(../../images/icons/drop-arrow.png);
+	background-repeat:no-repeat;
+	background-position:right 6px;
+}
+.menu-items-first{
+	margin-right:0;
+}
+#title {
+	float: left;
+	width: 195px;
+	height: 55px;
+	margin: 15px 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: normal;
 }
 
 /*  Banner							----------------------------------------------------*/
@@ -623,7 +656,7 @@ a:active{
 #footer{
 	width:100%;
 	height:325px;
-	padding-top:25px;
+	padding-top:30px;
 	background-color:#171514;
 	background-image:url(../../images/separators/line-sp-ovb.png);
 	background-repeat:no-repeat;
@@ -636,5 +669,44 @@ a:active{
 #footer > div > div{
 	width:780px;
 	height:277px;
-	border:#4D4D4D solid 1px;
+}
+.footer-menu-items-font-title{
+	font-family:Arial;
+	font-size:14px;
+	color:#C9030B;
+}
+.footer-font-bold{
+	font-weight:bold;
+}
+.footer-menu-items-font-sub-title{
+	font-family:Arial;
+	font-size:11px;
+	color:#808080;
+}
+.footer-menu-items-border-bottom{
+	border-bottom: 2px dotted #4D4D4D;
+}
+.footer-menu{
+}
+.footer-menu-items{
+	display:block;
+	margin:0 9px 7px 9px;
+	width:138px;
+	height:21px;
+}
+#footer-menu-services{
+	width: 624px;
+}
+.footer-menu-items-sub-title-border-top{
+	border-top: 2px dotted #4D4D4D;
+    margin-top: -9px;
+    padding-top: 10px;
+}
+.footer-menu-items-margin-bottom-none{
+	margin-bottom:0 !important;
+}
+.footer-menu-items-exception{
+	margin-top:1px !important;
+	height:24px;
+	line-height:11px;
 }

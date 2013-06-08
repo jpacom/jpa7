@@ -1,5 +1,6 @@
     <div id="header">
     	<div>
+		<h1 id="title">Jahan Pardazesh Alborz</h1>
         	<div class="float-right">
             	<div>
                 	<div class="float-right">
@@ -23,7 +24,15 @@
                 	<div id="header-call-us" class="float-left">Call Us: +98 21 888&nbsp;88&nbsp;88&nbsp;88</div>
                     <br class="clear-both" />
                 </div>
-                <div>satre 2 menu menu menu</div>
+                <div>
+					<ul>
+						<li class="float-right"><a href="#" class="menu-items menu-items-font menu-items-first">Contact us</a></li>
+						<li class="float-right"><a href="#" class="menu-items menu-items-font">About us</a></li>
+						<li class="float-right"><a href="#" class="menu-items menu-items-font">Portfolio</a></li>
+						<li class="float-right"><a href="#" class="menu-items menu-items-font">Services</a></li>
+						<br class="clear-both" />
+					</ul>
+				</div>
             </div>
             <br class="clear-both" />
         </div>
