@@ -136,8 +136,14 @@ a:active{
 	font-size:15px;
 }
 .menu-items{
-	padding-right:15px;
+	padding: 7px 7px 2px 7px;
 	margin-right:30px;
+	cursor:pointer;
+}
+.menu-items > span{
+	padding-right:15px;
+}
+.menu-items-bg{
 	background-image:url(../../images/icons/drop-arrow.png);
 	background-repeat:no-repeat;
 	background-position:right 6px;
@@ -145,7 +151,53 @@ a:active{
 .menu-items-first{
 	margin-right:0;
 }
-#title {
+#menu-items-services > #sub-menu-services{
+	background-image:url(../../images/background/menu-bg.png);
+	backgroung-repeat:repeat;
+    display: none;
+    height: 280px;
+    padding-top:10px;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 100%;
+    z-index: 5;
+}
+#menu-items-services:hover > #sub-menu-services{
+	display:block !important;
+}
+#menu-items-services:hover{
+	background-image:url(../../images/background/menu-bg.png);
+	backgroung-repeat:repeat;
+}
+#sub-menu-services > ul{
+	width:912px;
+	margin:0 auto;
+	height:35px;
+	background-color:#1A1A1A;
+	border: 1px solid black;
+}
+#sub-menu-services > ul > li > span{
+	color:#ffffff;
+	margin:7px 5px 7px 35px;
+}
+.sub-menu-services-sub-items{
+	position:absolute;
+	width:842px;
+	padding-left:35px;
+	padding-right:35px;
+	left:auto;
+	top:60px;
+}
+.sub-menu-services-sub-items > span{
+	width:400px;
+	display:block;
+}
+.sub-menu-services-sub-items > span > li > a{
+	font-size:12px;
+	color:#fff;
+}
+#title{
 	float: left;
 	width: 195px;
 	height: 55px;
@@ -418,6 +470,14 @@ a:active{
 	color:#999999;
 }
 #main-bottom{
+	height:77px;
+	width:100%;
+	background-image:url(../../images/separators/jag-u.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#F1F1F1;
+}
+#main-bottom > div{
 	background-color:#171514;
 	background-image:url(../../images/separators/shadow-ovb.png);
 	background-repeat:no-repeat;
@@ -430,14 +490,12 @@ a:active{
 /*  who-are-our-customers							----------------------------------------------------*/
 #who-are-our-customers{
 	width:100%;
-	height:299px;
+	height:279px;
 	background-color:#F1F1F1;
-	background-image:url(../../images/separators/jag-u.png);
-	background-repeat:repeat-x;
 }
 #who-are-our-customers > div{
 	width:933px;
-	height:250px;
+	height:230px;
 	padding-top:49px;
 	padding-left:27px;
 	margin:0 auto;
@@ -586,18 +644,15 @@ a:active{
 /*  what-can-you-do						----------------------------------------------------*/
 #what-can-you-do{
 	width:100%;
-	height:431px;
+	height:411px;
 	background-color:#F1F1F1;
-	background-image:url(../../images/separators/jag-b.png);
-	background-repeat:repeat-x;
-	background-position:bottom;
 }
 #what-can-you-do .header{
 	padding-left:27px;
 	padding-right:42px;
 	padding-top:39px;
 	width:891px;
-	height:340px;
+	height:320px;
 	overflow:hidden;
 	margin:0 auto;
 }
@@ -653,10 +708,19 @@ a:active{
 }
 
 /*  footer							----------------------------------------------------*/
+#footer-wrapper{
+	background-image:url(../../images/separators/jag-b.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color:#F1F1F1;
+	width:100%;
+	height:345px;
+	padding-top:20px;
+}
 #footer{
 	width:100%;
-	height:325px;
-	padding-top:30px;
+	height:315px;
+	padding-top:10px;
 	background-color:#171514;
 	background-image:url(../../images/separators/line-sp-ovb.png);
 	background-repeat:no-repeat;

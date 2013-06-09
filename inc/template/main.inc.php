@@ -50,4 +50,6 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
             </div>
         </div>
     </div>
-    <div id="main-bottom">&nbsp;</div>
+    <div  id="main-bottom">
+    	<div>&nbsp;</div>
+	</div>
