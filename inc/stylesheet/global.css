@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding:0;
+	background-color:#F8F8F8;
 }
 ul{
 	padding:0;
@@ -714,13 +715,13 @@ a:active{
 	background-position:top;
 	background-color:#F1F1F1;
 	width:100%;
-	height:345px;
+	height:325px;
 	padding-top:20px;
 }
 #footer{
 	width:100%;
-	height:315px;
-	padding-top:10px;
+	height:295px;
+	padding-top:30px;
 	background-color:#171514;
 	background-image:url(../../images/separators/line-sp-ovb.png);
 	background-repeat:no-repeat;
@@ -773,4 +774,119 @@ a:active{
 	margin-top:1px !important;
 	height:24px;
 	line-height:11px;
+}
+
+/*  pages							----------------------------------------------------*/
+.pages-navigation-bar{
+	height:29px;
+	width:100%;
+	padding-top:10px;
+	margin-bottom:10px;
+	background-color:#171514;
+}
+.pages-navigation-bar > div{
+	color:#808080;
+	font-size:12px;
+	font-family:Arial;
+	width:960px;
+	margin:0 auto;
+}
+#pages-main{
+	width:100%;
+	background-image:url("../../images/separators/line-sp-ovw.png");
+	background-position: center bottom;
+	background-repeat:no-repeat;
+}
+#pages-main > div{
+	width:960px;
+	margin:0 auto;
+}
+#pages-main > .banner{
+	height:300px;
+	background-color:gray;
+	margin-bottom:50px;
+}
+#pages-main > .main-text{
+	padding-bottom:27px;
+}
+
+/*  about us							----------------------------------------------------*/
+#about-us-our-latest-projects{
+	width:100%;
+	margin:30px 0;
+	background-image:url("../../images/separators/shadow-ovw.png");
+	background-position: center bottom;
+	background-repeat:no-repeat;
+	padding-bottom: 50px;
+}
+#about-us-our-latest-projects > div{
+	width:960px;
+	margin:0 auto;
+}
+#about-us-our-latest-projects > div > div{
+	height:200px;
+	overflow:hidden;
+	width:400px;
+}
+#about-us-our-latest-projects .title{
+	font-size:28px;
+}
+#about-us-bottom{
+	padding-bottom:50px;
+}
+#about-us-bottom > div{
+	width:960px;
+	margin:0 auto;
+}
+#about-us-bottom > div > div{
+	width:240px;
+	height:300px;
+	margin:0 auto;
+}
+#about-us-bottom .center{
+	padding:0 120px;
+}
+#about-us-bottom .black-title{
+	font-family:Arial;
+	font-size:16px;
+	margin-bottom:15px;
+}
+
+/*  contact us							----------------------------------------------------*/
+#contact-us .banner{
+	background-image:url("../../images/map/map.png");
+	background-position: center bottom;
+	background-repeat:no-repeat;
+}
+.contact{
+	background-image:url("../../images/separators/shadow-ovw.png");
+	background-position: center bottom;
+	background-repeat:no-repeat;
+	padding-bottom:50px;
+}
+.contact > div{
+	width:960px;
+	margin:27px auto 0 auto;
+	padding-bottom:70px;
+}
+.address-box{
+	width:140px;
+	height:240px;
+	padding:30px;
+	border:1px solid #B3B3B3;
+	background-color:#E6E6E6;
+}
+.contact-box{
+	width:630px;
+	height:349px;
+	border:1px solid #B3B3B3;
+	padding:20px 43px 14px 27px;
+}
+.address-box .title{
+	font-size: 19px;
+	padding-bottom:0;
+}
+.address-box .description{
+	font-size: 12px;
+	padding:0;
 }

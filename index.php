@@ -4,7 +4,7 @@
     $url = $url[0];
     $inc = $_SERVER['DOCUMENT_ROOT'] . '/inc/';
     
-    $staticPages = array('/asdf', '/qwer', '/about');
+    $staticPages = array('/asdf', '/qwer', '/about', '/contact');
     
     ob_start();
 
