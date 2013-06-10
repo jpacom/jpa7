@@ -26,7 +26,7 @@
                     </div>
                 </li>
             </ul>
-	    <div id="banner-navigation">
+	        <div id="banner-navigation">
             	<div>
                     <div class="float-left banner-nav-active">&nbsp;</div>
                     <div class="float-left banner-nav-deactive">&nbsp;</div>
