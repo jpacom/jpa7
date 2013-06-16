@@ -178,17 +178,24 @@ a:active{
 	background-color:#1A1A1A;
 	border: 1px solid black;
 }
-#sub-menu-services > ul > li > span{
+#sub-menu-services > ul > li {
 	color:#ffffff;
 	margin:7px 5px 7px 35px;
+}
+#sub-menu-services > ul > li > ul {
+    display: none;
+}
+#sub-menu-services > ul > li:hover > ul {
+    display: block;
 }
 .sub-menu-services-sub-items{
 	position:absolute;
 	width:842px;
 	padding-left:35px;
 	padding-right:35px;
+    padding-top: 25px;
 	left:auto;
-	top:60px;
+	top:35px;
 }
 .sub-menu-services-sub-items > span{
 	width:400px;
