@@ -1,8 +1,8 @@
 
 	<div id="language-bar">
     	<div>
-        	<a href="#" class="language-bar-active">ENGLISH</a>
+        	<a href="http://en.jpa7.com<?php echo $url; ?>" class="language-bar-active">ENGLISH</a>
             <span class="language-bar-deactive">|</span>
-        	<a href="#" class="language-bar-deactive">PERSIAN</a>
+        	<a href="http://fa.jpa7.com<?php echo $url; ?>" class="language-bar-deactive">PERSIAN</a>
         </div>
     </div>
