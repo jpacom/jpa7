@@ -3,9 +3,19 @@
     $url = explode('?', $_SERVER['REQUEST_URI']);
     $url = $url[0];
     $inc = $_SERVER['DOCUMENT_ROOT'] . '/inc/';
-    
-    $staticPages = array('/asdf', '/qwer', '/about', '/contact');
-    
+	$servername = explode('.', $_SERVER['SERVER_NAME']);
+	$lc = ($servername[0] == 'jpa7') ? False : $servername[0];
+	
+	if ($lc === False)
+	{
+		$lc = 'fa';
+		$newURL = Array('http://', $lc, '.', $_SERVER['SERVER_NAME'], $url);
+		$newURL = join('', $newURL);
+		header('Location: ' . $newURL);
+		die("You're being redirected here: " . $newURL);
+	}
+	
+    $staticPages = array('/asdf', '/qwer', '/about', '/contact');    
     ob_start();
 
     // Page start
