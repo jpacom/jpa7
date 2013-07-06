@@ -670,7 +670,8 @@ a:active{
 #what-can-you-do .social{
 	width:328px;
 }
-#what-can-you-do .social > div{
+#what-can-you-do .social > a{
+	display: block;
 	border-bottom:solid 1px black;
 	height:25px;
 	padding-bottom:8px;
@@ -682,10 +683,12 @@ a:active{
 	padding-top:20px;
 }
 #what-can-you-do .social .icon{
+	display: block;
 	width:25px;
 	height:25px;
 }
 #what-can-you-do .social .text{
+	display: block;
 	width:295px;
 	height:20px;
 	padding-left:8px;

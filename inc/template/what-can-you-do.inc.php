@@ -10,31 +10,31 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
     		</div>
     		<div class="social float-right">
 				<div class="title">Follow us around the web</div>
-				<div>
-					<div id="facebook" class="float-left icon">&nbsp;</div>
-					<div class="float-left text">exercitation ullamco laboris nisi</div>
+				<a href="https://facebook.com/JahanPardazeshAlborz" target="_blank">
+					<span id="facebook" class="float-left icon">&nbsp;</span>
+					<span class="float-left text">Join us on facebook</span>
 	            	<br class="clear-both" />
-				</div>
-				<div>
-					<div id="twitter" class="float-left icon">&nbsp;</div>
-					<div class="float-left text">exercitation ullamco laboris nisi</div>
+				</a>
+				<a href="http://twitter.com/JPAInc" target="_blank">
+					<span id="twitter" class="float-left icon">&nbsp;</span>
+					<span class="float-left text">Follow us on Twitter</span>
 	            	<br class="clear-both" />
-				</div>
-				<div>
-					<div id="googleplus" class="float-left icon">&nbsp;</div>
-					<div class="float-left text">exercitation ullamco laboris nisi</div>
+				</a>
+				<a href="http://www.linkedin.com/company/jahan-pardazesh-alborz-inc-" target="_blank">
+					<span id="googleplus" class="float-left icon">&nbsp;</span>
+					<span class="float-left text">Find us on LinkedIn</span>
 	            	<br class="clear-both" />
-				</div>
-				<div>
-					<div id="youtube" class="float-left icon">&nbsp;</div>
-					<div class="float-left text">exercitation ullamco laboris nisi</div>
+				</a>
+				<a href="#" target="_blank">
+					<span id="youtube" class="float-left icon">&nbsp;</span>
+					<span class="float-left text">exercitation ullamco laboris nisi</span>
 	            	<br class="clear-both" />
-				</div>
-				<div>
-					<div id="rss" class="float-left icon">&nbsp;</div>
-					<div class="float-left text">exercitation ullamco laboris nisi</div>
+				</a>
+				<a href="#" target="_blank">
+					<span id="rss" class="float-left icon">&nbsp;</span>
+					<span class="float-left text">exercitation ullamco laboris nisi</span>
 	            	<br class="clear-both" />
-				</div>
+				</a>
 			</div>
             <br class="clear-both" />
     	</div>
