@@ -5,6 +5,13 @@
 <title>Jahan Pardazesh Alborz</title>
 	<style type="text/css" media="screen">
 		@import "inc/stylesheet/global.css";
+		<?php
+		if($lc == 'fa')
+		{
+			echo '@import "inc/stylesheet/persian.css";';
+		}
+		?>
+		
 	</style>
     <script type="text/javascript" src="inc/javascript/mootools.js"></script>
     <script type="text/javascript" src="inc/javascript/banner.class.js"></script>
