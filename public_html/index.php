@@ -1,5 +1,7 @@
 <?php
 
+	$basedomain = 'jpa7.local';
+
     $url = explode('?', $_SERVER['REQUEST_URI']);
     $url = $url[0];
     $inc = $_SERVER['DOCUMENT_ROOT'] . '/inc/';

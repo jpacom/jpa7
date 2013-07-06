@@ -4,11 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Jahan Pardazesh Alborz</title>
 	<style type="text/css" media="screen">
-		@import "inc/stylesheet/global.css";
+		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/global.css";
 		<?php
 		if($lc == 'fa')
 		{
-			echo '@import "inc/stylesheet/persian.css";';
+			echo '@import "http://images." . $basedomain . "/stylesheet/persian.css";';
 		}
 		?>
 		
