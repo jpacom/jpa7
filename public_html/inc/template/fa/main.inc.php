@@ -4,8 +4,8 @@
             	<div class="main-text-title">Duis aute irure dolor in reprehenderit in voluptate velit</div>
             	<div class="main-text-description display-inline">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                <div class="main-show-more-button display-inline">Show More</div>
-                <div class="main-point">
+                <div class="main-show-more-button display-inline" style="display: none">Show More</div>
+                <div class="main-point" style="display: none">
                 	<div class="float-right learn-more-point">&nbsp;</div>
                 	<div class="float-right learn-more-point">&nbsp;</div>
                 	<div class="float-right learn-more-point learn-more-point-end">&nbsp;</div>

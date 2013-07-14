@@ -115,7 +115,7 @@ a:active{
 	background-repeat:no-repeat;
 }
 .header-button-m > div{
-	background-image:url(/icons/drop-arrow.png);
+	background-image:url(/icon/drop-arrow.png);
 	background-repeat:no-repeat;
 	background-position:right 6px;
 	width:100%;
@@ -145,7 +145,7 @@ a:active{
 	padding-right:15px;
 }
 .menu-items-bg{
-	background-image:url(/icons/drop-arrow.png);
+	background-image:url(/icon/drop-arrow.png);
 	background-repeat:no-repeat;
 	background-position:right 6px;
 }
@@ -154,6 +154,7 @@ a:active{
 }
 #menu-items-services > #sub-menu-services{
 	background-image:url(/background/menu-bg.png);
+	opacity: 0.9;
 	backgroung-repeat:repeat;
     display: none;
     height: 280px;
@@ -172,29 +173,39 @@ a:active{
 	backgroung-repeat:repeat;
 }
 #sub-menu-services > ul{
-	width:912px;
+	width:914px;
 	margin:0 auto;
-	height:35px;
+	height:38px;
 	background-color:#1A1A1A;
-	border: 1px solid black;
+	border-radius: 5px;
+	position: relative;
 }
 #sub-menu-services > ul > li {
 	color:#ffffff;
-	margin:7px 5px 7px 35px;
+	padding:7px 5px 7px 35px;
 }
 #sub-menu-services > ul > li > ul {
     display: none;
+    height: 230px;
 }
 #sub-menu-services > ul > li:hover > ul {
     display: block;
 }
+#sub-menu-services > ul > li:hover > span > span {
+	background-color: #F8F8F8;
+	color: #000;
+}
+#sub-menu-services > ul > li > span > span {
+	padding: 5px 10px;
+	border-radius: 5px;
+}
 .sub-menu-services-sub-items{
 	position:absolute;
-	width:842px;
+	width:844px;
 	padding-left:35px;
 	padding-right:35px;
     padding-top: 25px;
-	left:auto;
+	left:0;
 	top:35px;
 }
 .sub-menu-services-sub-items > span{
@@ -369,7 +380,7 @@ a:active{
 	text-decoration:underline;
 	padding-right:17px;
 	color:#C9030B;
-	background-image:url(/icons/readmore.png);
+	background-image:url(/icon/readmore.png);
 	background-repeat:no-repeat;
 	background-position:right;
 	margin-left:20px;
@@ -379,7 +390,7 @@ a:active{
 	margin:10px auto 0 auto;
 }
 .learn-more-point{
-	background-image:url(/icons/read-more.png);
+	background-image:url(/icon/read-more.png);
 	background-repeat:no-repeat;
 	width:8px;
 	height:8px;
@@ -436,13 +447,13 @@ a:active{
 	color:#E5E5E5;
 }
 .products-network > .products-description{
-	background-image:url(/icons/network.png);
+	background-image:url(/icon/network.png);
 }
 .products-programing > .products-description{
-	background-image:url(/icons/programing.png);
+	background-image:url(/icon/programing.png);
 }
 .products-hosting > .products-description{
-	background-image:url(/icons/hosting.png);
+	background-image:url(/icon/hosting.png);
 }
 .products-learn-more{
 	padding-left:155px;
@@ -899,4 +910,13 @@ a:active{
 .address-box .description{
 	font-size: 12px;
 	padding:0;
+}
+.products-description {
+	background-position: left;
+}
+#sub-menu-services > ul > li > span {
+	padding-left: 10px;
+}
+#sub-menu-services > ul > li:first-child > span {
+	padding-left: 0;
 }

@@ -8,7 +8,7 @@
 		<?php
 		if($lc == 'fa')
 		{
-			echo '@import "http://images." . $basedomain . "/stylesheet/persian.css";';
+			echo '@import "http://images.' . $basedomain . '/stylesheet/persian.css";';
 		}
 		?>
 		

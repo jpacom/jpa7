@@ -1,0 +1,162 @@
+body {
+	direction: rtl;
+}
+.float-right{
+	float:left;
+}
+.float-left{
+	float:right;
+}
+#language-bar > div{
+	text-align: left;
+}
+#header > div > div > div > div{
+	margin-left: 0;
+	margin-right: 10px;
+	font-size: 14px;
+}
+#header > div > div {
+	width: 530px;
+}
+#header-call-us{
+	margin-right: 0 !important;
+}
+.menu-items{
+	margin-right: 0;
+	margin-left: 30px;
+}
+.menu-items > span{
+	padding-right: 0;
+	padding-left: 15px;
+}
+.menu-items-bg{
+	background-position: left 6px;
+}
+.menu-items-first{
+	margin-right:left;
+}
+#menu-items-services > #sub-menu-services{
+    left: auto;
+    right: 0;
+}
+#sub-menu-services > ul > li {
+	padding:7px 35px 7px 5px;
+}
+#title{
+	float: right;
+	font-size: 36px;
+	height: 31px;
+	margin: 27px 0;
+	width: 233px;
+}
+.banner-text{
+	text-align: right;
+}
+.banner-button{
+	text-align: right;
+}
+#banner-navigation > div{
+	text-align: right;
+}
+.main-show-more-button{
+	padding-right: 0;
+	padding-left: 17px;
+	margin-left: 0;
+	margin-right: 20px;
+}
+.learn-more-point{
+	margin-left: 0;
+	margin-right: 10px;
+}
+.learn-more-point-end{
+	margin-right:0 !important;
+}
+.products-network{
+	background-position: left;
+}
+.products-programing{
+	padding-left: 0;
+	padding-right: 5px;
+}
+.products-hosting{
+	padding-left: 0;
+	padding-right: 5px;
+}
+.products-description{
+	margin-right: 0;
+	margin-left: 20px;
+	padding-left: 0;
+	padding-right: 120px;
+}
+.products-learn-more{
+	padding-left: 0;
+	padding-right: 155px;
+}
+#who-are-our-customers > div{
+	padding-left: 0;
+	padding-right: 27px;
+}
+#our-latest-projects .title{
+	padding-left: 0;
+	padding-right: 27px;
+}
+#our-latest-projects .menu > div{
+	padding-right: 0;
+	padding-left: 10px;
+}
+#our-latest-projects .box{
+	padding-left: 0;
+	padding-right: 10px;
+}
+#our-latest-projects .box > div{
+	margin-left: 0;
+	margin-right: 17px;
+}
+#our-latest-projects-box .no-margin{
+	margin-right:0 !important;
+}
+#what-can-you-do .header{
+	padding-left: 42px;
+	padding-right: 27px;
+}
+#what-can-you-do .social .text{
+	padding-left: 0;
+	padding-right: 8px;
+}
+.contact-box{
+	padding:20px 27px 14px 43px;
+}
+.header-button-l{
+	background-image:url(/buttons/header-button-r.png);
+}
+.header-button-r{
+	background-image:url(/buttons/header-button-l.png);
+}
+.banner-button-l{
+	background-image:url(/buttons/white-button-r.png);
+}
+.banner-button-r{
+	background-image:url(/buttons/white-button-l.png);
+}
+.products-learn-more-l{
+	background-image:url(/buttons/black-button-r.png);
+}
+.products-learn-more-r{
+	background-image:url(/buttons/black-button-l.png);
+}
+.products-description {
+	background-position: right;
+}
+.header-button-m > div {
+	background-position: left 6px;
+}
+#what-our-customers-say-about-us .title {
+	text-align: left;
+}
+#sub-menu-services > ul > li > span {
+	padding-left: 0;
+	padding-right: 38px;
+}
+#sub-menu-services > ul > li:first-child > span {
+	padding-right: 0;
+}

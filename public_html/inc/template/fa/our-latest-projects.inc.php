@@ -1,6 +1,6 @@
     <div id="our-latest-projects">
     	<div class="header">
-    		<div class="title float-left">Our latest project</div>
+    		<div class="title float-left">آخرین پروژه های ما</div>
             <div class="menu float-right">
             	<div class="float-left active">Network</div>
             	<div class="float-left deactive">Programing</div>

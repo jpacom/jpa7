@@ -40,7 +40,7 @@
 							<span id="sub-menu-services">
 								<ul>
 									<li class="float-left">
-										<span>Network Management</span>
+										<span><span>Network Management</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
 												<li><a href="#">Network Servers(DNS, DHPCP, FTP, Mail server, Web server, ...)</a></li>
@@ -57,8 +57,8 @@
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Security</span>
+									<li class="float-left">
+										<span><span>Security</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
 												<li><a href="#">IPSec and SSL Virtual Private Network (VPN)</a></li>
@@ -76,11 +76,11 @@
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Wireless</span>
+									<li class="float-left">
+										<span><span>Wireless</span></span>
 									</li>
-									<li>
-										<span class="float-left">Software</span>
+									<li class="float-left">
+										<span><span>Software</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
 												<li><a href="#">Automation</a></li>
@@ -90,8 +90,8 @@
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Web Hosting</span>
+									<li class="float-left">
+										<span><span>Web Hosting</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
 												<li><a href="#">Linux</a></li>
@@ -100,8 +100,8 @@
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Web Design</span>
+									<li class="float-left">
+										<span><span>Web Design</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
 												<li><a href="#">Professinal Web Design</a></li>

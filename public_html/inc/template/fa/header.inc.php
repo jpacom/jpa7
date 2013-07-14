@@ -1,13 +1,13 @@
     <div id="header">
     	<div>
-		<h1 id="title">Jahan Pardazesh Alborz</h1>
+		<h1 id="title">جهان پردازش البرز</h1>
         	<div class="float-right">
             	<div>
                 	<div class="float-right">
                     	<div class="header-button-l float-left cursor-pointer">&nbsp;</div>
                     	<div class="header-button-m float-left cursor-pointer">
                         	<div>
-                        		<a href="#">Customer Login</a>
+                        		<a href="#">ورود مشتریان</a>
                         	</div>
                         </div>
                     	<div class="header-button-r float-left cursor-pointer">&nbsp;</div>
@@ -16,96 +16,96 @@
                 	<div class="float-right">
                     	<div class="header-button-l float-left cursor-pointer">&nbsp;</div>
                     	<div class="header-button-m float-left cursor-pointer">
-                        	<a href="#">Order a katalog</a>
+                        	<a href="#">سفارش کاتالوگ</a>
                         </div>
                     	<div class="header-button-r float-left cursor-pointer">&nbsp;</div>
                     	<br class="clear-both" />
                     </div>
-                	<div id="header-call-us" class="float-left">Call Us: +98 21 888&nbsp;88&nbsp;88&nbsp;88</div>
+                	<div id="header-call-us" class="float-left">با ما تماس بگیرید:<span style="direction: ltr; display: block; float: left; margin-right: 5px;">۰۲۶ ۳۲۷۱ ۹۱ ۰۲ - ۳</span><br class="clear-both" /></div>
                     <br class="clear-both" />
                 </div>
                 <div>
 					<ul>
 						<li class="menu-items menu-items-first float-right">
-							<a href="#" class="menu-items-font">Contact us</a>
+							<a href="#" class="menu-items-font">تماس با ما</a>
 						</li>
 						<li class="menu-items float-right">
-							<a href="#" class="menu-items-font">About us</a>
+							<a href="#" class="menu-items-font">درباره ما</a>
 						</li>
 						<li class="menu-items float-right">
-							<a href="#" class="menu-items-font">Portfolio</a>
+							<a href="#" class="menu-items-font">نمونه کارها</a>
 						</li>
 						<li id="menu-items-services" class="menu-items float-right">
-							<span class="menu-items-font menu-items-bg">Services</span>
+							<span class="menu-items-font menu-items-bg">خدمات</span>
 							<span id="sub-menu-services">
 								<ul>
 									<li class="float-left">
-										<span>Network Management</span>
+										<span><span>مدیریت شبکه</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
-												<li><a href="#">Network Servers(DNS, DHPCP, FTP, Mail server, Web server, ...)</a></li>
-												<li><a href="#">Server OS(Linux, Windows)</a></li>
-												<li><a href="#">Applying Network Security Policies</a></li>
-												<li><a href="#">Network Monitoring and Management</a></li>
+												<li><a href="#">سرور های شبکه (DNS, DHPCP, FTP, Mail Server, Web Server, ...)</a></li>
+												<li><a href="#">سیستم عامل سرور (ویندوز٬ لینوکس)</a></li>
+												<li><a href="#">پیاده سازی سیاست ها امنیتی شبکه</a></li>
+												<li><a href="#">مانوتورینگ و مدیریت شبکه</a></li>
 											</span>
 											<span class="float-right">
-												<li><a href="#">Clustering</a></li>
-												<li><a href="#">Internet Sharing</a></li>
-												<li><a href="#">Virtualization</a></li>
-												<li><a href="#">Voice Over Internet Protocol (VoIP)</a></li>
+												<li><a href="#">خوشه بندی</a></li>
+												<li><a href="#">اشتراک گذاری اینترنت</a></li>
+												<li><a href="#">مجازی سازی</a></li>
+												<li><a href="#">انتقال صدا بر بستر اینترنت (VoIP)</a></li>
 											</span>
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Security</span>
+									<li class="float-left">
+										<span><span>امنیت</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
-												<li><a href="#">IPSec and SSL Virtual Private Network (VPN)</a></li>
-												<li><a href="#">Demilitrized Zone (DMZ), Firewall</a></li>
-												<li><a href="#">Insertion Detection and Prevention System (IPS, IDS)</a></li>
-												<li><a href="#">Autherization, Authentication, Acconting (AAA)</a></li>
-												<li><a href="#">Admin Auditing</a></li>
+												<li><a href="#">شبکه مجازی امن IPSEC VPN و SSL VPN</a></li>
+												<li><a href="#">راه حلهای فایروال و ایجاد DMZ و کنترل دسترسی در لایه های مختلف شبکه</a></li>
+												<li><a href="#">تشخیص و جلوگیری از نفوذ (IPS &amp; IDS)</a></li>
+												<li><a href="#">احراز هویت  Authentication, Authorization, Accounting(AAA)</a></li>
+												<li><a href="#">ممیزی مدیران شبکه (Admin Auditing)</a></li>
 											</span>
 											<span class="float-right">
-												<li><a href="#">Security Monitoring and Management</a></li>
-												<li><a href="#">DDOS Attack Protection</a></li>
-												<li><a href="#">Content Security</a></li>
-												<li><a href="#">Infrastructure Service Security</a></li>
+												<li><a href="#">مانیتورینگ و مدیریت امنیت</a></li>
+												<li><a href="#">محافظت در برابر حملات DDOS</a></li>
+												<li><a href="#">امنیت محتوا</a></li>
+												<li><a href="#">امنیت سرویسهای زیرساخت شبکه</a></li>
 											</span>
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Wireless</span>
+									<li class="float-left">
+										<span><span>شبکه بی سیم</span></span>
 									</li>
-									<li>
-										<span class="float-left">Software</span>
+									<li class="float-left">
+										<span><span>نرم افزار</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
-												<li><a href="#">Automation</a></li>
-												<li><a href="#">Intelligent Decision Dddddd System</a></li>
-												<li><a href="#">Desktop, Mobile, and Integrated Application</a></li>
+												<li><a href="#">اتوماسیون</a></li>
+												<li><a href="#">سیستم هوشمند تصمیم یار</a></li>
+												<li><a href="#">نرم اقراز های کامپیوتر٬ موبایل و یکپارچه</a></li>
 											</span>
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Web Hosting</span>
+									<li class="float-left">
+										<span><span>میزبانی وب</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
-												<li><a href="#">Linux</a></li>
-												<li><a href="#">Windows</a></li>
+												<li><a href="#">لینوکس</a></li>
+												<li><a href="#">ویندوز</a></li>
 											</span>
 											<br class="clear-both" />
 										</ul>
 									</li>
-									<li>
-										<span class="float-left">Web Design</span>
+									<li class="float-left">
+										<span><span>طراحی وب</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
-												<li><a href="#">Professinal Web Design</a></li>
-												<li><a href="#">Search Engine Optimization (SEO)</a></li>
+												<li><a href="#">طراحی حرفه ای وب</a></li>
+												<li><a href="#">بهینه سازی موتور های جستجو (SEO)</a></li>
 											</span>
 											<br class="clear-both" />
 										</ul>
