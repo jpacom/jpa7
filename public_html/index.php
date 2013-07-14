@@ -6,12 +6,16 @@
     $url = $url[0];
     $inc = $_SERVER['DOCUMENT_ROOT'] . '/inc/';
 	$servername = explode('.', $_SERVER['SERVER_NAME']);
+	if ($servername[0] == 'www')
+	{
+		array_shift($servername);
+	}
 	$lc = ($servername[0] == 'jpa7') ? False : $servername[0];
 	
 	if ($lc === False)
 	{
 		$lc = 'fa';
-		$newURL = Array('http://', $lc, '.', $_SERVER['SERVER_NAME'], $url);
+		$newURL = Array('http://', $lc, '.', implode('.', $servername), $url);
 		$newURL = join('', $newURL);
 		header('Location: ' . $newURL);
 		die("You're being redirected here: " . $newURL);
