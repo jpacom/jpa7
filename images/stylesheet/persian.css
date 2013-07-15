@@ -1,5 +1,6 @@
 body {
 	direction: rtl;
+	font-family: BMitra;
 }
 .float-right{
 	float:left;
@@ -11,9 +12,10 @@ body {
 	text-align: left;
 }
 #header > div > div > div > div{
+	font-family: BMitra;
 	margin-left: 0;
 	margin-right: 10px;
-	font-size: 14px;
+	font-size: 16px;
 }
 #header > div > div {
 	width: 530px;
@@ -44,9 +46,10 @@ body {
 }
 #title{
 	float: right;
-	font-size: 36px;
+	font-family: BHoma;
+	font-size: 32px;
 	height: 31px;
-	margin: 27px 0;
+	margin: 31px 0;
 	width: 233px;
 }
 .banner-text{
@@ -149,6 +152,8 @@ body {
 }
 .header-button-m > div {
 	background-position: left 6px;
+	padding-top: 0;
+	height: 25px;
 }
 #what-our-customers-say-about-us .title {
 	text-align: left;
@@ -159,4 +164,49 @@ body {
 }
 #sub-menu-services > ul > li:first-child > span {
 	padding-right: 0;
+}
+.menu-items > span, .menu-items > a {
+	font-family: BMitra;
+	font-size: 17px;
+}
+.header-button-m a {
+	font-family: BMitra;
+	font-size: 16px;
+	display: block;
+	width: 120px;
+	text-align: center;
+}
+.title {
+	font-family: BMitra;
+	font-size: 41px;
+}
+.description {
+	font-family: BMitra;
+	font-size: 17px;
+}
+#what-can-you-do .social .text {
+	font-family: BMitra;
+	font-size: 17px;
+	padding-top: 1px;
+}
+.footer-menu-items-font-title {
+	font-family: BMitra;
+	font-size: 16px;
+}
+.footer-menu-items-font-sub-title {
+	font-family: BMitra;
+	font-size: 13px;
+}
+#what-can-you-do .social .title {
+	font-size: 24px;
+}
+.sub-menu-services-sub-items > span > li > a {
+	font-size: 14px;
+}
+.header-button-m {
+	padding-top: 1px;
+	height: 25px;
+}
+.smallerLatin {
+	font-size: 0.8em;
 }

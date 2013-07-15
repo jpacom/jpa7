@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Jahan Pardazesh Alborz</title>
 	<style type="text/css" media="screen">
+		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/fontfaces.css";
 		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/global.css";
 		<?php
 		if($lc == 'fa')

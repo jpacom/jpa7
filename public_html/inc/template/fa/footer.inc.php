@@ -21,7 +21,7 @@
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">خوشه بندی</a></li>
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">اشتراک گذاری اینترنت</a></li>
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">مجازی سازی</a></li>
-								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">VOIP (انتقال صدا بر بستر شبکه)</a></li>
+								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom"><span class="smallerLatin">VOIP</span> (انتقال صدا بر بستر شبکه)</a></li>
 							</ul>
 						</li>
 						<li class="float-left">
@@ -32,7 +32,7 @@
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">تشخیص و جلوگیری از نفوذ</a></li>
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">کنترل مدیران شبکه</a></li>
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">مانیتورینگ و مدیریت</a></li>
-								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">محافظت در برابر حملات DDOS</a></li>
+								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">محافظت در برابر حملات <span class="smallerLatin">DDOS</span></a></li>
 							</ul>
 						</li>
 						<li class="float-left">
@@ -54,7 +54,7 @@
 							<ul class="footer-menu">
 								<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom">طراحی وب</span>
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">طراحی وب</a></li>
-								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom footer-menu-items-exception">بهینه سازی موتور های جستجو (SEO)</a></li>
+								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom footer-menu-items-exception">بهینه سازی موتور های جستجو <span class="smallerLatin">(SEO)</span></a></li>
 							</ul>
 						</li>
 						<li class="float-left">

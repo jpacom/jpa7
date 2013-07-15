@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'BBadr';
+  src: url('/fonts/getfont.php?name=BBadr&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BBadr&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BBadr&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BBaran';
+  src: url('/fonts/getfont.php?name=BBaran&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BBaran&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BBaran&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BBardiya';
+  src: url('/fonts/getfont.php?name=BBardiya&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BBardiya&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BBardiya&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BCompset';
+  src: url('/fonts/getfont.php?name=BCompset&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BCompset&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BCompset&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BDavat';
+  src: url('/fonts/getfont.php?name=BDavat&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BDavat&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BDavat&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BElham';
+  src: url('/fonts/getfont.php?name=BElham&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BElham&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BElham&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BEsfehanBold';
+  src: url('/fonts/getfont.php?name=BEsfehanBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BEsfehanBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BEsfehanBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BFantezy';
+  src: url('/fonts/getfont.php?name=BFantezy&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BFantezy&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BFantezy&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BFarnaz';
+  src: url('/fonts/getfont.php?name=BFarnaz&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BFarnaz&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BFarnaz&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BFerdosi';
+  src: url('/fonts/getfont.php?name=BFerdosi&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BFerdosi&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BFerdosi&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BHamid';
+  src: url('/fonts/getfont.php?name=BHamid&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BHamid&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BHamid&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BHelal';
+  src: url('/fonts/getfont.php?name=BHelal&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BHelal&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BHelal&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BHoma';
+  src: url('/fonts/getfont.php?name=BHoma&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BHoma&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BHoma&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BJadidBold';
+  src: url('/fonts/getfont.php?name=BJadidBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BJadidBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BJadidBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BJalal';
+  src: url('/fonts/getfont.php?name=BJalal&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BJalal&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BJalal&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BKoodakBold';
+  src: url('/fonts/getfont.php?name=BKoodakBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BKoodakBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BKoodakBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BKourosh';
+  src: url('/fonts/getfont.php?name=BKourosh&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BKourosh&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BKourosh&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BLotus';
+  src: url('/fonts/getfont.php?name=BLotus&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BLotus&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BLotus&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BMahsa';
+  src: url('/fonts/getfont.php?name=BMahsa&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BMahsa&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BMahsa&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BMehrBold';
+  src: url('/fonts/getfont.php?name=BMehrBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BMehrBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BMehrBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BMitra';
+  src: url('/fonts/getfont.php?name=BMitra&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BMitra&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BMitra&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BMorvarid';
+  src: url('/fonts/getfont.php?name=BMorvarid&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BMorvarid&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BMorvarid&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BNarm';
+  src: url('/fonts/getfont.php?name=BNarm&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BNarm&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BNarm&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BNasimBold';
+  src: url('/fonts/getfont.php?name=BNasimBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BNasimBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BNasimBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BNazanin';
+  src: url('/fonts/getfont.php?name=BNazanin&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BNazanin&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BNazanin&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BRoya';
+  src: url('/fonts/getfont.php?name=BRoya&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BRoya&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BRoya&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BSetarehBold';
+  src: url('/fonts/getfont.php?name=BSetarehBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BSetarehBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BSetarehBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BShiraz';
+  src: url('/fonts/getfont.php?name=BShiraz&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BShiraz&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BShiraz&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BSinaBold';
+  src: url('/fonts/getfont.php?name=BSinaBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BSinaBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BSinaBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BTabassom';
+  src: url('/fonts/getfont.php?name=BTabassom&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BTabassom&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BTabassom&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BTehran';
+  src: url('/fonts/getfont.php?name=BTehran&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BTehran&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BTehran&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BTitrBold';
+  src: url('/fonts/getfont.php?name=BTitrBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BTitrBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BTitrBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BTitrTGEBold';
+  src: url('/fonts/getfont.php?name=BTitrTGEBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BTitrTGEBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BTitrTGEBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BTraffic';
+  src: url('/fonts/getfont.php?name=BTraffic&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BTraffic&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BTraffic&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BVahidBold';
+  src: url('/fonts/getfont.php?name=BVahidBold&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BVahidBold&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BVahidBold&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BYagut';
+  src: url('/fonts/getfont.php?name=BYagut&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BYagut&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BYagut&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BYas';
+  src: url('/fonts/getfont.php?name=BYas&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BYas&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BYas&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BYekan';
+  src: url('/fonts/getfont.php?name=BYekan&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BYekan&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BYekan&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BZar';
+  src: url('/fonts/getfont.php?name=BZar&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BZar&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BZar&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BZiba';
+  src: url('/fonts/getfont.php?name=BZiba&format=eot#') format('eot'),  /* IE6–8 */
+       url('/fonts/getfont.php?name=BZiba&format=woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/fonts/getfont.php?name=BZiba&format=ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}

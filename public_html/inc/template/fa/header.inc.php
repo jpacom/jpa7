@@ -43,7 +43,7 @@
 										<span><span>مدیریت شبکه</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
-												<li><a href="#">سرور های شبکه (DNS, DHPCP, FTP, Mail Server, Web Server, ...)</a></li>
+												<li><a href="#">سرور های شبکه <span class="smallerLatin">(DNS, DHPCP, FTP, Mail Server, Web Server, ...)</span></a></li>
 												<li><a href="#">سیستم عامل سرور (ویندوز٬ لینوکس)</a></li>
 												<li><a href="#">پیاده سازی سیاست ها امنیتی شبکه</a></li>
 												<li><a href="#">مانوتورینگ و مدیریت شبکه</a></li>
@@ -52,7 +52,7 @@
 												<li><a href="#">خوشه بندی</a></li>
 												<li><a href="#">اشتراک گذاری اینترنت</a></li>
 												<li><a href="#">مجازی سازی</a></li>
-												<li><a href="#">انتقال صدا بر بستر اینترنت (VoIP)</a></li>
+												<li><a href="#">انتقال صدا بر بستر اینترنت (<span class="smallerLatin">VoIP</span>)</a></li>
 											</span>
 											<br class="clear-both" />
 										</ul>
@@ -61,15 +61,15 @@
 										<span><span>امنیت</span></span>
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
-												<li><a href="#">شبکه مجازی امن IPSEC VPN و SSL VPN</a></li>
-												<li><a href="#">راه حلهای فایروال و ایجاد DMZ و کنترل دسترسی در لایه های مختلف شبکه</a></li>
-												<li><a href="#">تشخیص و جلوگیری از نفوذ (IPS &amp; IDS)</a></li>
-												<li><a href="#">احراز هویت  Authentication, Authorization, Accounting(AAA)</a></li>
-												<li><a href="#">ممیزی مدیران شبکه (Admin Auditing)</a></li>
+												<li><a href="#">شبکه مجازی امن <span class="smallerLatin">IPSEC VPN</span> و <span class="smallerLatin">SSL VPN</span></a></li>
+												<li><a href="#">راه حلهای فایروال و ایجاد <span class="smallerLatin">DMZ</span> و کنترل دسترسی در لایه های مختلف شبکه</a></li>
+												<li><a href="#">تشخیص و جلوگیری از نفوذ (<span class="smallerLatin">IPS &amp; IDS</span>)</a></li>
+												<li><a href="#">احراز هویت  <span class="smallerLatin">Authentication, Authorization, Accounting - AAA</span></a></li>
+												<li><a href="#">ممیزی مدیران شبکه <span class="smallerLatin">(Admin Auditing)</span></a></li>
 											</span>
 											<span class="float-right">
 												<li><a href="#">مانیتورینگ و مدیریت امنیت</a></li>
-												<li><a href="#">محافظت در برابر حملات DDOS</a></li>
+												<li><a href="#">محافظت در برابر حملات <span class="smallerLatin">DDOS</span></a></li>
 												<li><a href="#">امنیت محتوا</a></li>
 												<li><a href="#">امنیت سرویسهای زیرساخت شبکه</a></li>
 											</span>
@@ -105,7 +105,7 @@
 										<ul class="sub-menu-services-sub-items">
 											<span class="float-left">
 												<li><a href="#">طراحی حرفه ای وب</a></li>
-												<li><a href="#">بهینه سازی موتور های جستجو (SEO)</a></li>
+												<li><a href="#">بهینه سازی موتور های جستجو (<span class="smallerLatin">SEO</span></a></li>
 											</span>
 											<br class="clear-both" />
 										</ul>
