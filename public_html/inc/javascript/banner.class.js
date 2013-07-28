@@ -17,6 +17,9 @@ var Banner = new Class({
     },
     
     selectBanner: function (id) {
+    	if(this.currentBanner == id)
+    		return;
+    	
         for(i = 0; i < this.banners.length; i++)
         {
             if(i == this.currentBanner)

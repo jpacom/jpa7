@@ -26,11 +26,9 @@
             </ul>
 	        <div id="banner-navigation">
             	<div>
-                    <div class="float-left banner-nav-active">&nbsp;</div>
-                    <div class="float-left banner-nav-deactive">&nbsp;</div>
-                    <div class="float-left banner-nav-deactive">&nbsp;</div>
-                    <div class="float-left banner-nav-deactive">&nbsp;</div>
-                    <div class="float-left banner-nav-deactive">&nbsp;</div>
+                    <a href="javascript:homePageBanner.selectBanner(0)" class="float-left banner-nav-active">&nbsp;</a>
+                    <a href="javascript:homePageBanner.selectBanner(1)" class="float-left banner-nav-deactive">&nbsp;</a>
+                    <a href="javascript:homePageBanner.selectBanner(2)" class="float-left banner-nav-deactive">&nbsp;</a>
                     <br class="clear-both" />
                 </div>
             </div>
