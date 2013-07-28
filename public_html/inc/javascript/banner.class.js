@@ -11,8 +11,9 @@ var Banner = new Class({
         this.intervalId = null;
         this.currentBanner = 0;
         
-        this.selectBanner(1);
-        this.start();
+        // this.selectBanner(1);
+        
+        this.start.delay(interval, this);
     },
     
     selectBanner: function (id) {

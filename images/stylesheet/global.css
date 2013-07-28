@@ -333,10 +333,6 @@ a:active{
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: brown;
-}
-#banner > div > ul > li:first-child {
-    background-color: green;
 }
 
 /*  Main							----------------------------------------------------*/
@@ -922,12 +918,19 @@ a:active{
 }
 .banner-title{
 	font-family:"BYagut";
+	letter-spacing: -0.08em;
 	color:#F8F8F8;
+	padding: 0 15px 0 0;
+	width: 420px;
 }
 .banner-description{
 	font-family:"BYekan";
+	letter-spacing: -0.08em;
 	padding: 15px;
 	margin: 0;
+	background-color: #F8F8F8;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .slider{
 	background-image:url("/banner/banner-back.jpg");
