@@ -3,16 +3,20 @@ var homePageBanner = null;
 window.addEvent('domready', function() {
     homePageBanner = new Banner($("banner-ul"), 5000, 2, 3, 4, function (banner) {
         banner.setStyle("overflow", "hidden");
-        banner.set('morph', {duration: 2000, transition: 'bounce:in', onComplete: function (banner) {
+        banner.set('morph', {duration: 700, onComplete: function (banner) {
                 banner.setStyles({
-                                    "top":  null,
+                                    "opacity":  1.0,
                                     "display": "none"
                                  })
+                banner.getChildren()[0].setStyle('display', 'none');
+                nextBannerChild = banner.getNext().getChildren()[0];
+		        nextBannerChild.fade('in');
+		        nextBannerChild.setStyle('display', 'block');
             }
         });
-        banner.morph({top: "-1265px"});
+        banner.morph({opacity: 0});
     }, function (slideshow) {
-	updateSlideShowNav(slideshow);
+		updateSlideShowNav(slideshow);
     });
 });
 

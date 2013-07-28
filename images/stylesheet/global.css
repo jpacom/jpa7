@@ -920,3 +920,21 @@ a:active{
 #sub-menu-services > ul > li:first-child > span {
 	padding-left: 0;
 }
+.banner-title{
+	font-family:"BYagut";
+	color:#F8F8F8;
+}
+.banner-description{
+	font-family:"BYekan";
+	padding: 15px;
+	margin: 0;
+}
+.slider{
+	background-image:url("/banner/banner-back.jpg");
+	margin: 0;
+	height: 430px;
+	display:none;
+}
+.slider > h2{
+	margin: 0;
+}
