@@ -74,22 +74,41 @@ body {
 .learn-more-point-end{
 	margin-right:0 !important;
 }
-.products-network{
+.products-network, .products-programing{
 	background-position: left;
+}
+.products-network {
+	width: 312px;
 }
 .products-programing{
 	padding-left: 0;
-	padding-right: 5px;
+	padding-right: 13px;
+	width: 310px;
 }
 .products-hosting{
 	padding-left: 0;
-	padding-right: 5px;
+	padding-right: 10px;
 }
 .products-description{
 	margin-right: 0;
 	margin-left: 20px;
 	padding-left: 0;
 	padding-right: 120px;
+}
+.products-title {
+	font-family: BHoma;
+	font-size: 38px;
+	line-height: 1.5em;
+}
+.products-subtitle {
+	font-family: BHoma;
+	font-size: 22px;
+	line-height: 0.5em;
+}
+.products-description {
+    font-family: BMitra;
+    font-size: 19px;
+    text-align: justify;
 }
 .products-learn-more{
 	padding-left: 0;
@@ -210,4 +229,12 @@ body {
 }
 .smallerLatin {
 	font-size: 0.8em;
+}
+.main-text-title {
+	font-family: BMitra;
+	font-size: 36px;
+}
+.main-text-description {
+	font-family: BMitra;
+	font-size: 19px;
 }
