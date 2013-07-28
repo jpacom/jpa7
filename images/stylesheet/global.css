@@ -140,6 +140,8 @@ a:active{
 	padding: 7px 7px 2px 7px;
 	margin-right:30px;
 	cursor:pointer;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 }
 .menu-items > span{
 	padding-right:15px;
@@ -177,7 +179,7 @@ a:active{
 	margin:0 auto;
 	height:38px;
 	background-color:#1A1A1A;
-	border-radius: 5px;
+	border-radius: 18px;
 	position: relative;
 }
 #sub-menu-services > ul > li {
@@ -196,8 +198,8 @@ a:active{
 	color: #000;
 }
 #sub-menu-services > ul > li > span > span {
-	padding: 5px 10px;
-	border-radius: 5px;
+	padding: 0px 8px 2px 8px;
+	border-radius: 13px;
 }
 .sub-menu-services-sub-items{
 	position:absolute;
