@@ -16,7 +16,7 @@ window.addEvent('domready', function() {
         bannerChildren[0].set('morph', {duration: 800});
         bannerChildren[1].set('morph', {duration: 800});
         bannerChildren[0].morph({'right': 'auto', 'right': window.getSize().x + 100});
-        bannerChildren[1].morph({'right': '-400px'});
+        bannerChildren[1].morph({'right': '-430px'});
     }, function (slideshow) {
 		updateSlideShowNav(slideshow);
     });
@@ -42,8 +42,8 @@ function updateBannerSomething() {
     homePageBanner.banners[bannerId].getChildren()[0].setStyle('display', 'none');
     nextBannerChild = homePageBanner.banners[homePageBanner.currentBanner].getChildren()[0];
 	children = nextBannerChild.getChildren();
-	children[0].setStyles({'position': 'absolute', 'bottom': '134px', 'right': '-400px'});
-	children[1].setStyles({'position': 'absolute', 'top': '300px', 'right': '-400px'});
+	children[0].setStyles({'position': 'absolute', 'bottom': '134px', 'right': '-430px'});
+	children[1].setStyles({'position': 'absolute', 'top': '300px', 'right': '-430px'});
     nextBannerChild.set('morph', {'duration': 400, onComplete: function (nextBannerChild){
     	children = nextBannerChild.getChildren();
     	children[0].set('morph', {duration: 400});

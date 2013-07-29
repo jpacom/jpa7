@@ -40,7 +40,7 @@
 								<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom footer-menu-items-sub-title-border-top">نرم افزار</span>
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">اتوماسیون</a></li>
 								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom footer-menu-items-margin-bottom-none">سیستم هوشمند تصمیم یار</a></li>
-								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom footer-menu-items-exception">نرم افزار های کامپیوتر٬ موبایل و یکپارچه</a></li>
+								<li><a href="#" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom footer-menu-items-exception">نرم افزار های کامپیوتر موبایل و یکپارچه</a></li>
 							</ul>
 						</li>
 						<li class="float-left">
