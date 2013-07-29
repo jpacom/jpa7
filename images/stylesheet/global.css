@@ -575,15 +575,17 @@ a:active{
 	padding-top:20px;
 }
 #what-our-customers-say-about-us .box > div{
-	height:230px;
-	width:366px;
+	width:346px;
 	border:#B3B3B3 1px solid;
-	-webkit-border-radius:20px;
-	-moz-border-radius:20px;
 	border-radius:20px;
 	background-color:#F2F2F2;
+	padding: 20px 10px 10px 10px;
 }
-
+.wocsau-author {
+	color: #000;
+	text-align: right;
+	padding-top: 10px;
+}
 
 /*  what-our-customers-say-about-us							----------------------------------------------------*/
 #what-our-customers-say-about-us{
@@ -671,15 +673,14 @@ a:active{
 /*  what-can-you-do						----------------------------------------------------*/
 #what-can-you-do{
 	width:100%;
-	height:411px;
 	background-color:#F1F1F1;
+	padding-bottom: 50px;
 }
 #what-can-you-do .header{
 	padding-left:27px;
 	padding-right:42px;
 	padding-top:39px;
 	width:891px;
-	height:320px;
 	overflow:hidden;
 	margin:0 auto;
 }
@@ -720,8 +721,8 @@ a:active{
 	background-image:url(/social/fb.png);
 	background-repeat:no-repeat;
 }
-#googleplus{
-	background-image:url(/social/gp.png);
+#linkedin{
+	background-image:url(/social/li.png);
 	background-repeat:no-repeat;
 }
 #rss{
@@ -952,4 +953,19 @@ a:active{
 }
 .slider > h2{
 	margin: 0;
+}
+
+.quote{
+	background-image: url('/icon/quote.png');
+	display: block;
+	width: 30px;
+	height: 50px;
+}
+
+#customers > div {
+	margin-right: 78px;
+}
+
+#customers > div:first-child {
+	margin-right: 43px;
 }

@@ -36,7 +36,7 @@
         require_once $inc . "/template/" . $lc . "/main.inc.php";
         require_once $inc . "/template/" . $lc . "/who-are-our-customers.inc.php";
         require_once $inc . "/template/" . $lc . "/what-our-customers-say-about-us.inc.php";
-        require_once $inc . "/template/" . $lc . "/our-latest-projects.inc.php";
+        // require_once $inc . "/template/" . $lc . "/our-latest-projects.inc.php";
         require_once $inc . "/template/" . $lc . "/what-can-you-do.inc.php";
         require_once $inc . "/template/" . $lc . "/footer.inc.php";
     }

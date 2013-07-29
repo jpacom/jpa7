@@ -18,7 +18,7 @@
 	            	<br class="clear-both" />
 				</a>
 				<a href="http://www.linkedin.com/company/jahan-pardazesh-alborz-inc-" target="_blank">
-					<span id="googleplus" class="float-left icon">&nbsp;</span>
+					<span id="linkedin" class="float-left icon">&nbsp;</span>
 					<span class="float-left text">ما را در لینکد این پیدا کنید</span>
 	            	<br class="clear-both" />
 				</a>

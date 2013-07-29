@@ -21,7 +21,8 @@ body {
 	width: 530px;
 }
 #header-call-us{
-	margin-right: 0 !important;
+	margin-right: 38px !important;
+	padding-top: 2px;
 }
 .menu-items{
 	margin-right: 0;
@@ -237,4 +238,20 @@ body {
 .main-text-description {
 	font-family: BMitra;
 	font-size: 19px;
+}
+#what-our-customers-say-about-us .box {
+	font-size: 19px;
+	color: #808080;
+	line-height: 25px;
+	text-align: justify;
+}
+.wocsau-author {
+	text-align: left;
+}
+.products-learn-more-m {
+    font-family: BMitra;
+    font-size: 20px;
+    height: 24px;
+    line-height: 14px;
+    padding-top: 5px;
 }
