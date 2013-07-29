@@ -202,7 +202,7 @@ body {
 }
 .description {
 	font-family: BMitra;
-	font-size: 17px;
+	font-size: 19px;
 }
 #what-can-you-do .social .text {
 	font-family: BMitra;
@@ -254,4 +254,7 @@ body {
     height: 24px;
     line-height: 14px;
     padding-top: 5px;
+}
+#who-are-our-customers .title {
+	padding-bottom: 0;
 }
