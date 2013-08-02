@@ -28,7 +28,7 @@ body {
 	margin-right: 0;
 	margin-left: 30px;
 }
-.menu-items > span{
+.menu-items > a, .menu-items > span {
 	padding-right: 0;
 	padding-left: 15px;
 }
@@ -43,15 +43,18 @@ body {
     right: 0;
 }
 #sub-menu-services > ul > li {
-	padding:6px 42px 9px 5px;
+	padding:6px 42px 9px 42px;
 }
 #title{
 	float: right;
-	font-family: BHoma;
-	font-size: 32px;
 	height: 31px;
 	margin: 31px 0;
 	width: 233px;
+}
+#title > a {
+	font-family: BHoma;
+	font-size: 32px;
+	color: #000;
 }
 .banner-text{
 	text-align: right;
@@ -171,7 +174,7 @@ body {
 	background-position: right;
 }
 .header-button-m > div {
-	background-position: left 6px;
+	background-position: left 11px;
 	padding-top: 0;
 	height: 25px;
 }
@@ -179,8 +182,7 @@ body {
 	text-align: left;
 }
 #sub-menu-services > ul > li > span {
-	padding-left: 0;
-	padding-right: 38px;
+	padding: 0;
 }
 #sub-menu-services > ul > li:first-child > span {
 	padding-right: 0;
@@ -248,7 +250,7 @@ body {
 .wocsau-author {
 	text-align: left;
 }
-.products-learn-more-m {
+.products-learn-more-m > a {
     font-family: BMitra;
     font-size: 20px;
     height: 24px;

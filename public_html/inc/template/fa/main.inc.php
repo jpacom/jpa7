@@ -17,7 +17,7 @@
                         <div class="products-description">راه اندازی پشتیبانی و مدیریت انواع شبکه های بی سیم کابلی و فیبر نوری</div>
                         <div class="products-learn-more">
                         	<div class="float-left products-learn-more-l">&nbsp;</div>
-                        	<div class="float-left products-learn-more-m">بیشتر</div>
+                        	<div class="float-left products-learn-more-m"><a href="/services/network-management">بیشتر</a></div>
                         	<div class="float-left products-learn-more-r">&nbsp;</div>
                             <br class="clear-both" />
                         </div>
@@ -28,7 +28,7 @@
                         <div class="products-description">پیاده سازی راه حل های نرم افزاری برای توسعه و افزایش ضریب نفوذ در صنعت</div>
                         <div class="products-learn-more">
                         	<div class="float-left products-learn-more-l">&nbsp;</div>
-                        	<div class="float-left products-learn-more-m">بیشتر</div>
+                        	<div class="float-left products-learn-more-m"><a href="/services/software">بیشتر</a></div>
                         	<div class="float-left products-learn-more-r">&nbsp;</div>
                             <br class="clear-both" />
                         </div>
@@ -39,7 +39,7 @@
                         <div class="products-description">بهترین هاست ها بر روی سرورهای قدرمتند که در دیتاسنترهای بزرگ دنیا نگهداری می شوند</div>
                         <div class="products-learn-more">
                         	<div class="float-left products-learn-more-l">&nbsp;</div>
-                        	<div class="float-left products-learn-more-m">بیشتر</div>
+                        	<div class="float-left products-learn-more-m"><a href="/services/web-hosting">بیشتر</a></div>
                         	<div class="float-left products-learn-more-r">&nbsp;</div>
                             <br class="clear-both" />
                         </div>

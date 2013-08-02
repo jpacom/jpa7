@@ -143,7 +143,7 @@ a:active{
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 }
-.menu-items > span{
+.menu-items > a, .menu-items > span{
 	padding-right:15px;
 }
 .menu-items-bg{
@@ -186,6 +186,9 @@ a:active{
 	color:#ffffff;
 	padding:7px 5px 7px 35px;
 }
+#sub-menu-services > ul > li > span > a {
+	color:#ffffff;
+}
 #sub-menu-services > ul > li > ul {
     display: none;
     height: 230px;
@@ -193,11 +196,11 @@ a:active{
 #sub-menu-services > ul > li:hover > ul {
     display: block;
 }
-#sub-menu-services > ul > li:hover > span > span {
+#sub-menu-services > ul > li:hover > span > span, #sub-menu-services > ul > li:hover > span > a {
 	background-color: #F8F8F8;
 	color: #000;
 }
-#sub-menu-services > ul > li > span > span {
+#sub-menu-services > ul > li > span > span, #sub-menu-services > ul > li > span > a {
 	padding: 0px 8px 2px 8px;
 	border-radius: 13px;
 }
@@ -479,13 +482,20 @@ a:active{
 .products-learn-more-m{
 	background-image:url(/buttons/black-button-m.png);
 	background-repeat:repeat;
+	height:29px;
+	width:100px;
+}
+.products-learn-more-m > a {
+	display: block;
 	height:21px;
 	width:100px;
-	text-align:center;
+	padding: 0;
 	padding-top:8px;
+	margin: 0;
 	font-family:Arial;
 	font-size:12px;
 	color:#999999;
+	text-align:center;
 }
 .products-learn-more-r{
 	background-image:url(/buttons/black-button-r.png);
@@ -750,7 +760,7 @@ a:active{
 }
 #footer{
 	width:100%;
-	height:295px;
+	height:337px;
 	padding-top:30px;
 	background-color:#171514;
 	background-image:url(/separators/line-sp-ovb.png);
@@ -968,4 +978,7 @@ a:active{
 
 #customers > div:first-child {
 	margin-right: 43px;
+}
+#about-map {
+	background-image: url('/map/map.png');
 }
