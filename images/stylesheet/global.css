@@ -979,6 +979,3 @@ a:active{
 #customers > div:first-child {
 	margin-right: 43px;
 }
-#about-map {
-	background-image: url('/map/map.png');
-}
