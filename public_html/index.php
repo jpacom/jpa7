@@ -69,14 +69,18 @@
 		if(in_array($url, $underconstruction))
 		{
 		    header("HTTP/1.0 503 Service Unavailable", true, 503);
+	        require_once $inc . "/template/" . $lc . "/header.inc.php";
 		    require_once $inc . "/template/" . $lc . "/underconstruction.inc.php";
+	        require_once $inc . "/template/" . $lc . "/footer.inc.php";
 			
 			return;
 		}
 		
 		// Otherwise
 	    header("HTTP/1.0 404 Not Found", true, 404);
+	    require_once $inc . "/template/" . $lc . "/header.inc.php";
 	    require_once $inc . "/template/" . $lc . "/404.inc.php";
+	    require_once $inc . "/template/" . $lc . "/footer.inc.php";
 	}
 	
 	$basedomain = 'jpa7.local';

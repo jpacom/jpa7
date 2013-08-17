@@ -260,3 +260,28 @@ body {
 #who-are-our-customers .title {
 	padding-bottom: 0;
 }
+
+#error404{
+	width: 720px;
+	margin: 80px auto 140px auto;
+	color: #333333;
+}
+
+#error404-code {
+	font-family: Arial, sans-serif;
+	font-weight: 800;
+	font-size: 120px;
+	float: left;
+}
+
+#error404-header {
+	padding-top: 95px;
+	font-family: BHoma;
+	font-size: 29px;
+}
+
+#error404-text{
+	font-family: BMitra;
+	font-size: 24px;
+	padding-top: 24px;
+}
