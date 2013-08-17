@@ -71,7 +71,6 @@
 		    header("HTTP/1.0 503 Service Unavailable", true, 503);
 	        require_once $inc . "/template/" . $lc . "/header.inc.php";
 		    require_once $inc . "/template/" . $lc . "/underconstruction.inc.php";
-	        require_once $inc . "/template/" . $lc . "/footer.inc.php";
 			
 			return;
 		}

@@ -285,3 +285,26 @@ body {
 	font-size: 24px;
 	padding-top: 24px;
 }
+
+#uconst {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#uconst-header {
+    background-image: url("/texts/underconstruction-header.png");
+    height: 63px;
+    width: 366px;
+}
+
+#uconst-text {
+	font-family: BMitra;
+	font-size: 24px;
+	padding-right: 10px;
+}
+
+#uconst-footer {
+    background-image: url("/texts/underconstruction.png");
+    height: 735px;
+	margin-top: 25px;
+}
