@@ -308,3 +308,23 @@ body {
     height: 735px;
 	margin-top: 25px;
 }
+
+.pages-navigation-bar > div > a {
+	color: #808080 !important;
+	font-family: BMitra;
+}
+
+.pages-navigation-bar > div > a.smallerLatin {
+	font-family: Arial;
+}
+
+.pages-navigation-bar > div {
+	font-size: 18px;
+	font-family: BMitra;
+}
+
+.pages-navigation-bar {
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-family: BMitra;
+}
