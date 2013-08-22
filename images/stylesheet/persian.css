@@ -328,3 +328,32 @@ body {
 	padding-bottom: 3px;
 	font-family: BMitra;
 }
+
+#contact-us-email-table {
+	margin: 0 auto;
+}
+
+#contact-us-email-table td:last-child {
+	font-family: Arial;
+}
+
+#contact-us-email-table td:last-child > a {
+	color: #808080;
+	text-decoration: underline;
+}
+
+#contact-us-email-table td:first-child {
+	width: 140px;
+}
+
+#contact-us-tel-table {
+	margin: 0 auto;
+}
+
+#contact-us-tel-table td:last-child {
+	direction: ltr;
+}
+
+#contact-us-tel-table td:first-child {
+	width: 60px;
+}

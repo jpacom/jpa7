@@ -14,6 +14,7 @@
 		?>
 		
 	</style>
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="inc/javascript/mootools.js"></script>
     <script type="text/javascript" src="inc/javascript/banner.class.js"></script>
     <script type="text/javascript" src="inc/javascript/main.js"></script>

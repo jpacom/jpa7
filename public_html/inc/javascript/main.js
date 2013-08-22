@@ -1,26 +1,44 @@
 var homePageBanner = null;
 
 window.addEvent('domready', function() {
-    homePageBanner = new Banner($("banner-ul"), 10000, 2, 3, 4, function (banner) {
-        banner.setStyle("overflow", "hidden");
-        banner.set('morph', {duration: 900, onComplete: function (banner) {
-                banner.setStyles({
-                                    "opacity":  1.0,
-                                    "display": "none"
-                                 })
-                updateBannerSomething();
-            }
-        });
-        banner.morph({opacity: 0});
-        bannerChildren = banner.getChildren()[0].getChildren();
-        bannerChildren[0].set('morph', {duration: 800});
-        bannerChildren[1].set('morph', {duration: 800});
-        bannerChildren[0].morph({'right': 'auto', 'right': window.getSize().x + 100});
-        bannerChildren[1].morph({'right': '-430px'});
-    }, function (slideshow) {
-		updateSlideShowNav(slideshow);
-    });
-    updateBannerSomething();
+	if($("banner-ul"))
+	{
+	    homePageBanner = new Banner($("banner-ul"), 10000, 2, 3, 4, function (banner) {
+	        banner.setStyle("overflow", "hidden");
+	        banner.set('morph', {duration: 900, onComplete: function (banner) {
+	                banner.setStyles({
+	                                    "opacity":  1.0,
+	                                    "display": "none"
+	                                 })
+	                updateBannerSomething();
+	            }
+	        });
+	        banner.morph({opacity: 0});
+	        bannerChildren = banner.getChildren()[0].getChildren();
+	        bannerChildren[0].set('morph', {duration: 800});
+	        bannerChildren[1].set('morph', {duration: 800});
+	        bannerChildren[0].morph({'right': 'auto', 'right': window.getSize().x + 100});
+	        bannerChildren[1].morph({'right': '-430px'});
+	    }, function (slideshow) {
+			updateSlideShowNav(slideshow);
+	    });
+	    updateBannerSomething();
+	}
+    
+    if(mapConvas = $('map-convas'))
+   	{
+   		var position = new google.maps.LatLng(35.812419, 50.985425);
+	    var mapOptions = {
+	      center: position,
+	      zoom: 16,
+	      mapTypeId: google.maps.MapTypeId.ROADMAP
+	    }
+   		var map = new google.maps.Map(mapConvas, mapOptions);
+		var marker = new google.maps.Marker({
+		    position: position,
+		    map: map
+	  	});
+   	}
 });
 
 function updateSlideShowNav(slideshow)
