@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /inc/
+Sitemap: http://fa.jpa7.com/sitemap.xml
