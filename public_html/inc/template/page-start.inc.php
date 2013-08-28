@@ -2,7 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Jahan Pardazesh Alborz</title>
+<title><?php
+
+	$titles = array(
+		'/' => 'Home',
+		'/about' => 'About Us',
+		'/contact' => 'Contact Us',
+	);
+	
+	if($url != '/')
+	{
+		echo @ $titles[$url];
+		echo " &mdash; ";
+	}
+
+ ?>Jahan Pardazesh Alborz</title>
 	<style type="text/css" media="screen">
 		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/fontfaces.css";
 		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/global.css";
