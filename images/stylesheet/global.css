@@ -917,7 +917,6 @@ a:active{
 }
 .contact-box{
 	width:630px;
-	height:349px;
 	border:1px solid #B3B3B3;
 	padding:20px 43px 14px 27px;
 }
@@ -1034,4 +1033,13 @@ a:active{
 	margin: 0;
 	margin-bottom: 16px;
 	border: 1px solid #B3B3B3;
+}
+
+.contact-box .error {
+	color: #C9030B;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 0 0 6px;
+	padding: 0;
 }
