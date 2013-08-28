@@ -997,7 +997,15 @@ a:active{
 }
 
 #contact-us-form > div.topleft > label, #contact-us-form > div.bottom > label {
-	width: 153px;
+	width: 140px;
+}
+
+#contact-us-form > div > span {
+	color: #C9030B;
+	font-family: arial;
+	font-size: 22px;
+	display: block;
+	width: 13px;
 }
 
 #contact-us-form > div.topright > label {

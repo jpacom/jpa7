@@ -186,15 +186,19 @@
 					<form id="contact-us-form" method="post" target="">
 						<div class="float-left topleft">
 							<label class="float-left">نام:</label>
+							<span class="float-left">*</span>
 							<input type="text" id="contact-us-form-firstname" name="contact-us-form-firstname"<?php echo (strtolower($_SERVER['REQUEST_METHOD']) == 'post')?(' value="' . $_POST['contact-us-form-firstname'] . '"'):'';  ?> />
 							<br class="clear-both" />
 							<label class="float-left">نام خانوادگی:</label>
+							<span class="float-left">*</span>
 							<input type="text" id="contact-us-form-lastname" name="contact-us-form-lastname"<?php echo (strtolower($_SERVER['REQUEST_METHOD']) == 'post')?(' value="' . $_POST['contact-us-form-lastname'] . '"'):'';  ?>  />
 							<br class="clear-both" />
 							<label class="float-left">پست الکترونیک:</label>
+							<span class="float-left">*</span>
 							<input style="direction: ltr;" type="text" id="contact-us-form-email" name="contact-us-form-email"<?php echo (strtolower($_SERVER['REQUEST_METHOD']) == 'post')?(' value="' . $_POST['contact-us-form-email'] . '"'):'';  ?>  />
 							<br class="clear-both" />
 							<label class="float-left">تلفن:</label>
+							<span class="float-left">*</span>
 							<input style="direction: ltr;" type="text" id="contact-us-form-phone" name="contact-us-form-phone"<?php echo (strtolower($_SERVER['REQUEST_METHOD']) == 'post')?(' value="' . $_POST['contact-us-form-phone'] . '"'):'';  ?>  />
 						</div>
 						<div class="float-left topright">
@@ -210,6 +214,7 @@
 						</div>
 						<div class="clear-both bottom">
 							<label class="float-left">پیغام:</label>
+							<span class="float-left">*</span>
 							<textarea id="contact-us-form-message" name="contact-us-form-message"><?php echo (strtolower($_SERVER['REQUEST_METHOD']) == 'post')?htmlspecialchars($_POST['contact-us-form-message']):'';  ?> </textarea>
 							<br class="clear-both" />
 						</div>
