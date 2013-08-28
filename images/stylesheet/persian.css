@@ -357,3 +357,33 @@ body {
 #contact-us-tel-table td:first-child {
 	width: 60px;
 }
+
+.address-box .title {
+	font-size: 22px;
+	margin-top: -22px;
+}
+
+.address-box .description {
+	font-size: 15px;
+	text-align: right;
+}
+
+#contact-us-form > div.topleft {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+#contact-us-form > div.bottombutton > input {
+	margin-left: 0;
+	margin-right: 153px;
+} 
+
+#contact-us-form > div > label {
+	font-size: 18px;
+}
+
+#contact-us-form > div.bottombutton > input {
+	font-family: BMitra;
+	font-size: 21px;
+	cursor: pointer;
+}

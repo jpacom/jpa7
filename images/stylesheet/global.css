@@ -894,9 +894,9 @@ a:active{
 
 /*  contact us							----------------------------------------------------*/
 #contact-us .banner{
-	background-image:url("/map/map.gif");
+/*	background-image:url("/map/map.gif");
 	background-position: center bottom;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;*/
 }
 .contact{
 	background-image:url("/separators/shadow-ovw.png");
@@ -911,7 +911,6 @@ a:active{
 }
 .address-box{
 	width:140px;
-	height:240px;
 	padding:30px;
 	border:1px solid #B3B3B3;
 	background-color:#E6E6E6;
@@ -978,4 +977,61 @@ a:active{
 
 #customers > div:first-child {
 	margin-right: 43px;
+}
+
+#contact-us-form > div {
+	width: 283px;
+}
+
+#contact-us-form > div.topleft {
+	margin-right: 20px;
+	width: 303px;
+}
+
+#contact-us-form > div.bottom {
+	width: 606px;
+}
+
+#contact-us-form > div > label {
+	display: block;
+	color: #808080;
+}
+
+#contact-us-form > div.topleft > label, #contact-us-form > div.bottom > label {
+	width: 153px;
+}
+
+#contact-us-form > div.topright > label {
+	width: 133px;
+}
+
+#contact-us-form > div > input {
+	width: 142px;
+	height: 12px;
+	padding: 3px;
+	margin: 0;
+	margin-bottom: 6px;
+	border: 1px solid #B3B3B3;
+}
+
+#contact-us-form > div.bottombutton > input {
+	height: 28px;
+	width: 120px;
+	margin-bottom: 14px;
+	margin-left: 153px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background-color: #171514;
+	color: #B3B3B3;
+} 
+
+#contact-us-form > div > textarea {
+	width: 445px;
+	height: 186px;
+	padding: 3px;
+	margin: 0;
+	margin-bottom: 16px;
+	border: 1px solid #B3B3B3;
 }
