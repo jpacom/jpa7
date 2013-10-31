@@ -1,0 +1,52 @@
+.about-main > div {
+	width: 960px;
+	height: 593px;
+	margin-top: 75px !important;	
+}
+
+.about-main > div:last-child {
+	margin-bottom: 75px !important;
+}
+
+.about-main > div > div {
+	height: 593px;
+}
+
+.about-main > div > .left {
+	float: left;
+}
+
+.about-main > div > .right {
+	float: right;
+}
+
+.about-main > div > br {
+	clear: both;
+}
+
+#about-first-raw > div.left {
+	width: 367px;
+	height: 369px !important;
+}
+
+#about-first-raw > div.right {
+	width: 543px;
+}
+
+#about-second-raw > div.left {
+	width: 543px;
+}
+
+#about-second-raw > div.right {
+	width: 367px;
+	height: 369px !important;
+	margin-top: 224px !important;
+}
+
+#about-third-raw > div.left {
+	width: 367px;
+}
+
+#about-third-raw > div.right {
+	width: 543px;
+}

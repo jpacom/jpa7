@@ -54,6 +54,7 @@
 			echo '@import "http://images.' . $basedomain . '/stylesheet/persian.css";';
 		}
 		?>
+		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/about.css";
 		
 	</style>
 	<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>

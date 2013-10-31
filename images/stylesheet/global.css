@@ -28,6 +28,10 @@ li{
 	cursor:pointer;
 }
 
+.no-bg {
+	background: none !important;
+}
+
 /*  a							----------------------------------------------------*/
 a{
   text-decoration: none;
