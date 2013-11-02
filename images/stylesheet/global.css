@@ -32,6 +32,10 @@ li{
 	background: none !important;
 }
 
+.no-padding {
+	padding: 0 !important;
+}
+
 /*  a							----------------------------------------------------*/
 a{
   text-decoration: none;

@@ -1,11 +1,15 @@
 .about-main > div {
 	width: 960px;
 	height: 593px;
-	margin-top: 75px !important;	
+	margin-top: 25px !important;
 }
 
 .about-main > div:last-child {
-	margin-bottom: 75px !important;
+	margin-bottom: 25px !important;
+}
+
+.about-main > div:first-child {
+	margin-top: 50px !important;
 }
 
 .about-main > div > div {
@@ -49,4 +53,93 @@
 
 #about-third-raw > div.right {
 	width: 543px;
+}
+
+#about-first-raw .title {
+	line-height: 30px;
+	padding-bottom: 13px !important;
+}
+
+#about-first-raw > .left > .about-info-header > .image {
+	float: right;
+	width: 100px;
+}
+
+#about-first-raw > .left > .about-info-header > .name {
+	float: left;
+	width: 242px;
+	font-family: BHoma;
+	font-size: 1.2em;
+	color: #C9030B;
+	padding-top: 70px;
+}
+
+#about-first-raw > .left > .about-info-header > br {
+	clear: both;
+}
+
+#about-second-raw > .right > .image {
+	float: right;
+	width: 100px;
+	margin: 0 0 15px 25px;
+}
+
+#about-second-raw > .right > .name {
+	width: 242px;
+	font-family: BHoma;
+	font-size: 1.2em;
+	color: #C9030B;
+}
+
+#about-second-raw > .right > br {
+	clear: both;
+}
+
+#about-second-raw > .left > .top {
+	margin-bottom: 10px;
+}
+
+#about-second-raw > .left > .top > .image {
+	float: left;
+	width: 100px;
+	margin: 0 15px 0 25px;
+}
+
+#about-second-raw > .left > .bottom > .image {
+	float: right;
+	width: 100px;
+	margin: 0 0 15px 25px;
+}
+
+#about-second-raw > .left > div > .name {
+	width: 242px;
+	font-family: BHoma;
+	font-size: 1.2em;
+	color: #C9030B;
+}
+
+#about-second-raw > .left > div > br {
+	clear: both;
+}
+
+#about-third-raw > .right > .about-info-header > .image {
+	float: right;
+	width: 100px;
+}
+
+#about-third-raw > .right > .about-info-header > .name {
+	float: left;
+	width: 418px;
+	font-family: BHoma;
+	font-size: 1.2em;	
+	color: #C9030B;
+	padding-top: 70px;
+}
+
+#about-third-raw > .right > .about-info-header > br {
+	clear: both;
+}
+
+#about-third-raw, #about-third-raw > .left, #about-third-raw > .right {
+	height: auto;
 }
