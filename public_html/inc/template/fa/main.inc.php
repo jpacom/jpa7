@@ -25,13 +25,13 @@
                     <div class="float-left products-programing">
                     	<div class="products-title">برنامه نویسی</div>
                     	<div class="products-subtitle">توسعه نرم افزاری</div>
-                        <div class="products-description">در راستای ارتقای سطح کیفی نرم افزار های کشور عزیزمان شرکت جهان پردازش البرز به زودی با تیمی قدرتمند فعالیت خود را در این زمینه آغاز می کند.</div>
-                        <!-- <div class="products-learn-more">
+                        <div class="products-description">پیاده سازی راه حل های نرم افزاری برای توسعه و افزایش ضریب نفوذ در صنعت</div>
+                        <div class="products-learn-more">
                         	<div class="float-left products-learn-more-l">&nbsp;</div>
                         	<div class="float-left products-learn-more-m"><a href="/services/software">بیشتر</a></div>
                         	<div class="float-left products-learn-more-r">&nbsp;</div>
                             <br class="clear-both" />
-                        </div> -->
+                        </div>
                     </div>
                     <div class="float-left products-hosting">
                     	<div class="products-title">میزبانی وب</div>

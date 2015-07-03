@@ -30,43 +30,41 @@
 	    }
 	    
 		$underconstruction = array(
-								   // '/services',
-								   // '/portfolio',
+								   '/services',
+								   '/portfolio',
 								   '/customers',
 								   '/about',
 								   '/contact',
-								   '/network-services',
-								   '/web-hosting',
-								   // '/services',
-								   // "/services/network-management",
-								   // "/services/network-management/network-servers",
-								   // "/services/network-management/network-os",
-								   // "/services/network-management/clustering",
-								   // "/services/network-management/internet-sharing",
-								   // "/services/network-management/virtualization",
-								   // "/services/network-management/voip",
-								   // "/services/network-management/security-policies",
-								   // "/services/network-security",
-								   // "/services/network-security/vpn",
-								   // "/services/network-security/firewall-and-dmz",
-								   // "/services/network-security/ids-and-ips",
-								   // "/services/network-security/admin-auditing",
-								   // "/services/network-security/management-and-monitoring",
-								   // "/services/network-security/ddos-protection",
-								   // "/services/network-security/authentication-authorization-accounting",
-								   // "/services/network-security/content-security",
-								   // "/services/network-security/infrastructure-security",
-								   // "/services/software",
-								   // "/services/software/automation",
-								   // "/services/software/idss",
-								   // "/services/software/desktop-mobile-integrated", 
-								   // "/services/web-hosting",
-								   // "/services/web-hosting/linux",
-								   // "/services/web-hosting/windows",
-								   // "/services/web-design",
-								   // "/services/web-design/web-design",
-								   // "/services/web-design/seo",
-								   // "/services/network-wireless"
+								   '/services',
+								   "/services/network-management",
+								   "/services/network-management/network-servers",
+								   "/services/network-management/network-os",
+								   "/services/network-management/clustering",
+								   "/services/network-management/internet-sharing",
+								   "/services/network-management/virtualization",
+								   "/services/network-management/voip",
+								   "/services/network-management/security-policies",
+								   "/services/network-security",
+								   "/services/network-security/vpn",
+								   "/services/network-security/firewall-and-dmz",
+								   "/services/network-security/ids-and-ips",
+								   "/services/network-security/admin-auditing",
+								   "/services/network-security/management-and-monitoring",
+								   "/services/network-security/ddos-protection",
+								   "/services/network-security/authentication-authorization-accounting",
+								   "/services/network-security/content-security",
+								   "/services/network-security/infrastructure-security",
+								   "/services/software",
+								   "/services/software/automation",
+								   "/services/software/idss",
+								   "/services/software/desktop-mobile-integrated", 
+								   "/services/web-hosting",
+								   "/services/web-hosting/linux",
+								   "/services/web-hosting/windows",
+								   "/services/web-design",
+								   "/services/web-design/web-design",
+								   "/services/web-design/seo",
+								   "/services/network-wireless"
 								   );
 		if(in_array($url, $underconstruction))
 		{
@@ -84,7 +82,7 @@
 	    require_once $inc . "/template/" . $lc . "/footer.inc.php";
 	}
 	
-	$basedomain = 'jpa7.local';
+	$basedomain = 'jpa7.com';
 
     $url = explode('?', $_SERVER['REQUEST_URI']);
     $url = $url[0];
