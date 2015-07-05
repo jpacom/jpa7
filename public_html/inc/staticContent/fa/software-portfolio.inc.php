@@ -1,6 +1,6 @@
 	<div id="services">
 		<div class="pages-navigation-bar">
-			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; نمونه کار &gt; <a href="/networkresume">نرم افزاری</a></div>
+			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; نمونه کار &gt; <a href="/software-portfolio">نرم افزاری</a></div>
 		</div>
 		<div id="pages-main">
 			<!-- <div class="banner">&nbsp;</div> -->

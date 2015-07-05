@@ -1,14 +1,14 @@
 	<div id="services">
 		<div class="pages-navigation-bar">
-			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; نمونه کار &gt; <a href="/networkresume">نرم افزاری</a></div>
+			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; نمونه کار &gt; <a href="/network-portfolio">شبکه</a></div>
 		</div>
 		<div id="pages-main">
 			<!-- <div class="banner">&nbsp;</div> -->
 			<div class="main-text">
                 <div class="title">نمونه کارها</div>
                 <div>
-                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/works/software.jpg&quot;);position:relative;width:453px;height:275px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
-                    <p class="title_h2">نرمافزاری</p>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/works/network.jpg&quot;);position:relative;width:453px;height:275px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <p class="title_h2">شبکه</p>
                    <ul class="list">
                        <li>•  پتروشیمی جنوب</li>
                        <li>•  صنایع الکترونیک ایران</li>

@@ -1,6 +1,6 @@
 	<div id="animation">
 		<div class="pages-navigation-bar">
-			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; <a href="/about">انیمیشن</a></div>
+			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; <a href="/animation">انیمیشن</a></div>
 		</div>
 		<div id="pages-main">
 			<!-- <div class="banner">&nbsp;</div> -->
@@ -132,8 +132,8 @@
                     <p style="margin: 0px;">در این روش طراحیهای بین دو کلید، ایجاد بافت، پرسپکتی، رنگ، زاویه دید، جهت گردش و سیکل های حرکتی به وسیله کامپیوتر انجام و کامل می شود، با این ترتیب که اطلاعات لازم به کامپیوتر داده، و حرکات مورد نظر برنامه ریزی می شود و بقیه کارها با کامپیوتر است.
                     </p>
                 </div>
-
-
+                <div style="clear: both;height: 10px;"></div>
+                <p class="contactbox">برای اطلاعات بیشتر و کسب مشاوره از متخصصین ما با شماره تلفن های ۰۲۶۳۲۷۱۹۱۰۲ و ۰۲۶۳۲۷۱۹۱۰3 تماس حاصل فرمایید.</p>
                 <div style="clear: both;height: 10px;"></div>
             </div>
 

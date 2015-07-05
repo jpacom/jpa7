@@ -1,6 +1,6 @@
 	<div id="services">
 		<div class="pages-navigation-bar">
-			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; خدمات &gt; <a href="/wirelessnetworks">شبکه های وایرلس</a></div>
+			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; خدمات &gt; <a href="/wireless-networks">شبکه های وایرلس</a></div>
 		</div>
 		<div id="pages-main">
 			<!-- <div class="banner">&nbsp;</div> -->
