@@ -1,0 +1,15 @@
+.tumbnail_image {
+	height: 200px;
+    width: 200px;
+    background-image: url("http://jpa7.local/inc/images/animation/cellanimation.jpg");
+    border-radius: 14px;
+    float: right;
+    margin-left: 25px;
+}
+.title_h2{
+	padding: 6px;
+    margin: 0px;
+    font-size: 20pt;
+    color: #C9030B;
+    font-family: BYEkan;
+}

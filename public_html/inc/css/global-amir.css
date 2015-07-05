@@ -1,0 +1,40 @@
+.tumbnail_image {
+	height: 200px;
+    width: 200px;
+    
+    border-radius: 14px;
+    margin-left: 25px;
+}
+.title_h2{
+	padding: 6px;
+    margin: 0px;
+    font-size: 20pt;
+    color: #C9030B;
+    font-family: BYEkan;
+}
+.right_float{
+    float: right;
+}
+
+.left_float{
+    float: left;
+}
+ul.list{
+        padding-left: 15px;
+list-style-type: circle;
+}
+.contactbox{
+      text-align: center;
+  font-size: 17pt;
+  border-radius: 10px;
+  background-color: #A6A6A6;
+  padding: 13px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor:default;
+}
+.contactbox:hover{
+    border-radius: 15px;
+    background-color:#DADADA;
+    cursor:default;
+}
