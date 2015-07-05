@@ -48,6 +48,7 @@
 	<style type="text/css" media="screen">
 		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/fontfaces.css";
 		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/global.css";
+		@import "<?php echo 'http://images.' . $basedomain; ?>/stylesheet/global-amir.css";
 		<?php
 		if($lc == 'fa')
 		{

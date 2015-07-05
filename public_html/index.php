@@ -82,7 +82,7 @@
 	    require_once $inc . "/template/" . $lc . "/footer.inc.php";
 	}
 	
-	$basedomain = 'jpa7.com';
+	$basedomain = 'jpa7.local';
 
     $url = explode('?', $_SERVER['REQUEST_URI']);
     $url = $url[0];
