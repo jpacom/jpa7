@@ -1,47 +1,47 @@
 	<div id="services">
 		<div class="pages-navigation-bar">
-			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; خدمات &gt; <a href="/computernetworks">شبکه های کامپیوتری</a></div>
+			<div>شما اینجا هستید &gt; <a class="smallerLatin" href="/">JPA</a> &gt; خدمات &gt; <a href="/networksecurity">امنیت شبکه</a></div>
 		</div>
 		<div id="pages-main">
 			<!-- <div class="banner">&nbsp;</div> -->
 			<div class="main-text">
                 <div class="title">خدمات شرکت</div>
                 <div>
-                <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/services/computernetwork.jpg&quot;);position:relative;width:625px;height:250px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
-                    <p class="title_h2">  شبکه های کامپیوتری</p>
-                    <p style="margin: 0px;">امروزه شبکه هاي کامپیوتری  به جزء لاينفک سازمانها مبدل گرديده است و حتی می توان از آن ها به عنوان رگ های حیاتی چرخه ی سازمانی نام برد. طراحي و اجراي اين شبکه ها نیازمند درک و شناخت صحیح از استاندارد ها و تجهیزات مورد استفاده در این بستر می باشد تا با طراحی صحیح ، بستر مناسب برای تسریع فعالیت های بدون وقفه ی سازمانی فراهم آید. روش ها و تمهيداتي که براي هر مرحله از طراحي تا  پياده سازي استفاده می شود از الزامات مشخصي برخوردار مي باشد که نهايتاً از وقوع مشکلات آتي ممانعت مي نمايد. وقوع مشکلاتي که مي تواند در صورت وقوع با ايجاد اختلال در سيستم هاي اصلي، زير بناي کسب و کار سازمان را با مشکلات بسياری مواجه کند . اصولی که برای هر مر حله از از طراحی تا پیاده سازی به کار می رود باید به گونه ای ساخت یافته باشد که اطمینان مدیران را  برای عدم بروز مشکلات در آینده فراهم سازد و حتی در صورت وقوع مشکلات آنی راه کارهای پیش بینی شده برای مدیریت بحران و رفع سریع مشکل فراهم آید.</br>شرکت جهان پردازش البرز افتخار دارد با بهره مندی از نیروهای متخصص و کارا تجربیات خود را در زمینه های  پیکربندی و زیرساخت شبکه در اختیار سازمان ها و شرکت ها قرار دهد.</p>
-                    <ul class="list">
-                        <li>
-                            •   مشاوره، طراحی و پیاده سازی زیر ساخت شبکه براساس معماری لایه ای                    </li>
-                            <li>
-                                •   طراحی و اجرای خدمات Passive شبکه                    </li>
-                                <li>
-                                    •   طراحي و مشاوره در پياده سازي شبكه هاي بیسیم (Wireless)                    </li>
-                                    <li>
-                                        •   پیاده سازی شبکه براساس تجهیزات CISCO                    </li>
-                                        <li>
-                                            •   سوئیچینگ و پیکربندی تجهیزات درلایه های Core, Distribution, Access                    </li>
-                                            <li>
-                                                •   Vlaning شبکه                    </li>
-                                                <li>
-                                                    •   طراحی زیرساخت (Back BONE) شبکه ها با بسترفیبر نوری (Single Mode & Multimode)                     </li>
-                                                    <li>
-                                                        •   انجام فیوژن فیبرنوری                    </li>
-                                                    </ul>
-                                                </div>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/services/networksecurity.jpg&quot;);position:relative;width:636px;height:348px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <p class="title_h2"> امنیت شبکه</p>
+                    <p style="margin: 0px;">با گسترش روز افزون جایگاه شبکه های کامپیوتری در چرخه ی کسب و کار سازمانی ضرورت توجه به امنیت اطلاعات بیش از پیش احساس می شود. طراحی مناسب و پشتیبانی لحظه ای با استفاده از راهکارهای مطمئن و استاندارد به وسیله ی نیروهای متخصص ضریب امنیت اطلاعات را تا حد زیادی بالا می برد. دپارتمان امنیت اطلاعات شرکت جهان پردازش البرز آماده ی ارائه ی راه حل های امنیتی مناسب برای سازمان ها و شرکت های گوناگون می باشد.برخی از این راه حل ها عبارتند از:</p>
+                   <ul class="list">
+                       <li>•    نگهداری از کلیدهای امنیتی</li>
+                       <li>•    پشتیبان گیری از اطلاعات</li>
+                       <li>•    احراز هویت</li>
+                       <li>•    امنیت محتوا</li>
+                       <li>•    مانیتورینگ و مدیریت امنیت</li>
+                       <li>•    DDOS Protection</li>
+                       <li>•    امنیت سرویسها و زیرساخت شبکه</li>
+                       <li>•    تشخیص نفوذ و جلوگیری از نفوذ(IPS & IDS)  </li>
+                       <li>•    ممیزی مدیران شبکه (Admin Auditing)</li>
+                       <li>•    Authentication, Authorization , Accounting(AAA)</li>
+                       <li>•    تشخیص و جلوگیری از نفوذ به شبکه های بی سیم (WIPS & WIDS) </li>
+                       <li>•    راه حلهای شبکه مجازی امن IPSEC VPN و SSL VPN</li>
+                       <li>•    راه حلهای فایروا ل و ایجاد DMZ   و کنترل دسترسی در لایه های مختلف شبکه</li>
+                       
+                   </ul>
+                    
 
-                                                <div style="clear: both;height: 10px;"></div>
+                </div>
 
-                                            </div>
+                <div style="clear: both;height: 10px;"></div>
 
-
-
-
-                                        </div>
+            </div>
 
 
 
-                                    </div>
+
+        </div>
+
+
+
+    </div>
 
 
 
