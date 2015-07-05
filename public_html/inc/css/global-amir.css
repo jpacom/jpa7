@@ -19,3 +19,7 @@
 .left_float{
     float: left;
 }
+ul.list{
+        padding-left: 15px;
+list-style-type: circle;
+}
