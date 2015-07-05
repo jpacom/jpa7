@@ -155,12 +155,12 @@ a:active{
 	margin-right:0;
 }
 #menu-items-services > #sub-menu-services{
-	background-image:url(/background/menu-bg.png);
+
 	opacity: 0.9;
 	backgroung-repeat:repeat;
     display: none;
 
-    padding-top:10px;
+ 
     left: 0;
     position: absolute;
     top: auto;
