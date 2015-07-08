@@ -38,3 +38,32 @@ list-style-type: circle;
     background-color:#DADADA;
     cursor:default;
 }
+.tumbnail_website_pic{
+   position: relative; width: 47%; background-size: cover; margin-top: 2%; margin-right: 1%px; text-align: center; padding-top: 200px; font-family: Tahoma;height:0px !important;
+   opacity: 0.7;
+   -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.tumbnail_website_pic:hover{
+  opacity: 1;
+}
+.page_button{
+    display: inline;
+  padding: 12px;
+  background-color: #DFDFDF;
+  border-radius: 7px;
+  color: #000;
+  opacity: 0.7;
+   -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.page_button:hover{
+  opacity: 1;
+}
+.page_button_div{
+    text-align: center;
+  margin-top: 20px;
+}
+.active_button{
+  background-color:rgba(201, 3, 11, 1) !important;
+}
