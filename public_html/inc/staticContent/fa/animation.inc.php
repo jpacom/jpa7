@@ -12,7 +12,7 @@
                     <p style="margin: 0px;">روشی است که در آن طراحیها روی طلق اجرا و رنگ آمیزی شده و سپس روی زمینه یا " بک گراند" قرار می گیرند و معمولا دو فریم از هر تصویر فیلمبرداری می شود. تعداد فریم های برای هر تصویر متناسب با موضوع و نوع حرکت ، قابل تغییر است . برای مثال از فیلم هایوالت دیزنی (آدم برفی) را می توان نام برد.</p>
                 </div>
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
 
                 <div>
                     <div class="tumbnail_image left_float" style="
@@ -21,7 +21,7 @@
                     <p class="title_h2">انیمیشن روی کاغذ (Paper Animation):</p>
                     <p style="margin: 0px;">در این روش به دلیل عدم استفاده از طلق ، زمینه ها ساده تر انتخاب شده و تمامی اجزای صحنه برای هر نقاشی مجددا کشیده می شود. از ویژگیهای مهم این روش یکی مواج بودن تصاویر و دیگر ، سادگی پس زمینه است. ابزاری که در این روش به کار می رود ، می تواند مدادهای مختلف ، راپید ، قلم فرانسه، پاستل، آبرنگ، رنگ روغن و یا هر وسیله تازه دیگری باشد . مثال: فیلم تداعی ساخته نورالدین زرین کلک.</p>
                 </div>
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
 
                 <div>
                     <div class="tumbnail_image right_float" style="
@@ -35,7 +35,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image left_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/cutout.jpg&quot;);
@@ -46,7 +46,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image right_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/3D.jpg&quot;);
@@ -57,7 +57,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image left_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/photoanimation.jpg&quot;);
@@ -68,7 +68,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image right_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/pixilation.jpg&quot;);
@@ -79,7 +79,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image left_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/pinscreen.jpg&quot;);
@@ -90,7 +90,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image right_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/undercameraanimation.jpg&quot;);
@@ -101,7 +101,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image left_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/rotoscopy.jpg&quot;);
@@ -112,7 +112,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                 <div>
                     <div class="tumbnail_image right_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/dinamation.jpg&quot;);
@@ -123,7 +123,7 @@
                 </div>
 
 
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 50px;"></div>
                  <div>
                     <div class="tumbnail_image left_float" style="
                     background-image: url(&quot;http://jpa7.local/inc/images/animation/computeranimation.jpg&quot;);
@@ -132,7 +132,7 @@
                     <p style="margin: 0px;">در این روش طراحیهای بین دو کلید، ایجاد بافت، پرسپکتی، رنگ، زاویه دید، جهت گردش و سیکل های حرکتی به وسیله کامپیوتر انجام و کامل می شود، با این ترتیب که اطلاعات لازم به کامپیوتر داده، و حرکات مورد نظر برنامه ریزی می شود و بقیه کارها با کامپیوتر است.
                     </p>
                 </div>
-                <div style="clear: both;height: 10px;"></div>
+                <div style="clear: both;height: 30px;"></div>
                 <p class="contactbox">برای اطلاعات بیشتر و کسب مشاوره از متخصصین ما با شماره تلفن های ۰۲۶۳۲۷۱۹۱۰۲ و ۰۲۶۳۲۷۱۹۱۰3 تماس حاصل فرمایید.</p>
                 <div style="clear: both;height: 10px;"></div>
             </div>
