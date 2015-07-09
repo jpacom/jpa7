@@ -9,54 +9,48 @@
 				<p class="title_h2">نرم افزاری</p>
 				<div style="clear: both;height: 10px;"></div>
 				<div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/irannotebook.jpg&quot;);">
-						<a href="http://www.irannotebook.com/">www.irannotebook.com</a>
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/mci.jpg&quot;);">
+						<a href="http://www.mci.ir/">www.mci.ir</a>
 					</div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/icdco.jpg&quot;);">
-						<a href="http://www.icdco.ir/">www.icdco.ir</a>
+					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/loghme.jpg&quot;);">
+						<a href="http://www.loghme.com/">www.loghme.com</a>
 					</div>  
 					<div style="clear: both;height: 25px;"></div>  
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/moalem1.jpg&quot;);">
-						<a href="http://www.moalem1.ir/">www.moalem1.ir</a>
-					</div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/belkooh.jpg&quot;);">
-						<a href="http://www.belkooh.com/">www.belkooh.com</a>
+					
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/ictbazar.jpg&quot;);">
+						<a href="http://www.ictbazar.com/">www.ictbazar.com</a>
 					</div> 
-					<div style="clear: both;height: 25px;"></div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/irmov.jpg&quot;);">
-						<a href="http://www.irmov.com/">www.irmov.com</a>
-					</div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/r-kayin.jpg&quot;);">
-						<a href="http://www.r-kayin.com/">www.r-kayin.com</a>
+					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/ir4.jpg&quot;);">
+						<a href="http://www.ir4.org/">www.ir4.org</a>
 					</div> 
+					
+					
 					<div style="clear: both;height: 25px;"></div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/podologie-kaviar.jpg&quot;);">
-						<a href="http://www.podologie-kaviar.de.qwd.ir/">www.podologie-kaviar.de.qwd.ir</a>
-					</div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/chargrill.jpg&quot;);">
-						<a href="http://www.chargrill.co.nz/">www.chargrill.co.nz</a>
+					
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/kahtmayan.jpg&quot;);">
+						<a href="http://www.kahtmayan.com/">www.kahtmayan.com</a>
 					</div> 
-					<div style="clear: both;height: 25px;"></div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/sharghcement.jpg&quot;);">
-						<a href="http://www.sharghcement.ir.qwd.ir/">www.sharghcement.ir.qwd.ir</a>
+					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/piicgroup.jpg&quot;);">
+						<a href="http://www.piicgroup.com/">www.piicgroup.com</a>
 					</div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/arian.jpg&quot;);">
-						<a href="http://www.arian.ir4.ir/">www.arian.ir4.ir</a>
-					</div> 
-					<div style="clear: both;height: 25px;"></div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/passargad-oil.jpg&quot;);">
-						<a href="http://www.passargad-oil.com.qwd.ir/">www.passargad-oil.com.qwd.ir</a>
+					<div style="clear: both;height: 25px;"></div>  
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/shahryarcohanzad.jpg&quot;);">
+						<a href="http://www.shahryarcohanzad.com/">www.shahryarcohanzad.com</a>
 					</div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/bimehamin-karafarin.jpg&quot;);">
-						<a href="http://www.bimehamin-karafarin.ir/">www.bimehamin-karafarin.ir</a>
+					 <div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/karasanat.jpg&quot;);">
+						<a href="http://www.karasanat.com/">www.karasanat.com</a>
 					</div> 
+					
 					<div style="clear: both;height: 25px;"></div>
+
+					
 
 				</div>
 				<div class="page_button_div">
 					<a href="/software-portfolio-page1"><p class="page_button">1</p></a>
-					<a href="/software-portfolio-page2"><p class="page_button active_button">2</p></a>
-					<a href="/software-portfolio-page3"><p class="page_button">3</p></a>
+					<a href="/software-portfolio-page2"><p class="page_button">2</p></a>
+					<a href="/software-portfolio-page3"><p class="page_button active_button">3</p></a>
+
 				</div>
 				<div style="clear: both;height: 10px;"></div>
 
