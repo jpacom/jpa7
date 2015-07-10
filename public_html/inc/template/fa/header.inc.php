@@ -21,7 +21,7 @@
                     	<div class="header-button-r float-left cursor-pointer">&nbsp;</div>
                     	<br class="clear-both" />
                     </div>
-                	<div id="header-call-us" class="float-left">با ما تماس بگیرید:<span style="direction: ltr; display: block; float: left; margin-right: 5px;">۰۲۶ ۳۲۷۱ ۹۱ ۰۲ - ۳</span><br class="clear-both" /></div>
+                	<div id="header-call-us" class="float-left">با ما تماس بگیرید:<span style="direction: ltr; display: block; float: left; margin-right: 5px;">026-32209627</span><br class="clear-both" /></div>
                     <br class="clear-both" />
                 </div>
                 <div>

@@ -153,11 +153,11 @@
 					<table id="contact-us-tel-table">
 						<tr>
 							<td>تلفن:</td>
-							<td>۰۲۶ ۳۲۷۱ ۹۱۰۳</td>
+							<td>026-32209627</td>
 						</tr>
 						<tr>
 							<td>تلفکس:</td>
-							<td>۰۲۶ ۳۲۷۱ ۹۱۰۲</td>
+							<td>026-32211861</td>
 						</tr>
 					</table>
 				</div>
@@ -167,14 +167,16 @@
 			<div>
 				<div class="address-box float-left">
 					<div class="title">دفتر کرج</div>
-					<div class="description">کرج - چهارراه هفت تیر ساختمان یاس طبقه ۵ واحد ۵۰۲</div>
-					<div class="description">تلفن: +98 263 220 9245</div>
-					<div class="description">تلفکس: +98 263 228 4724</div>
-					<!--
+					<div class="description">کرج میدان آزادگان کوچه بخشداری مجتمع مهدی طبقه ۴ واحد 26</div>
+					<div class="description">تلفن: 32209627-026</div>
+					<div class="description">تلفکس: 32211861-026</div>
+					
 					<br />
-					<div class="title">Tehran Office</div>
-					<div class="description">Unit 601. sixth floor. Eram Tower. Enqelab St. Hafte Tir. Karaj. Tell: +98 263 220 9245 Fax: +98 263 228 4724</div>
-					-->
+					<div class="title">دفتر تهران</div>
+					<div class="description">تهران بین چهارراه کالج و میدان فردوسی کوچه براتی پلاک یک طبقه ادل</div>
+					<div class="description">تلفن: 09392342902</div>
+
+					
 				</div>
 				<div class="contact-box float-right"><?php
 					if (strtolower($_SERVER['REQUEST_METHOD']) == 'post' && $error !== False)

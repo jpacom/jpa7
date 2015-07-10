@@ -27,7 +27,7 @@ window.addEvent('domready', function() {
     
     if(mapConvas = $('map-convas'))
    	{
-   		var position = new google.maps.LatLng(35.812419, 50.985425);
+   		var position = new google.maps.LatLng(35.8310044, 50.9976229);
 	    var mapOptions = {
 	      center: position,
 	      zoom: 16,
