@@ -7,7 +7,7 @@
 			<div class="main-text">
                 <div class="title">خدمات شرکت</div>
                 <div>
-                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/services/virtualization.jpg&quot;);position:relative;width:448px;height:299px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/services/virtualization.jpg&quot;);position:relative;width:448px;height:299px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
                     <p class="title_h2">مجازی سازی</p>
                     <p style="margin: 0px;">مجازی سازی راه کاری نرم افزاری است که امکان اشتراک سخت افزار برای استفاده ی هم زمان چند نرم افزار کاربردی و سیستم عامل(Machine) بر روی یک کامپیوتر (Host) را فراهم می آورد. این فناوری در کاهش هزینه های سازمانی و مدیریت  متمرکز سرویس دهنده ها ی شبکه کمک به سزایی به مدیریت فناوری اطلاعات (CIO) می نماید. از جمله مزایای مجازی سازی می توان به موارد زیر اشاره کرد:</p>
                     <ul class="list">

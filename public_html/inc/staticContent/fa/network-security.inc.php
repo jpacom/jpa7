@@ -7,7 +7,7 @@
 			<div class="main-text">
                 <div class="title">خدمات شرکت</div>
                 <div>
-                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/services/networksecurity.jpg&quot;);position:relative;width:636px;height:348px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/services/networksecurity.jpg&quot;);position:relative;width:636px;height:348px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
                     <p class="title_h2"> امنیت شبکه</p>
                     <p style="margin: 0px;">با گسترش روز افزون جایگاه شبکه های کامپیوتری در چرخه ی کسب و کار سازمانی ضرورت توجه به امنیت اطلاعات بیش از پیش احساس می شود. طراحی مناسب و پشتیبانی لحظه ای با استفاده از راهکارهای مطمئن و استاندارد به وسیله ی نیروهای متخصص ضریب امنیت اطلاعات را تا حد زیادی بالا می برد. دپارتمان امنیت اطلاعات شرکت جهان پردازش البرز آماده ی ارائه ی راه حل های امنیتی مناسب برای سازمان ها و شرکت های گوناگون می باشد.برخی از این راه حل ها عبارتند از:</p>
                    <ul class="list">

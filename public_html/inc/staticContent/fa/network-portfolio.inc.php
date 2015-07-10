@@ -7,7 +7,7 @@
 			<div class="main-text">
                 <div class="title">نمونه کارها</div>
                 <div>
-                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/works/network.jpg&quot;);position:relative;width:453px;height:275px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/works/network.jpg&quot;);position:relative;width:453px;height:275px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
                     <p class="title_h2">شبکه</p>
                    <ul class="list">
                        <li>•  پتروشیمی جنوب</li>

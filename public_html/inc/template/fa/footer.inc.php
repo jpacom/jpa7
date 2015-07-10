@@ -4,8 +4,8 @@
 				<div>
 					<ul class="footer-menu float-left">
 						<span class="footer-menu-items footer-menu-items-font-title footer-font-bold footer-menu-items-border-bottom">منوی اصلی</span>
-						<li><a href="/" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">تماس با ما</a></li>
-						<li><a  class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">درباره ما</a></li>
+						<li><a href="/contact" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">تماس با ما</a></li>
+						<li><a href="/about" class="footer-menu-items footer-menu-items-font-sub-title footer-menu-items-border footer-menu-items-border-bottom">درباره ما</a></li>
 
 					</ul>
 					<ul class="footer-menu float-left">

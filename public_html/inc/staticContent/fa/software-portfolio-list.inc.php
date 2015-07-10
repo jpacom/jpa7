@@ -7,7 +7,7 @@
 			<div class="main-text">
         <div class="title">نمونه کارها</div>
         <div>
-        <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/works/software.jpg&quot;);position:relative;width:600px;height:264px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+        <div class="tumbnail_image left_float" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/works/software.jpg&quot;);position:relative;width:600px;height:264px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
           <p class="title_h2">نرم افزاری</p>
           <p>وبسایت های طراحی شده : </p>
           <ul class="list">

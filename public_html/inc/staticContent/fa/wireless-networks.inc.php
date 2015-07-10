@@ -7,7 +7,7 @@
 			<div class="main-text">
                 <div class="title">خدمات شرکت</div>
                 <div>
-                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/services/wirelessnetwork.jpg&quot;);position:relative;width:636px;height:348px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/services/wirelessnetwork.jpg&quot;);position:relative;width:636px;height:348px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
                     <p class="title_h2"> شبکه های وایرلس</p>
                     <p style="margin: 0px;">طراحی و پیاده شازی شبکه های وایرلس: استفاده از شبکه های بی سیم به دلیل مزایای بی شمار آن روز بروز در حال افزایش است. این شبکه ها در قالب های مختلف بسته به نوع نیاز طبقه بندی می شوند که به طور مثال می توان از شبکه های محلی بی سیم(WLAN) ، شبکه های شهری بی سیم (WMAN) ارتباطات Point to Point  و .. نام برد. اصل اساسی در راه اندازی یک شبکه ی وایرلس Planning  صحیح می باشد به گونه ای که تمام موارد پوشش دهی تا امنیت با توجه به نیاز مشتری رعایت گردد. جهان پردازش البرز با دارا بودن نیروهای مجرب و متخصص در زمینه ی شبکه های بی سیم آماده ی ارائه خدمات و مشاوره از مراحل طراحی و پیاده سازی تا نظارت و پشتیبانی می باشد.</p>
                     <p><b>RFID: </b> </br>

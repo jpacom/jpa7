@@ -9,35 +9,35 @@
 				<p class="title_h2">نرم افزاری</p>
 				<div style="clear: both;height: 10px;"></div>
 				<div>
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/mci.jpg&quot;);">
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/mci.jpg&quot;);">
 						<a href="http://www.mci.ir/">www.mci.ir</a>
 					</div>
-					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/loghme.jpg&quot;);">
+					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/loghme.jpg&quot;);">
 						<a href="http://www.loghme.com/">www.loghme.com</a>
 					</div>  
 					<div style="clear: both;height: 25px;"></div>  
 					
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/ictbazar.jpg&quot;);">
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/ictbazar.jpg&quot;);">
 						<a href="http://www.ictbazar.com/">www.ictbazar.com</a>
 					</div> 
-					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/ir4.jpg&quot;);">
+					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/ir4.jpg&quot;);">
 						<a href="http://www.ir4.org/">www.ir4.org</a>
 					</div> 
 					
 					
 					<div style="clear: both;height: 25px;"></div>
 					
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/kahtmayan.jpg&quot;);">
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/kahtmayan.jpg&quot;);">
 						<a href="http://www.kahtmayan.com/">www.kahtmayan.com</a>
 					</div> 
-					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/piicgroup.jpg&quot;);">
+					<div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/piicgroup.jpg&quot;);">
 						<a href="http://www.piicgroup.com/">www.piicgroup.com</a>
 					</div>
 					<div style="clear: both;height: 25px;"></div>  
-					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/shahryarcohanzad.jpg&quot;);">
+					<div class="tumbnail_image left_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/shahryarcohanzad.jpg&quot;);">
 						<a href="http://www.shahryarcohanzad.com/">www.shahryarcohanzad.com</a>
 					</div>
-					 <div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://jpa7.local/inc/images/websites/karasanat.jpg&quot;);">
+					 <div class="tumbnail_image right_float tumbnail_website_pic" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/websites/karasanat.jpg&quot;);">
 						<a href="http://www.karasanat.com/">www.karasanat.com</a>
 					</div> 
 					

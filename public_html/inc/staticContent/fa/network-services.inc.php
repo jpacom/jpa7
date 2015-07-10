@@ -7,7 +7,7 @@
 			<div class="main-text">
                 <div class="title">خدمات شرکت</div>
                 <div>
-                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/services/networkservices.jpg&quot;);position:relative;width:480px;height:250px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/services/networkservices.jpg&quot;);position:relative;width:480px;height:250px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
                     <p class="title_h2">سرویس های شبکه</p>
                     <p style="margin: 0px;">پیش از طراحی فیزیکی شبکه در ابتدا و با رعایت اصول مدیریتی می بایست خواسته ها و انتظارات از شبکه مورد توجه قرار گیرد. به طورمثال برای داشتن شبکه ای کارا و پویا به چه سرویس هایی نیاز داریم؟ چه منابعی باید در دسترس قرار گیرد؟ این شبکه چه خدماتی ارائه می دهد؟ برای تامین سرویس ها و خدمات مورد نیاز چه اقداماتی می بایست انجام گیرد؟ همچنین باید نکاتی جهت تسریع فعالیت های سازمانی و عدم بروز وقفه در ارائه ی سرویس ها رعایت گردد.  مواردی همچون Platform های کارا، پورت و پروتکل های مورد نیاز، سرعت شبکه، سطح دسترسی و ... پس از راه اندازی شبکه و با گذشت زمان با توجه به تغییر سیاست های سازمانی و در جهت بهره وری از فناوری های نوین لازم است این موارد مورد بازبینی قرار گیرد. شرکت جهان پردازش البرز افتخار دارد تجربیات خود را با بهره مندی از نیروهای متخصص در زمینه سرویس های شبکه در اختیار سازمان ها و شرکت ها قرار دهد.</p>
 

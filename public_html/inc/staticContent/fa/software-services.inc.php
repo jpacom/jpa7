@@ -7,7 +7,7 @@
 			<div class="main-text">
                 <div class="title">خدمات شرکت</div>
                 <div>
-                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://jpa7.local/inc/images/services/software.jpg&quot;);position:relative;width:400px;height:250px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
+                    <div class="tumbnail_image left_float" style="background-image: url(&quot;http://<?php echo $basedomain; ?>/inc/images/services/software.jpg&quot;);position:relative;width:400px;height:250px;background-repeat:no reapeat;margin-top:60px;margin-right:15px;"></div>
                     <p class="title_h2">خدمات نرم افزاری</p>
                     <p style="margin: 0px;">یکی از اهداف شرکت جهان پردازش البرز طراحی سایت های حرفه ای با هزینه ای پایین برای ارتقای سطح تبلیغاتی ، بازاریابی و جذب مشتری ، دسترسی آسان به کارایی و محصولات شما ، ارتباط با تمام نقاط جهان و قابلیت های فراوان دیگر سایت می باشد.</br>
                     اگر می خواهید وب سایت جدید خود را راه اندازی کنید و در ابتدای کار خود هستید حتما با ما تماس بگیرید چون می تواند تحارت شما را متحول کند. پیاده سازی سایت به یک تخصص نیاز دارد. در صورتی که می خواید در زمینه کاری خود موفق باشید به ما ملحق شوید ...</br>
