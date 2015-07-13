@@ -34,7 +34,7 @@
 						</li>
 						
                         <li id="menu-items-services" class="menu-items float-right">
-							<span class="menu-items-font menu-items-bg">نمونه کارها</span><span id="sub-menu-services">
+							<span class="menu-items-font menu-items-bg"><a class="black" href="/portfolio">نمونه کار</a></span><span id="sub-menu-services">
 								<ul>
 									<li class="float-left">
 										<span><a href="/network-portfolio">شبکه</a></span>
@@ -50,7 +50,7 @@
 							</span>
 						</li>
 						<li id="menu-items-services" class="menu-items float-right">
-							<span class="menu-items-font menu-items-bg">خدمات</span>
+							<span class="menu-items-font menu-items-bg"><a class="black" href="/services">خدمات</a></span>
 							<span id="sub-menu-services">
 								<ul>
 									<li class="float-left">

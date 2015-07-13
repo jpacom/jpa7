@@ -170,6 +170,9 @@ a:active{
 #menu-items-services:hover > #sub-menu-services{
 	display:block !important;
 }
+#menu-items-services:focus > #sub-menu-services{
+	display:block !important;
+}
 #menu-items-services:hover{
 	background-image:url(/background/menu-bg.png);
 	backgroung-repeat:repeat;
@@ -1050,4 +1053,10 @@ a:active{
 	letter-spacing: -1px;
 	margin: 0 0 6px;
 	padding: 0;
+}
+.black{
+	color: #666666;
+}
+.fixmargin{
+	margin: 0px !important;
 }
