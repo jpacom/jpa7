@@ -2,7 +2,7 @@
     	<div id="main-text">
         	<div>
             	<div class="main-text-title">شرکت جهان پردازش البرز</div>
-            	<div class="main-text-description display-inline">شرکتی پویا و فعال میباشد و با سیاستگذاری وتعیین خط مشی و اهداف کلان توسط هیئت مدیره شرکت وبه دنبال آن پیشبرد اهداف و سیاست ها توسط مدیر عامل و سازمان شرکت با برخورداری و بهره گیری از تجربیات چندین ساله ی مجموعه ی مدیران ارشد و مجرب شرکت جهان پردازش البرز مدیریت میشود.</div>
+            	<div class="main-text-description display-inline">شركت مهندسى نرم افزارى جهان پردازش البرز به عنوان يك شركت حرفه اى در صنعت IT ( نرم افزار، سخت افزار،شبكه هاى كامپيوترى) با برخوردارى و بهره گيرى از تجربيات چندين ساله مجموعه مديران ارشد و مجرب دانشگاه ها آمادگى خود را در جهت اجراى هر چه بهتر پروژه هاى مربوطه در صنعت IT إعلام مي دارد.</div>
                 <div class="main-show-more-button display-inline" style="display: none">Show More</div>
                 <div class="main-point" style="display: none">
                 	<div class="float-right learn-more-point">&nbsp;</div>
